@@ -1,15 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
+import HeaderScript from "./Components/Header/Header"
 
 function App() {
 
   return (
     <>
-      <p className="text-3xl font-bold underline">
-        Hello world!
-      </p>
+      <HeaderScript/>
     </>
   )
 }
