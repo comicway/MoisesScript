@@ -18,7 +18,7 @@ const Menu = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='grid gap-0 grid-cols-1 sm:grid-cols-2'>
+                    <div className='grid gap-0 grid-cols-1 sm:grid-cols-2 h-[calc(100vh-112px)]'>
                           <div className='flex items-start'>
                             <nav className='w-full'>
                                 <ul className='text-white text-[94px] font-Oswald uppercase'>
