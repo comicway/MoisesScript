@@ -1,7 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const HeaderScript = () => {
+
+    useEffect(() => {
+        return () => {
+            console.log('Componente desmontado');
+        };
+    }, []);
+    
     return (
       <>
       <div className='container mx-auto'>
@@ -49,5 +57,6 @@ const HeaderScript = () => {
         </div>*/}
       </>
     )
-}
+};
+
 export default HeaderScript
