@@ -1,19 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Menu = () => {
+const Menu = ({ toggle }) => { 
+
     return (
         <>
             <div className="bg-[#D96E11] h-[800px] sm:h-screen px-2">
                 <div className="container mx-auto">
-                    <div className='grid gap-0 gird-cols-1 sm:grid-cols-2 h-[112px]'>
+                    <div className='grid gap-0 gird-cols-1 h-[112px]'>
                         <div className="flex items-center">
                             <Link to='/'>
                                 <img src="./asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" />
                             </Link>
-                        </div>
-                        <div className='flex items-center justify-end'>
-                            <button className='h-7 w-41 bg-fondobtnmenu rounded-full border-4 border-colorborder ml-7px'>
+                            <button onClick={toggle} className='ml-auto'>
                                 <img src="./asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto'/>
                             </button>
                         </div>
@@ -22,10 +21,10 @@ const Menu = () => {
                           <div className='flex items-start'>
                             <nav className='w-full'>
                                 <ul className='text-white text-[58px] sm:text-[94px] font-Oswald uppercase'>
-                                    <li className='mb-[3px] font-bold'><Link to="/">home y cv</Link></li>
-                                    <li className='mb-[3px] font-light'><Link to="/proyectos">proyectos</Link></li>
-                                    <li className='mb-[3px] font-light'><Link to="/blog">blog</Link></li>
-                                    <li className='font-light'><Link to="/contacto">contacto</Link></li>
+                                    <li className='mb-[3px] font-bold'><Link onClick={toggle} to="/">home y cv</Link></li>
+                                    <li className='mb-[3px] font-light'><Link onClick={toggle} to="/proyectos">proyectos</Link></li>
+                                    <li className='mb-[3px] font-light'><Link onClick={toggle} to="/blog">blog</Link></li>
+                                    <li className='font-light'><Link onClick={toggle} to="/contacto">contacto</Link></li>
                                 </ul>
                             </nav>
                           </div>

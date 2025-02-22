@@ -1,14 +1,20 @@
 const CvMoises = () => {
     return (
         <>
-            <section className="container mx-auto mt-94">
+            <section className="container mx-auto mt-94" id="cv">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                     <div className="px-5">
                         <div className="bg-gradient-to-tr from-[#456173] to-[#45617379] py-7 pl-11 border-b-4 border-azulbrillante">
                             <p className="font-Inter font-bold text-letrablanca text-xl mb-1">Moises Contreras</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">+56 9 77 65 80 72</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">moiselias7@gmail.com</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">github.com/comicway</p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="tel:+56977658072">+56 9 7765 8072</a>
+                            </p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a>
+                            </p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="http://github.com/comicway">github.com/comicway</a>
+                            </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl">Santiago Centro</p>
                         </div>
                         <div className="hidden sm:block">
