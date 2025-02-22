@@ -8,6 +8,7 @@ import HomePage from "./Components/Home/Home"
 import Contacto from "./Components/Contacto/Contacto"
 import ProyectoInterno from './Components/ProyectoInterno/ProyectoInterno'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
+import Menu from './Components/Menu/Menu'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/contacto' element={<Contacto/>} />
           <Route path='/proyectointerno' element={<ProyectoInterno/>} />
           <Route path='/articulointerno' element={<ArticuloInterno/>} />
+          <Route path='/menu' element={<Menu/>} />
         </Routes>
         <FooterScript/>
       </BrowserRouter>

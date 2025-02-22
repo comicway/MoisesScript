@@ -1,21 +1,29 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const HeaderScript = () => {
+
+    useEffect(() => {
+        return () => {
+            console.log('Componente desmontado');
+        };
+    }, []);
+    
     return (
       <>
-      <div className='container mx-auto'>
-        <div className='grid gap-0 grid-cols-2 sm:grid-cols-3 h-106'>
+      <div className='container mx-auto px-2'>
+        <div className='grid gap-0 grid-cols-2 h-[60px] sm:grid-cols-3 sm:h-106'>
             <div className='flex items-center'>
                 <Link to='/'>
                     <img src="./asset/img/logomoisesscript.svg" alt="logo moises.script" />
                 </Link>  
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='sm:flex items-center justify-center hidden'>
                 <p className='font-Oswald text-letrablanca text-titulopagina uppercase'>home y cv</p>
             </div>
             <div className='flex items-center justify-end'>
-                <button className='h-7 w-55 bg-fondobtnmenu rounded-full border-4 border-colorborder'>
+                <button className='h-7 w-55 bg-fondobtnmenu rounded-full border-4 border-colorborder hidden'>
                     <div className='h-18 w-18 bg-naranjo rounded-full'></div>
                 </button>
                 <button className='h-7 w-41 bg-fondobtnmenu rounded-full border-4 border-colorborder ml-7px'>
@@ -49,5 +57,6 @@ const HeaderScript = () => {
         </div>*/}
       </>
     )
-}
+};
+
 export default HeaderScript
