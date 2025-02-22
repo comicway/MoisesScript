@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Menu = () => {
     return (
         <>
-            <div className="bg-[#D96E11] h-screen">
+            <div className="bg-[#D96E11] h-[800px] sm:h-screen px-2">
                 <div className="container mx-auto">
                     <div className='grid gap-0 gird-cols-1 sm:grid-cols-2 h-[112px]'>
                         <div className="flex items-center">
@@ -21,7 +21,7 @@ const Menu = () => {
                     <div className='grid gap-0 grid-cols-1 sm:grid-cols-2 h-[calc(100vh-112px)]'>
                           <div className='flex items-start'>
                             <nav className='w-full'>
-                                <ul className='text-white text-[94px] font-Oswald uppercase'>
+                                <ul className='text-white text-[58px] sm:text-[94px] font-Oswald uppercase'>
                                     <li className='mb-[3px] font-bold'><Link to="/">home y cv</Link></li>
                                     <li className='mb-[3px] font-light'><Link to="/proyectos">proyectos</Link></li>
                                     <li className='mb-[3px] font-light'><Link to="/blog">blog</Link></li>

@@ -1,16 +1,16 @@
 const ArticuloInterno = () => {
     return (
         <>
-            <div className='container mx-auto border-b border-azulbrillante pb-[17px]'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-h1pagina mt-28">Mi primer articulo sobre diseño UX</h1>
+            <div className='container mx-auto border-b border-azulbrillante pb-[17px] px-2'>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">Mi primer articulo sobre diseño UX</h1>
                 <h2 className="text-white font-medium font-Oswald text-[42px]">Subtitulo del articulo</h2>
             </div>
-            <div className="container mx-auto mt-[105px]">
+            <div className="container mx-auto mt-[105px] px-2">
                 <div className="grid grid-cols-1">
                     <p><strong className="text-white font-Oswald font-bold text-[27px]">Moises Contreras</strong> <span className="text-white text-[27px] font-Oswald font-light">30/12/2024</span></p>
                 </div>
             </div>
-            <article className="container mx-auto">
+            <article className="container mx-auto px-2 pb-[60px]">
                 <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 mt-[25px]">
                     <div>
                         <img className="rounded-[20px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
