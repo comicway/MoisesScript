@@ -103,13 +103,13 @@ const CvMoises = () => {
                             <span className="font-bold font-Oswald text-[27px] text-white/30">Estudios</span>
                         </div>
                         <section className="container mx-auto mt-10">
-                            <div className="grid grid-cols-7 gap-5">
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-6">
+                                <div className="col-span-4 sm:col-span-6">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
@@ -118,13 +118,13 @@ const CvMoises = () => {
                             </div>
                         </section>
                         <section className="container mx-auto mt-10">
-                            <div className="grid grid-cols-7 gap-5">
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-6">
+                                <div className="col-span-4 sm:col-span-6">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
@@ -133,13 +133,13 @@ const CvMoises = () => {
                             </div>
                         </section>
                         <section className="container mx-auto mt-10">
-                            <div className="grid grid-cols-7 gap-5">
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-6">
+                                <div className="col-span-4 sm:col-span-6">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
@@ -148,13 +148,13 @@ const CvMoises = () => {
                             </div>
                         </section>
                         <section className="container mx-auto mt-10">
-                            <div className="grid grid-cols-7 gap-5">
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-6">
+                                <div className="col-span-4 sm:col-span-6">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
