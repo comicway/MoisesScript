@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Menu from '../Menu/Menu';
 
 const HeaderScript = () => {
@@ -12,6 +12,9 @@ const HeaderScript = () => {
         setDisplayMenu(!displayMenu);
         setIsDivHidden(!isDivHidden);
     };
+
+    const { pathname } = useLocation();
+    const nombreTitulo = pathname === '/' ? 'home y cv' : pathname.split('/').pop();
     
     return (
       <>
@@ -23,7 +26,7 @@ const HeaderScript = () => {
                 </Link>  
             </div>
             <div className='sm:flex items-center justify-center hidden'>
-                <p className='font-Oswald text-letrablanca text-titulopagina uppercase'>home y cv</p>
+                <p className='font-Oswald text-letrablanca text-titulopagina uppercase'>{nombreTitulo}</p>
             </div>
             <div className='flex items-center justify-end'>
                 <button className='h-7 w-55 bg-fondobtnmenu rounded-full border-4 border-colorborder hidden'>
