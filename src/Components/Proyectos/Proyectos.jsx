@@ -7,9 +7,16 @@ const ProyectoPage = () => {
     const toggleFrontend = () => setFiltroCategory('frontend');
     const toggleVideo = () => setFiltroCategory('video');
 
+    console.log(filtroCategory);
+
     const isCategoryVisible = (category) => {
         if (filtroCategory === 'inactivo') return 'block';
         return filtroCategory === category ? 'block' : 'hidden';
+    };
+    
+    const isButtonActive = (category) => {
+        if (filtroCategory === 'inactivo') return 'border';
+        return filtroCategory === category ? 'border-4 bg-fondobtnmenu' : 'border';
     };
 
     return (
@@ -17,9 +24,9 @@ const ProyectoPage = () => {
             <div className='container mx-auto px-2'>
                 <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">Mira Mis Proyectos</h1>
                 <div className='flex flex-row items-center border-b border-azulbrillante pb-[17px]'>
-                    <button onClick={toggleUx} className='border-4 rounded-full border-colorborder bg-fondobtnmenu font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[188px] mr-2'>DISEÑO UX / UI</button>
-                    <button onClick={toggleFrontend} className='border rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2'>DESARROLLO FRONTEND</button>
-                    <button onClick={toggleVideo} className='border rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px]'>VIDEOJUEGOS</button>
+                    <button onClick={toggleUx} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[188px] mr-2 ${isButtonActive('ux')}`}>DISEÑO UX / UI</button>
+                    <button onClick={toggleFrontend} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('frontend')}`}>DESARROLLO FRONTEND</button>
+                    <button onClick={toggleVideo} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('video')}`}>VIDEOJUEGOS</button>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
                     <div className={`mt-[90px] ${isCategoryVisible('ux')}`}>
