@@ -1,14 +1,32 @@
+import { useState } from "react";
+
 const CvMoises = () => {
+    const [visibleSection, setVisibleSection] = useState('laboral');
+
+    const toggleEstudios = () => {
+        setVisibleSection('estudios');
+    };
+
+    const toggleLaboral = () => {
+        setVisibleSection('laboral');
+    };
+
     return (
         <>
-            <section className="container mx-auto mt-94">
+            <section className="container mx-auto mt-94" id="cv">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                     <div className="px-5">
                         <div className="bg-gradient-to-tr from-[#456173] to-[#45617379] py-7 pl-11 border-b-4 border-azulbrillante">
                             <p className="font-Inter font-bold text-letrablanca text-xl mb-1">Moises Contreras</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">+56 9 77 65 80 72</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">moiselias7@gmail.com</p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">github.com/comicway</p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="tel:+56977658072">+56 9 7765 8072</a>
+                            </p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a>
+                            </p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
+                                <a href="http://github.com/comicway">github.com/comicway</a>
+                            </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl">Santiago Centro</p>
                         </div>
                         <div className="hidden sm:block">
@@ -99,17 +117,34 @@ const CvMoises = () => {
                     <div className="px-5 md:col-span-3">
                         <h2 className="font-medium font-Oswald uppercase text-naranjo text-7xl">MIRA MI CV</h2>
                         <div className="flex justify-between border-b-4 border-azulbrillante pb-4">
-                            <span className="font-bold font-Oswald text-[27px] text-white">Experiencia Laboral</span>
-                            <span className="font-bold font-Oswald text-[27px] text-white/30">Estudios</span>
+                            <button onClick={toggleLaboral}>
+                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'laboral' ? 'text-white' : 'text-white/30'}`}>Experiencia Laboral</span>
+                            </button>
+                            <button onClick={toggleEstudios}>
+                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'estudios' ? 'text-white' : 'text-white/30'}`}>Estudios</span>
+                            </button>
                         </div>
-                        <section className="container mx-auto mt-10">
+                        <section className={`container mx-auto mt-10 ${visibleSection === 'laboral' ? 'block' : 'hidden'}`}>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-4 sm:col-span-6">
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
@@ -117,45 +152,15 @@ const CvMoises = () => {
                                 </div>
                             </div>
                         </section>
-                        <section className="container mx-auto mt-10">
+                        <section className={`container mx-auto mt-10 ${visibleSection === 'estudios' ? 'block' : 'hidden'}`}>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2008</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2013</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
-                                <div className="col-span-4 sm:col-span-6">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
-                                </div>
-                            </div>
-                        </section>
-                        <section className="container mx-auto mt-10">
-                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
-                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
-                                </div>
-                                <div className="col-span-4 sm:col-span-6">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
-                                </div>
-                            </div>
-                        </section>
-                        <section className="container mx-auto mt-10">
-                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
-                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
-                                </div>
-                                <div className="col-span-4 sm:col-span-6">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Lic. en Diseño Gráfico</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>

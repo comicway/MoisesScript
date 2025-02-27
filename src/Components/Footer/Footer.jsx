@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const FooterScript = () => {
     return (
         <>
@@ -8,7 +10,9 @@ const FooterScript = () => {
                         <h3 className="text-white font-medium font-Oswald text-[42px]">Este es el momento de contactarme</h3>
                         <p className="text-white font-medium font-Inter text-[16px]">¡No dudes en ponerte en contacto conmigo o simplemente saludarme!</p>
                     </div>
-                    <button className="w-[159px] h-[54px] bg-azulbrillante font-bold font-Inter text-[18px] mt-[26px]">Escríbeme</button>
+                    <a href="https://wa.me/56977658072">
+                        <button className="w-[159px] h-[54px] bg-azulbrillante font-bold font-Inter text-[18px] mt-[26px]">Escríbeme</button>
+                    </a>
                 </div>
             </div> 
         </section>
@@ -37,10 +41,10 @@ const FooterScript = () => {
                     <div>
                         <h4 className="text-white font-Oswald font-bold text-[20px]">Mapa del Sitio</h4>
                         <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
-                            <li>Home CV</li>
-                            <li>Proyectos</li>
-                            <li>Blog</li>
-                            <li>Contacto</li>
+                            <Link to='/'><li>Home CV</li></Link>
+                            <Link to='/proyectos'><li>Proyectos</li></Link>
+                            <Link to='/blog'><li>Blog</li></Link>
+                            <Link to='/contacto'><li>Contacto</li></Link>
                         </ul>
                     </div>
                 </div>

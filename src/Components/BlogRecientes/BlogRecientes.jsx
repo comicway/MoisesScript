@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const BlogRecientes = () => {
     return (
         <>
@@ -7,9 +9,13 @@ const BlogRecientes = () => {
                         <span className="text-white font-Oswald font-bold text-[22px]">Mis articulos recientes</span>
                         <div className="sm:flex sm:justify-between sm:items-end">
                             <h2 className="text-naranjo font-medium font-Oswald uppercase text-[53px] sm:text-[65px]">Mira mi blog</h2>
-                            <button className="h-[38px] w-[114px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px] hidden sm:block">Ver todos</button>
+                            <Link to='/blog' className="ml-auto">
+                                <button className="h-[38px] w-[114px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px] hidden sm:block ml-auto">Ver todos</button>
+                            </Link>
                             <div className="flex justify-end">
+                            <Link to='/blog'>
                                 <button className="h-[38px] w-[114px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px] block sm:hidden">Ver todos</button>
+                            </Link>
                             </div>
                         </div>
                     </div>

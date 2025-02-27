@@ -8,23 +8,23 @@ import HomePage from "./Components/Home/Home"
 import Contacto from "./Components/Contacto/Contacto"
 import ProyectoInterno from './Components/ProyectoInterno/ProyectoInterno'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
-import Menu from './Components/Menu/Menu'
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
 function App() {
   return (
     <>
       <BrowserRouter>
-         <HeaderScript/>
-        <Routes>
-          <Route path='/' element={<HomePage/>} />
-          <Route path='/proyectos' element={<ProyectoPage/>} />
-          <Route path='/blog' element={<BlogPage/>} />
-          <Route path='/contacto' element={<Contacto/>} />
-          <Route path='/proyectointerno' element={<ProyectoInterno/>} />
-          <Route path='/articulointerno' element={<ArticuloInterno/>} />
-          <Route path='/menu' element={<Menu/>} />
-        </Routes>
-        <FooterScript/>
+      <ScrollToTop />
+          <HeaderScript/>
+          <Routes>
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/proyectos' element={<ProyectoPage/>} />
+            <Route path='/blog' element={<BlogPage/>} />
+            <Route path='/contacto' element={<Contacto/>} />
+            <Route path='/proyectointerno' element={<ProyectoInterno/>} />
+            <Route path='/articulointerno' element={<ArticuloInterno/>} />
+          </Routes>
+          <FooterScript/>
       </BrowserRouter>
     </>
   )
