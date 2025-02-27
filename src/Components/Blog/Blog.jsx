@@ -8,8 +8,6 @@ const BlogPage = () => {
     const toggleFrontend = () => setFiltroCategory('frontend');
     const toggleVideo = () => setFiltroCategory('video');
 
-    console.log(filtroCategory);
-
     const isCategoryVisible = (category) => {
         if (filtroCategory === 'inactivo') return 'block';
         return filtroCategory === category ? 'block' : 'hidden';
