@@ -127,28 +127,80 @@ const CvMoises = () => {
                         <section className={`container mx-auto mt-10 ${visibleSection === 'laboral' ? 'block' : 'hidden'}`}>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2022</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2024</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Gestor de Marketing Digital - Global Ultrasonido</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads, Meta Ads y Linkedin Ads.</span> Estudio de arquitectura de información para modelo de negocio y contenido web. Diseño y gestión de páginas web en <span className="font-bold">Shopify</span>. Plan y ejecución de estrategias <span className="font-bold">SEO</span> Generación de reportes en <span className="font-bold">Google Looker Studio</span>. Automatización de correos en Gmail mediante el uso de <span className="font-bold">Google Script.</span> Integración de la API de Cliengo para la captación de leads en el formulario de contacto web.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, JavaScript, Shopify, Google Tag Manager, Looker Studio, Meta Ads, Google Ads, LinkedIn Ads, Google Analytics, Google Script, Google Search Console</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2024</p>
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2020</p>
+                                    <p className="text-center font-bold font-Oswald text-18">Actual</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Analista Marketing Digital - Comic Way Spa</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads y Meta Ads</span>. Analista <span className="font-bold">SEO</span>, e implementación técnica en sitio web. Gestión cuenta de <span className="font-bold">Mercado Libre y Falabella Seller Center</span>, administración de ventas, subida de productos, elaboración de campañas en <span className="font-bold">Mercado Ads</span>, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Wordpress, Marcado Libre, Falabelle Seller Center, Google Ads, Meta Ads, Google Search Console, Google Analytics.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2020</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2021</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Europa Press</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios   web, landing page, mail, entre otros. Diseño de interfaces para aplicaciones web. <span className="font-bold">Implementación de arquitectura de información, card sorting, tree testing, userflow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad.</span></p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Novartis, Sanofis, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche,
+                                    Synthon, TecnoFarma, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop, Optimal Workshop</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2019</p>
                                     <p className="text-center font-bold font-Oswald text-18">2020</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Webmaster E-commers Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Director de Arte - Impacto Publicidad Spa</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Gestión de requerimientos de los clientes, en la elaboración de proyectos y piezas gráficas, desde papelería, imagen corporativa páginas web, fotografía, hasta menús interactivos para restaurantes</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Organización de la Naciones Unidas (ONU – FAO), Nanami, Petra.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> Adobe Affter Efect, Wordpress, CSS HTML, Illustrator, Photoshop.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2017</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2019</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]"> Webmaster E-commers - Mi Chile Spa Xiaomi Chile</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Creación de tienda online en Wordpress para la venta de productos Xiaomi en Chile (distribuidor oficial). Mejoras continuas en el e-commers según las analíticas arrojadas en <span className="font-bold">Google Analytics</span>. Encargado de realizar marketing digital tomando con mayor fuerza el <span className="font-bold">SEO (posicionamiento web en Google) Facebook Ads y Google Shopping</span></p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong>Wordpress, Google Analytics, Google Ads, Google Search Console, Photoshop, Illustrator, HTML CSS.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2014</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2016</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Comware Digital</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Ejecución propuestas gráficas para aplicaciones y páginas web de múltiples clientes. Maquetado en <span className="font-bold">HTML y CSS</span> para luego ser entregado al equipo de programación. Muchas páginas fueron realizadas en <span className="font-bold">Wordpress</span>, modificando temas y creando propias desde cero.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Purina Dog Chow, Golden, Aruba Fashio Week, Avior, Eposak, Gordons,
+                                    Oceania Aruba Rentals, Play Head, Tu Cita de Belleza, Tu Descueston, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> HTML, CSS, Jquery, Boostrap, Meterial Desing, SASS, Worpress,
+                                    Prestashop.</p>
                                 </div>
                             </div>
                         </section>
@@ -157,13 +209,112 @@ const CvMoises = () => {
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2008</p>
                                     <p className="text-center font-bold font-Oswald text-18">2013</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Lic. en Diseño Gráfico</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de interfaces para aplicaciones web. Implementación de arquitectura de información, card sorting, tree testing, userow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad. Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios web, landing page, mail, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Novartis, Sanos, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche, Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Lic. en Diseño Gráfico - Universidad José María Vargas</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Carrera larga de 5 años, donde obtuve conocimiento dentro de la comunicación visual. Pudiendo elaborar proyectos prácticos en diferentes áreas, como el impreso, multimedia, publicidad, empresarial y web. Mi especialización en la carrera se centró en el diseño de interfaces gráficas.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2014</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2015</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diplomado Guión para Largometraje - Escuela Nacional de Cine Caracas</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Bajo la tutela de Armando Coll y María Teresa Hernández. Diplomado dedicado a la elaboración de guion para cine. Desde la premisa, creación de personajes, diálogos, géneros, escaleta, formato general, y otros puntos. Más de 280 horas no académicas.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2024</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Pruebas de usabilidad con usuarios reales - Somos Edison</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Gracias a este curso, adquirí todas las herramientas necesarias para realizar pruebas de usabilidad, tanto remotas como presenciales, ya sean moderadas o no moderadas.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2024</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Reac Js - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">En este curso de React JS aprendí a programar utilizando componentes, trabajando con JavaScript, ES6 y comprendiendo las ventajas de la utilización del flujo de datos. Además, apliqué el manejo de rutas, implementé Firebase en proyectos y comprendí el funcionamiento del Virtual DOM a través del desarrollo con React JS. También adquirí experiencia en el manejo de Hooks.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2023</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: JavaScript - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">En este curso aprendí los fundamentos del lenguaje de programación más utilizado en la actualidad, con el cual es posible desarrollar aplicaciones de diversos tipos. Apliqué técnicas de desarrollo para crear aplicaciones modernas utilizando AJAX. Ahora estoy en condiciones de diseñar soluciones web interactivas y trasladar los conocimientos adquiridos a cualquier framework de JavaScript.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2023</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Programación de Videojuegos Unity - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">En este curso se abarcó el uso de la interfaz gráfica de Unity y su motor gráfico implementado con C# . Se exploraron temas como la creación y configuración de ambientes y escenas,desarrollo de mecánicas, integración de audio, física, iluminación, texturizado, aplicación de animaciones, sistemas de partículas, manejo de colisiones, diseño e integración de interfaces de usuario (UI), eventos, herencia y polimorfismo.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2023</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Diseño UX / UI Avanzado - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">En este curso, pude relacionar los conceptos iniciales de diseño UX/UI y dar un paso más en la generación de prototipos al rediseñar una marca existente. Profundice en los conceptos teóricos y definí una metodología para abordar cada etapa del proyecto, centrándome en el aspecto empresarial. Después, puse en práctica los contenidos a través de actividades y reflexiones específicas del proyecto.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2022</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Diseño UX / UI - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">En este curso, aprendí a hacer un research e investigar acerca de un problema que convertí en una idea de app. Diseñé y creé un prototipo de app. Empecé plasmando mi idea y definiendo las funcionalidades principales (MVP). También trabajé en la definición de mi público objetivo para el desarrollo del prototipo. Utilice herramientas de prototipado actuales y valoradas en el ámbito laboral. Validé mi proyecto utilizando diferentes metodologías y actividades. Adquirí habilidades en metodologías ágiles y justificar mis decisiones de diseño de manera clara. Aprendí metodologías de diseño para mi proyecto y me familiaricé con disciplinas proyectales.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2022</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Publicidad en redes Avanzado (Meta, Google, GA4) - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">36 horas de clases dictadas a lo largo de 9 semanas. El objetivo de este curso es poder implementar estrategias de marketing digital dentro de la plataforma de Google Ads y Facebook Ads. También poder interpretar y manipular métricas dentro de Google Analytics 4.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2022</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: SEO Optimización de motores de búsqueda - CoderHouse</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">14 horas no académicas de clases con profesores y tutores expertos del área. Se dieron conocimientos de SEO técnico, on page, in page. Estrategias de posicionamiento web. Elaboración de proyecto final, auditoría SEO a página web real.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="text-white mx-auto mt-[10px]">
+                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
+                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Curso: Arquitectura de la información UX - Crehana</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Más de 4 horas no académicas. Arquitectura de la información de principio a fin. Se aprendieron herramientas para conocer a los usuarios, definición de propuesta de valor para plasmar en un prototipo donde se explicará cómo se materializa en un modelo de navegación concreto.</p>
                                 </div>
                             </div>
                         </section>
