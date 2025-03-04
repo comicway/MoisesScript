@@ -23,12 +23,14 @@ const ProyectosRecientes = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[45px] sm:mt-[117px] px-2">
                     <div className="mt-[20px]">
-                        <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                        <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
+                        <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadacomicapp.png" alt="" />
+                        <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
                         <div className="flex justify-between items-end mt-3">
-                            <span className="text-white font-Oswald text-[18px]">Categoria</span>
+                            <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                             <div className="flex justify-between">
+                            <Link to='/comicapp'>
                                 <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                            </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>

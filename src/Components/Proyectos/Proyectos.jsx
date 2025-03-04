@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const ProyectoPage = () => {
     const [filtroCategory, setFiltroCategory] = useState('inactivo');
@@ -30,12 +31,14 @@ const ProyectoPage = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
                     <div className={`mt-[90px] ${isCategoryVisible('ux')}`}>
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
+                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/portadacomicapp.png" alt="portada comic app" />
+                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Comic App</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX / UI</span>
                             <div className="flex justify-between">
+                            <Link to='/comicapp'>
                                 <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                            </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>
