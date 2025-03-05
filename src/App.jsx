@@ -9,6 +9,7 @@ import Contacto from "./Components/Contacto/Contacto"
 import ProyectoInterno from './Components/ProyectoInterno/ProyectoInterno'
 import ComicApp from './Components/ProyectoInterno/ComicApp'
 import ToomicsApp from './Components/ProyectoInterno/ToomicsApp'
+import OdisyShoot from './Components/ProyectoInterno/OdisyShoot'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/proyectointerno' element={<ProyectoInterno/>} />
             <Route path='/comicapp' element={<ComicApp/>} />
             <Route path='/toomics' element={<ToomicsApp/>} />
+            <Route path='/odisyshoot' element={<OdisyShoot/>} />
             <Route path='/articulointerno' element={<ArticuloInterno/>} />
           </Routes>
           <FooterScript/>
