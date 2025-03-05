@@ -38,7 +38,7 @@ const ComicApp = () => {
                         <p className="font-Oswald font-normal text-[40px]">13 personas</p>
                     </div>
                     <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Numero de iteraciones</h3>
+                        <h3 className="font-Oswald font-bold text-[27px]">Número de Iteraciones</h3>
                         <p className="font-Oswald font-normal text-[40px]">1 iteración</p>
                     </div>
                 </div>
