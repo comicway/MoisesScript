@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const OdisyShoot = () => {
     return (
         <>
@@ -12,7 +14,7 @@ const OdisyShoot = () => {
                 <section className="container mx-auto">
                     <div className="grid grid-cols-1">
                         <p className="font-Inter text-letrablanca text-lg mb-4">Como parte del proyecto final del curso de Desarrollo de Videojuegos en Unity de CoderHouse, desarrollé una demo de un juego que combina elementos de género shoot 'em up 3D  y puzles. El objetivo principal de este proyecto fue poner en práctica los conocimientos adquiridos durante el curso. Este videojuego está diseñado específicamente para ser jugado en dispositivos móviles.</p>
-                        <a href="https://www.figma.com/proto/ZDho21n7ZZtdenDISxNzhd/CoderHouse-Prototipos-y-Patrones-ComicApp?page-id=206%3A1647&node-id=211-1278&viewport=1362%2C-1768%2C0.7&scaling=min-zoom&starting-point-node-id=211%3A1234&t=qOZUdxWR67ET6FNw-1" target="_blank">
+                        <a href="./asset/img/odisyshootejecutable.zip" target="_blank">
                             <button className="h-[38px] w-[150px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px]">Descargar Juego</button>
                         </a>
                     </div>
@@ -22,15 +24,17 @@ const OdisyShoot = () => {
                 <div className="grid gap-5 grid-cols-1 sm:grid-cols-3">
                     <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">Idea general</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Jorg debe superar acertijos en cada planeta con obstáculos, además de enfrentarse a naves enemigas para avanzar en la historia y llegar a nuevos mundos.</p>
+                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Jorg debe superar acertijos en cada planeta con obstáculos, además de enfrentarse a naves enemigas para avanzar en la historia y llegar a nuevos mundos.</p>
                     </div>
                     <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">Mecánicas básicas</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Juego que combina acertijos y elementos de disparos para eliminar naves enemigas. Incluye movimientos tanto del personaje como de la nave, además de cuadros de diálogo integrados en la narrativa.</p>
+                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Juego que combina acertijos y elementos de disparos para eliminar naves enemigas. Incluye movimientos tanto del personaje como de la nave, además de cuadros de diálogo integrados en la narrativa.</p>
                     </div>
                     <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">Género</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Puzzle + shoot 'em up 3D</p>
+                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Puzzle + shoot 'em up 3D</p>
+                        <h3 className="font-Oswald font-bold text-[27px]">Lenguaje y Programa</h3>
+                        <p className="font-Oswald font-light text-[23px] pr-[15px]">C# y Unity</p>
                     </div>
                 </div>
             </div>
@@ -41,33 +45,28 @@ const OdisyShoot = () => {
                         <img className="mt-[10px] px-2" src="./asset/img/dinamicajuego.png" alt="dinamica general" />
                     </div>
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Notas y Video</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Tanto en Google como en YouTube, existe una gran cantidad de información disponible sobre el tema "guía para empezar a leer cómics".</p>
-                        <img className="mt-[10px] px-2" src="./asset/img/desk-research-2.png" alt="desk research" />
+                        <h3 className="font-Oswald font-bold text-[27px]">Escenario #1</h3>
+                        <img className="mt-[10px] px-2" src="./asset/img/escenapro1.png" alt="esenario juego unity" />
                     </div>
                 </div>
             </div>
             <div className="container mx-auto px-2">
                 <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Titulo del anunciado</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Enunciado 1/2</p>
+                        <h3 className="font-Oswald font-bold text-[27px]">Escenario #2</h3>
+                        <img className="mt-[10px] px-2" src="./asset/img/escenapro2.png" alt="esenario juego unity" />
                     </div>
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
-                        <h3 className="font-Oswald font-bold text-[27px]">Titulo del anunciado</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Enunciado 2/2</p>
+                    <h3 className="font-Oswald font-bold text-[27px]">Escenario #3</h3>
+                    <img className="mt-[10px] px-2" src="./asset/img/escenapro3.png" alt="esenario juego unity" />
                     </div>
                 </div>
             </div>
             <div className="container mx-auto px-2">
-                <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
-                    <div className="text-white border-azulbrillante border border-b-4 mt-24 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Titulo del anunciado</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Enunciado 1/2</p>
-                    </div>
-                    <div className="text-white border-azulbrillante border border-b-4 mt-24 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Titulo del anunciado</h3>
-                        <p className="font-Oswald font-normal text-[23px]">Enunciado 1/2</p>
+                <div className="grid gap-5 grid-cols-1">
+                    <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
+                        <h3 className="font-Oswald font-bold text-[27px]">Juego Ejecutado</h3>
+                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/vistamoviljuego.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -76,19 +75,29 @@ const OdisyShoot = () => {
                     <h2 className="text-white font-medium font-Oswald text-[42px]">Otros proyectos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[0px] sm:mt-[37px]">
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                            <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
-                            <div className="flex justify-end mt-2">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadacomicapp.png" alt="" />
+                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
+                            <div className="flex justify-between items-end mt-3">
+                                <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
+                                <div className="flex justify-between">
+                                <Link to='/comicapp'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                </Link>
+                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                </div>
                             </div>
                         </div>
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                            <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
-                            <div className="flex justify-end mt-2">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadatoomics.png" alt="" />
+                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rediseño App Toomics</h2>
+                            <div className="flex justify-between items-end mt-3">
+                                <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
+                                <div className="flex justify-between">
+                                <Link to='/toomics'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                </Link>
+                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>

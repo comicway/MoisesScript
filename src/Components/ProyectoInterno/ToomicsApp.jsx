@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const ToomicsApp = () => {
     return (
         <>
@@ -24,7 +26,7 @@ const ToomicsApp = () => {
                     <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">Metodología</h3>
                         <p className="font-Oswald font-normal text-[23px]">Elementos UX de James Garrett</p>
-                        <ul className="font-Oswald font-normal text-[18px]">
+                        <ul className="font-Oswald font-light text-[23px] pr-[15px]">
                             <li>Estrategia</li>
                             <li>Alcance</li>
                             <li>Estructura</li>
@@ -82,19 +84,29 @@ const ToomicsApp = () => {
                     <h2 className="text-white font-medium font-Oswald text-[42px]">Otros proyectos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[0px] sm:mt-[37px]">
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                            <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
-                            <div className="flex justify-end mt-2">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadacomicapp.png" alt="" />
+                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
+                            <div className="flex justify-between items-end mt-3">
+                                <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
+                                <div className="flex justify-between">
+                                <Link to='/comicapp'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                </Link>
+                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                </div>
                             </div>
                         </div>
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                            <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
-                            <div className="flex justify-end mt-2">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadaodisyshoot.png" alt="" />
+                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Odisy Shoot</h2>
+                            <div className="flex justify-between items-end mt-3">
+                                <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
+                                <div className="flex justify-between">
+                                <Link to='/odisyshoot'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                </Link>
+                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
