@@ -133,7 +133,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Gestor de Marketing Digital - Global Ultrasonido</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads, Meta Ads y Linkedin Ads.</span> Estudio de arquitectura de información para modelo de negocio y contenido web. Diseño y gestión de páginas web en <span className="font-bold">Shopify</span>. Plan y ejecución de estrategias <span className="font-bold">SEO</span> Generación de reportes en <span className="font-bold">Google Looker Studio</span>. Automatización de correos en Gmail mediante el uso de <span className="font-bold">Google Script.</span> Integración de la API de Cliengo para la captación de leads en el formulario de contacto web.</p>
+                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads, Meta Ads y Linkedin Ads.</span> Estudio de <span className="font-bold">arquitectura de información</span> para modelo de negocio y <span className="font-bold">buyer persona.</span> Diseño y gestión de páginas web en <span className="font-bold">Shopify</span>. Plan y ejecución de estrategias <span className="font-bold">SEO</span> Generación de reportes en <span className="font-bold">Google Looker Studio</span>. Automatización de correos en Gmail mediante el uso de <span className="font-bold">Google Script.</span> Integración de la API de Cliengo para la captación de leads en el formulario de contacto web.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, JavaScript, Shopify, Google Tag Manager, Looker Studio, Meta Ads, Google Ads, LinkedIn Ads, Google Analytics, Google Script, Google Search Console</p>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Analista Marketing Digital - Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads y Meta Ads</span>. Analista <span className="font-bold">SEO</span>, e implementación técnica en sitio web. Gestión cuenta de <span className="font-bold">Mercado Libre y Falabella Seller Center</span>, administración de ventas, subida de productos, elaboración de campañas en <span className="font-bold">Mercado Ads</span>, entre otros.</p>
+                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads y Meta Ads</span>. Analista <span className="font-bold">SEO</span>, e implementación técnica en sitio web. Gestión cuenta de <span className="font-bold">Mercado Libre y Falabella Seller Center</span>, administración de ventas, subida de productos, elaboración de campañas en <span className="font-bold">Mercado Ads</span>, entre otros. Elaboración de <span className="font-bold">encuestas y entrevistas</span> para estruturar el <span className="font-bold">buyer perfona</span> requerido en marketing digital.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Wordpress, Marcado Libre, Falabelle Seller Center, Google Ads, Meta Ads, Google Search Console, Google Analytics.</p>
                                 </div>
                             </div>
@@ -161,19 +161,6 @@ const CvMoises = () => {
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Novartis, Sanofis, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche,
                                     Synthon, TecnoFarma, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop, Optimal Workshop</p>
-                                </div>
-                            </div>
-                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
-                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2019</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2020</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
-                                </div>
-                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Director de Arte - Impacto Publicidad Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Gestión de requerimientos de los clientes, en la elaboración de proyectos y piezas gráficas, desde papelería, imagen corporativa páginas web, fotografía, hasta menús interactivos para restaurantes</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Organización de la Naciones Unidas (ONU – FAO), Nanami, Petra.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> Adobe Affter Efect, Wordpress, CSS HTML, Illustrator, Photoshop.</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
@@ -214,17 +201,6 @@ const CvMoises = () => {
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Lic. en Diseño Gráfico - Universidad José María Vargas</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Carrera larga de 5 años, donde obtuve conocimiento dentro de la comunicación visual. Pudiendo elaborar proyectos prácticos en diferentes áreas, como el impreso, multimedia, publicidad, empresarial y web. Mi especialización en la carrera se centró en el diseño de interfaces gráficas.</p>
-                                </div>
-                            </div>
-                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
-                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2014</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2015</p>
-                                    <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
-                                </div>
-                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diplomado Guión para Largometraje - Escuela Nacional de Cine Caracas</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Bajo la tutela de Armando Coll y María Teresa Hernández. Diplomado dedicado a la elaboración de guion para cine. Desde la premisa, creación de personajes, diálogos, géneros, escaleta, formato general, y otros puntos. Más de 280 horas no académicas.</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">

@@ -23,9 +23,9 @@ const FooterScript = () => {
                         <div className="flex flex-col">
                             <img src="./asset/img/logomoisesscript.svg" alt="logo moises.script" className="self-start w-auto sm:h-auto sm:mb-[122px]" />
                             <div className="flex mt-[20px] sm:mt-auto gap-3">
-                                <a href="http://"><img src="./asset/img/ico-github.svg" alt="GitHub" /></a>
-                                <a href="http://"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                <a href="http://"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
+                                <a href="https://github.com/comicway" target="blank"><img src="./asset/img/ico-github.svg" alt="GitHub" /></a>
+                                <a href="https://www.instagram.com/moises.script/" target="blank"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
+                                <a href="https://www.threads.net/@moises.script" target="blank"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
                             </div>
                         </div>
                     </div>
