@@ -15,7 +15,9 @@ const AboutMe = () => {
                             <button className="w-full mt-5">
                                 <div className="flex flex-row justify-end w-full">
                                     <img src="./asset/img/descargar.svg" alt="" />
-                                    <span className="font-Inter font-bold text-letrablanca text-18 ml-2.5">Descargar CV</span>
+                                    <a href="./asset/img/CvMar2025MoisesContreras-UX-UI.pdf" target="_blank">
+                                        <span className="font-Inter font-bold text-letrablanca text-18 ml-2.5">Descargar CV</span>
+                                    </a>
                                 </div>
                             </button>
                         </div>

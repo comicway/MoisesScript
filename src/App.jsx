@@ -7,7 +7,11 @@ import BlogPage from './Components/Blog/Blog'
 import HomePage from "./Components/Home/Home"
 import Contacto from "./Components/Contacto/Contacto"
 import ProyectoInterno from './Components/ProyectoInterno/ProyectoInterno'
+import ComicApp from './Components/ProyectoInterno/ComicApp'
+import ToomicsApp from './Components/ProyectoInterno/ToomicsApp'
+import OdisyShoot from './Components/ProyectoInterno/OdisyShoot'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
+import NichoUx from './Components/ArticuloInterno/NichoUx'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
 function App() {
@@ -22,7 +26,11 @@ function App() {
             <Route path='/blog' element={<BlogPage/>} />
             <Route path='/contacto' element={<Contacto/>} />
             <Route path='/proyectointerno' element={<ProyectoInterno/>} />
+            <Route path='/comicapp' element={<ComicApp/>} />
+            <Route path='/toomics' element={<ToomicsApp/>} />
+            <Route path='/odisyshoot' element={<OdisyShoot/>} />
             <Route path='/articulointerno' element={<ArticuloInterno/>} />
+            <Route path='/nichoux' element={<NichoUx/>} />
           </Routes>
           <FooterScript/>
       </BrowserRouter>
