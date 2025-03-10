@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const SlidePage = () => {
     const [currentText, setCurrentText] = useState("Diseño UX/UI");
-    const texts = ["Diseño UX/UI", "Frontend", "Videojuegos", "Paid Media"];
+    const texts = ["Diseño UX/UI", "Frontend"];
 
     useEffect(() => {
         const intervalId = setInterval(() => {
