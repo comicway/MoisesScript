@@ -1,5 +1,28 @@
 import { useFormik } from "formik";
 
+const validate = (values) => {
+    const errors = {};
+    if (!values.nombre) {
+        errors.nombre = "El nombre es requerido";
+    } else if (!/^[A-Za-z]+$/.test(values.nombre)) {
+        errors.nombre = "El nombre debe contener solo letras";
+    }
+    if (!values.telefono) {
+        errors.telefono = "El teléfono es requerido";
+    } else if (!/^\d+$/.test(values.telefono)) {
+        errors.telefono = "El teléfono debe contener solo números";
+    }
+    if (!values.email) {
+        errors.email = "El email es requerido";
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
+        errors.email = "El email no es válido";
+    }
+    if (!values.about) {
+        errors.about = "El mensaje es requerido";
+    } 
+    return errors;
+};
+
 const Contacto = () => {
 
     const formik = useFormik({
@@ -9,6 +32,7 @@ const Contacto = () => {
             email: '',
             about: '',
         },
+        validate,
         onSubmit: (values) => console.log(values)
     });
 
@@ -22,54 +46,39 @@ const Contacto = () => {
                     <label htmlFor="nombre" className="block text-sm/6 font-medium text-gray-900"></label>
                     <div className="flex justify-center">
                         <input 
-                            placeholder="Nombre"
                             type="text"
-                            name="nombre"
-                            id="nombre"
-                            autoComplete="given-name"
-                            className="mt-[135px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"
-                            onChange={formik.handleChange}
-                            value={formik.values.nombre}
-                        />
+                            placeholder="Nombre"
+                            {...formik.getFieldProps('nombre')}
+                            className="mt-[135px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
                     </div>
+                    {formik.touched.nombre && formik.errors.nombre ? <div className="text-red-500 flex justify-center">{formik.errors.nombre}</div> : null}
                     <label htmlFor="telefono" className="block text-sm/6 font-medium text-gray-900"></label>
                     <div className="flex justify-center">
                         <input
                             placeholder="Teléfono"
                             type="telt"
-                            name="telefono"
-                            id="telefono"
-                            autoComplete="given-tel"
-                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"
-                            onChange={formik.handleChange}
-                            value={formik.values.telefono}
-                        />
+                            {...formik.getFieldProps('telefono')}
+                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
                     </div>
+                    {formik.touched.telefono && formik.errors.telefono ? <div className="text-red-500 flex justify-center">{formik.errors.telefono}</div> : null}
                     <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900"></label>
                     <div className="flex justify-center">
                         <input
                             placeholder="Email"
                             type="email"
-                            name="email"
-                            id="email"
-                            autoComplete="given-email"
-                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"
-                            onChange={formik.handleChange}
-                            value={formik.values.email}
-                        />
+                            {...formik.getFieldProps('email')}
+                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
                     </div>
+                    {formik.touched.email && formik.errors.email ? <div className="text-red-500 justify-center">{formik.errors.email}</div> : null}
                     <label htmlFor="mensaje" className="block text-sm/6 font-medium text-gray-900"></label>
                     <div className="flex justify-center">
                         <textarea
                             placeholder="Mensaje"
-                            name="about"
-                            id="about"
+                            {...formik.getFieldProps('about')}
                             rows="6"
-                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"
-                            onChange={formik.handleChange}
-                            value={formik.values.about}
-                        ></textarea>
+                            className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"></textarea>
                     </div>
+                    {formik.touched.about && formik.errors.about ? <div className="text-red-500 justify-center">{formik.errors.about}</div> : null}
                     <div className="flex justify-center">
                         <button
                             type="submit"
