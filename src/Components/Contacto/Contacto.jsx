@@ -1,4 +1,5 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import axios from 'axios';
 
 const validate = (values) => {
     const errors = {};
@@ -39,7 +40,19 @@ const Contacto = () => {
                     about: "",
                 }}
                 validate={validate}
-                onSubmit={ values  => console.log(values) }
+                /*onSubmit={ values  => console.log(values) }*/
+                 
+                    onSubmit={async (values, { setSubmitting }) => {
+                    try {
+                        const response = await axios.post('/api/sendEmail', values);
+                        console.log('Email enviado:', response.data);
+                    } catch (error) {
+                        console.error('Error al enviar el email:', error);
+                    }
+                    setSubmitting(false);
+                    console.log(values)
+                }}
+                
             >
                 <Form className="container mx-auto">
                     <div className="flex justify-center">
