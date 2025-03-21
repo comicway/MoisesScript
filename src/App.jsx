@@ -13,6 +13,7 @@ import OdisyShoot from './Components/ProyectoInterno/OdisyShoot'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
 import NichoUx from './Components/ArticuloInterno/NichoUx'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <BrowserRouter>
       <ScrollToTop />
           <HeaderScript/>
+          <Analytics/>
           <Routes>
             <Route path='/' element={<HomePage/>} />
             <Route path='/proyectos' element={<ProyectoPage/>} />
