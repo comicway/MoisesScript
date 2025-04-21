@@ -1,8 +1,13 @@
-# React + Vite
+# <moises.script/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ¿Quién soy?
 
-Currently, two official plugins are available:
+Soy diseñador UI con amplia experiencia en el diseño y desarrollo de páginas web, destacando por mi nivel avanzado en WordPress, HTML y CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Además, cuento con experiencia en marketing digital, incluyendo estrategias de mailing, anuncios en Google Ads (SEM) y Meta Ads. En el ámbito del posicionamiento web (SEO), he desarrollado mi carrera desde el año 2010, optimizando sitios para mejorar su visibilidad y rendimiento en buscadores.  
+
+Actualmente, estoy impulsando mi trayectoria como desarrollador Frontend utilizando tecnologías como JavaScript, React JS y Tailwind CSS.
+
+## Visita mi Sitio Web
+
+[https://www.moises-script.cl/](https://www.moises-script.cl/)
