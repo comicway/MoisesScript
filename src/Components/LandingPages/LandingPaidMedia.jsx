@@ -43,12 +43,12 @@ const LandingPaidMedia = () => {
 
     return (
         <>
-            <div className="container mx-auto px-2">
+            <div className="container mx-auto px-4">
                 <h2 className="font-bold font-Oswald uppercase text-naranjo mt-28 text-[70px] sm:text-h1pagina ">Necesitas ayuda con:</h2>
-                <h1 className="font-Oswald text-azulbrillante text-[69px] border-b border-azulbrillante mb-6 w-[360px] sm:w-[580px] sm:text-h1pagina">{currentText}</h1>
+                <h1 className="font-Oswald text-azulbrillante text-[69px] border-b border-azulbrillante mb-6 w-full sm:w-[580px] sm:text-h1pagina">{currentText}</h1>
             </div>
             <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-5 mt-24">
-                <section className="container mx-auto">
+                <section className="container mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
                         <div className="p-5">
                             <img src="./asset/img/moisescontreras.png" alt="" />
@@ -63,7 +63,7 @@ const LandingPaidMedia = () => {
                     </div>
                 </section>
             </div>
-            <section className="container mx-auto mt-[80px]">  
+            <section className="container mx-auto mt-[80px] px-4">  
                 <div className="grid grid-cols-1">
                     <h2 className="text-naranjo font-medium font-Oswald uppercase text-[53px] sm:text-[65px] text-center">Plataformas de publicidad online pagas</h2>
                 </div>
@@ -142,13 +142,13 @@ const LandingPaidMedia = () => {
              </Formik>
             </section>
             <section className="mt-[80px] pt-[72px] pb-[65px] border-t-4 border-azulbrillante bg-[#D96E11]">
-                <div className="container mx-auto">
+                <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1">
-                    <h2 className="text-[#071226] font-medium font-Oswald text-[43px] sm:text-[55px] text-left">Sabias que; el ROAS en tu tienda online puede aumentar en un 20% si tienes una estrategia de marketing basada en un embudo de conversión.</h2>    
+                    <h2 className="text-[#071226] font-medium font-Oswald text-[43px] sm:text-[55px] text-left">¿Sabías que una estrategia de marketing basada en un embudo de conversión tiene el potencial de impulsar notablemente el ROAS de tu tienda online?</h2>    
                     </div>
                 </div>
             </section>
-            <section className="container mx-auto mt-[80px]">  
+            <section className="container mx-auto mt-[80px] px-4">  
                 <div className="grid grid-cols-1">
                         <h2 className="text-naranjo font-medium font-Oswald uppercase text-[53px] sm:text-[65px] text-center">Certificado en Google y Meta</h2>
                 </div>

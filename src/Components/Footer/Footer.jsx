@@ -4,7 +4,7 @@ const FooterScript = () => {
     return (
         <>
         <section className="sm:mt-[80px] pt-[72px] pb-[65px] border-t-4 border-azulbrillante">
-            <div className="container mx-auto px-2">
+            <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 sm:grid-cols-6 gap-5">
                     <div className="sm:col-span-5">
                         <h3 className="text-white font-medium font-Oswald text-[42px]">Este es el momento de contactarme</h3>
@@ -16,7 +16,7 @@ const FooterScript = () => {
                 </div>
             </div> 
         </section>
-        <footer className="pt-[50px] pb-[35px] bg-black px-2">
+        <footer className="pt-[50px] pb-[35px] bg-black px-4">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 pb-[16px]">
                     <div className="sm:col-span-2">
