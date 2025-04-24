@@ -32,7 +32,7 @@ const FooterScript = () => {
                     <div>
                         <h4 className="text-white font-Oswald font-bold text-[20px]">Contacto</h4>
                         <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
-                            <li><a href="tel:+56977658072">+56 9 7765 8072</a></li>
+                            <li><a href="tel:+56956542379">+56 9 56 54 23 79</a></li>
                             <li><a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a></li>
                             <li>Quinta Normal</li>
                             <li><a href="http://github.com/comicway">github.com/comicway</a></li>

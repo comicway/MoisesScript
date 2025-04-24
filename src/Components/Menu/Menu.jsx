@@ -31,7 +31,7 @@ const Menu = ({ toggle }) => {
                           <div className='flex flex-col items-end justify-end pb-16'>
                             <h4 className="text-white font-Oswald font-bold text-[20px] mb-6">Contacto</h4>
                             <ul className="text-right text-white font-Inter font-normal text-[16px] leading-loose">
-                                <li><a href="tel:+56977658072">+56 9 7765 8072</a></li>
+                                <li><a href="tel:+56956542379">+569 56 54 23 79</a></li>
                                 <li><a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a></li>
                                 <li>Quinta Normal</li>
                                 <li><a href="http://github.com/comicway">github.com/comicway</a></li>
