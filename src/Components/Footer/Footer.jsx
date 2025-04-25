@@ -10,7 +10,7 @@ const FooterScript = () => {
                         <h3 className="text-white font-medium font-Oswald text-[42px]">Este es el momento de contactarme</h3>
                         <p className="text-white font-medium font-Inter text-[16px]">¡No dudes en ponerte en contacto conmigo o simplemente saludarme!</p>
                     </div>
-                    <a href="https://wa.me/56977658072">
+                    <a href="https://wa.me/56956542379">
                         <button className="w-[159px] h-[54px] bg-azulbrillante font-bold font-Inter text-[18px] mt-[26px]">Escríbeme</button>
                     </a>
                 </div>
@@ -33,8 +33,8 @@ const FooterScript = () => {
                         <h4 className="text-white font-Oswald font-bold text-[20px]">Contacto</h4>
                         <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
                             <li><a href="tel:+56956542379">+56 9 56 54 23 79</a></li>
-                            <li><a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a></li>
-                            <li>Quinta Normal</li>
+                            <li><a href="mailto:info@moises-script.cl">info@moises-script.cl</a></li>
+                            <li>Santiago Centro</li>
                             <li><a href="http://github.com/comicway">github.com/comicway</a></li>
                         </ul>
                     </div>

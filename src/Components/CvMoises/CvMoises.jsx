@@ -22,7 +22,7 @@ const CvMoises = () => {
                                 <a href="tel:+56956542379">+56 9 56 54 23 79</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
-                                <a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a>
+                                <a href="mailto:info@moises-script.cl">info@moises-script.cl</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
                                 <a href="http://github.com/comicway">github.com/comicway</a>

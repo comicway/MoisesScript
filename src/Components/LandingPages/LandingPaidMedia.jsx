@@ -44,7 +44,7 @@ const LandingPaidMedia = () => {
     return (
         <>
             <div className="container mx-auto px-4">
-                <h2 className="font-bold font-Oswald uppercase text-naranjo mt-28 text-[70px] sm:text-h1pagina leading-none sm:leading-normal">Necesitas ayuda con:</h2>
+                <h2 className="font-bold font-Oswald uppercase text-naranjo mt-5 sm:mt-28 text-[70px] sm:text-h1pagina leading-none sm:leading-normal">Necesitas ayuda con:</h2>
                 <h1 className="font-Oswald text-azulbrillante text-[69px] border-b border-azulbrillante mb-6 w-full sm:w-[580px] sm:text-h1pagina">{currentText}</h1>
                 <p className="text-white font-Inter font-medium text-[19px]">Obtén resultados medibles y un crecimiento constante gracias a estrategias personalizadas y optimización continua.</p>
             </div>
@@ -55,10 +55,9 @@ const LandingPaidMedia = () => {
                             <img src="./asset/img/moisescontreras.png" alt="" />
                         </div>
                         <div className="p-5 sm:col-span-3">
-                            <p className="font-Inter text-letrablanca text-lg mb-4">Hola, mi nombre es Moisés, soy especialista en Paid Media con más de 4 años de experiencia creando y gestionando campañas publicitarias dentro de la plataforma de Google Ads y Meta Business Suite.</p>
-                            <p className="font-Inter text-letrablanca text-lg mb-4">Dentro del marketing digital vas a encontrar un abanico de herramientas que pueden potenciar el rendimiento económico de tu negocio. Si estás solo en tu emprendimiento o empresa, delega; no lo hagas tú si no conoces del área.</p>
-                            <p className="font-Inter text-letrablanca text-lg mb-4">Confía en mí y contrátame. Te haré ahorrar mucho tiempo y dinero a la hora de administrar tus campañas publicitarias en internet.</p>
-                            <p className="font-Inter text-letrablanca text-lg">Conmigo vas a encontrar al mejor aliado, con conocimientos sólidos en marketing digital, programación y diseño.</p>
+                            <p className="font-Inter text-letrablanca text-lg mb-4">Hola, mi nombre es Moisés, especialista en Paid Media con más de 4 años de experiencia en Google Ads y Meta Business Suite.</p>
+                            <p className="font-Inter text-letrablanca text-lg mb-4">Dentro del marketing digital hay muchas herramientas para potenciar tu negocio. Si estás solo en tu emprendimiento, delega; no lo hagas tú si no conoces del área.</p>
+                            <p className="font-Inter text-letrablanca text-lg mb-4">Confía en mí y contrátame. Te haré ahorrar mucho tiempo y dinero administrando tus campañas publicitarias. Conmigo encontrarás al mejor aliado, con conocimientos sólidos en marketing digital, programación y diseño.</p>
                             <p className="font-Inter text-letrablanca text-lg">Sigue leyendo esta landing y contáctame.</p>
                         </div>
                     </div>
@@ -70,28 +69,28 @@ const LandingPaidMedia = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 mt-[65px]">
                     <div>
-                        <img src="./asset/img/google-ads-logo.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/google-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Google Ads</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Campañas de búsqueda de alto rendimiento y estrategias de remarketing efectivas. Todo en la red de búsqueda más grande del planeta.</p>
                     </div>
                     <div>
-                        <img src="./asset/img/meta-ads-logo.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/meta-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Meta Bussines Suite</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Conexión con tu audiencia ideal. Coloca tus anuncios en las redes sociales más populares.</p>
                     </div>
                     <div>
-                        <img src="./asset/img/tiktok-ads-logo.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/tiktok-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">TitTok for Bussines</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Estrategias innovadoras para llegar a la Generación Z y crear contenido viral. Atrae nuevos clientes a tu negocio.</p>
                     </div>
                     <div>
-                        <img src="./asset/img/linkedIn-ads-logo.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/linkedIn-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">LinkedIn Ads</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Captación de leads B2B cualificados y fortalecimiento de tu presencia profesional.</p>
                     </div>
                 </div>
-                <h3 className="text-naranjo font-light font-Oswald text-[33px] sm:text-[55px] text-left mt-[70px]">Aumenta el retorno de inversión de tu negocio, con algunas de estas herramientas.</h3>
-                <h4 className="text-white font-light font-Oswald text-[13px] sm:text-[35px] text-left mt-[10px]">Descubre cómo podemos ayudarte:</h4>
+                <h3 className="text-naranjo font-light font-Oswald text-[40px] sm:text-[55px] text-left mt-[70px] leading-tight sm:leading-normal">Aumenta el retorno de inversión de tu negocio, con algunas de estas herramientas.</h3>
+                <h4 className="text-white font-light font-Oswald text-[23px] sm:text-[35px] text-left mt-[10px]">Descubre cómo podemos ayudarte:</h4>
                 <Formik
                 initialValues={{
                     nombre: "",
@@ -149,7 +148,7 @@ const LandingPaidMedia = () => {
             <section className="mt-[80px] pt-[72px] pb-[65px] border-t-4 border-azulbrillante bg-[#D96E11]">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1">
-                    <h2 className="text-[#071226] font-medium font-Oswald text-[43px] sm:text-[55px] text-left">¿Sabías que una estrategia de marketing basada en un embudo de conversión tiene el potencial de impulsar notablemente el ROAS de tu tienda online?</h2>    
+                    <h2 className="text-[#071226] font-medium font-Oswald text-[38px] sm:text-[55px] text-left leading-tight sm:leading-normal">¿Sabías que una estrategia de marketing basada en un embudo de conversión tiene el potencial de impulsar notablemente el ROAS de tu tienda online?</h2>    
                     </div>
                 </div>
             </section>
@@ -159,20 +158,20 @@ const LandingPaidMedia = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-[65px]">
                     <div>
-                        <img src="./asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Red de Búsqueda</p>
                     </div>
                     <div>
-                        <img src="./asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Red de Display</p>
                     </div>
                     <div>
-                        <img src="./asset/img/certificado-meta.svg" className="sm:w-[60%] w-[30%] mx-auto"/>
+                        <img src="./asset/img/certificado-meta.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Asociado de marketing digital</p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 mt-[30px]">
-                     <p className="font-Inter font-medium text-letrablanca text-[20px] mt-4 text-center">Certificaciones oficiales que avalan mi experiencia y conocimiento en las plataformas líderes.</p>
+                     <p className="font-Inter font-medium text-letrablanca text-[20px] mt-4 text-center py-6">Certificaciones oficiales que avalan mi experiencia y conocimiento en las plataformas líderes.</p>
                 </div>
             </section>
         </>
