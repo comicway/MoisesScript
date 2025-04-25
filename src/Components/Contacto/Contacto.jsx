@@ -93,7 +93,7 @@ const Contacto = () => {
                             </button>
                         </div>
                         {submitMessage && (
-                            <div style={{ marginTop: '1rem', textAlign: 'center', color: 'red', padding: '10px', fontSize: '18px' }}>
+                            <div style={{ marginTop: '1rem', textAlign: 'center', color: 'white', padding: '10px', fontSize: '18px' }}>
                                 {submitMessage}
                             </div>
                         )}
