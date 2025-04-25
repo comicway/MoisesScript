@@ -12,6 +12,7 @@ import ToomicsApp from './Components/ProyectoInterno/ToomicsApp'
 import OdisyShoot from './Components/ProyectoInterno/OdisyShoot'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
 import NichoUx from './Components/ArticuloInterno/NichoUx'
+import LandingPaidMedia from './Components/LandingPages/LandingPaidMedia'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import { Analytics } from "@vercel/analytics/react"
 
@@ -33,6 +34,7 @@ function App() {
             <Route path='/odisyshoot' element={<OdisyShoot/>} />
             <Route path='/articulointerno' element={<ArticuloInterno/>} />
             <Route path='/nichoux' element={<NichoUx/>} />
+            <Route path='/paidmedia' element={<LandingPaidMedia/>} />
           </Routes>
           <FooterScript/>
       </BrowserRouter>

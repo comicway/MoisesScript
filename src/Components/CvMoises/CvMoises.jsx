@@ -19,10 +19,10 @@ const CvMoises = () => {
                         <div className="bg-gradient-to-tr from-[#456173] to-[#45617379] py-7 pl-11 border-b-4 border-azulbrillante">
                             <p className="font-Inter font-bold text-letrablanca text-xl mb-1">Moises Contreras</p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
-                                <a href="tel:+56977658072">+56 9 7765 8072</a>
+                                <a href="tel:+56956542379">+56 9 56 54 23 79</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
-                                <a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a>
+                                <a href="mailto:info@moises-script.cl">info@moises-script.cl</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
                                 <a href="http://github.com/comicway">github.com/comicway</a>

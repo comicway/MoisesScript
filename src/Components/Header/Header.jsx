@@ -18,7 +18,7 @@ const HeaderScript = () => {
     
     return (
       <>
-      <div className={`container mx-auto px-2 ${isDivHidden ? 'hidden' : ''}`}>
+      <div className={`container mx-auto px-4 ${isDivHidden ? 'hidden' : ''}`}>
         <div className='grid gap-0 grid-cols-2 h-[60px] sm:grid-cols-3 sm:h-106'>
             <div className='flex items-center'>
                 <Link to='/'>
