@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import axios from 'axios';
 
@@ -25,6 +26,7 @@ const validate = (values) => {
 };
 
 const Contacto = () => {
+    const [submitMessage, setSubmitMessage] = useState('');
 
     return (
         <>
@@ -40,54 +42,65 @@ const Contacto = () => {
                     about: "",
                 }}
                 validate={validate}
-                /*onSubmit={ values  => console.log(values) }*/
-                 
-                    onSubmit={async (values, { setSubmitting }) => {
+                onSubmit={async (values, { setSubmitting, resetForm }) => {
+                    setSubmitMessage('');
                     try {
                         const response = await axios.post('/api/sendEmail', values);
                         console.log('Email enviado:', response.data);
+                        setSubmitMessage('Su correo ha sido enviado con éxito, espere, en breve recibirá una respuesta. Muchas gracias'); // Set success message
+                        resetForm();
                     } catch (error) {
                         console.error('Error al enviar el email:', error);
+                        setSubmitMessage('Hubo un error al enviar el correo. Por favor, inténtelo de nuevo.'); // Set error message
                     }
                     setSubmitting(false);
                     console.log(values)
                 }}
-                
             >
-                <Form className="container mx-auto">
-                    <div className="flex justify-center">
-                        <Field name="nombre" type="text" placeholder="Nombre*"  className="mt-[135px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
-                    </div>
-                    <div className="text-[#BF3A0A] flex justify-center">
-                        <ErrorMessage name="nombre"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <Field name="telefono" placeholder="Teléfono*" type="telt" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
-                    </div>
-                    <div className="text-[#BF3A0A] flex justify-center">
-                        <ErrorMessage name="telefono"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <Field name="email" placeholder="Email*" type="email" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
-                    </div>
-                    <div className="text-[#BF3A0A] flex justify-center">
-                        <ErrorMessage name="email"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <Field name="about" placeholder="Mensaje*" as="textarea" rows="6" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
-                    </div>
-                    <div className="text-[#BF3A0A] flex justify-center">
-                        <ErrorMessage name="about"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <button
-                            type="submit"
-                            className="h-[38px] max-w-2xl w-full mt-[21px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px]"
-                        >Enviar</button>
-                    </div>
-                </Form>
+                {({ isSubmitting }) => (
+                    <Form className="container mx-auto">
+                        <div className="flex justify-center">
+                            <Field name="nombre" type="text" placeholder="Nombre*"  className="mt-[135px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
+                        </div>
+                        <div className="text-[#BF3A0A] flex justify-center">
+                            <ErrorMessage name="nombre"/>
+                        </div>
+                        <div className="flex justify-center">
+                            <Field name="telefono" placeholder="Teléfono*" type="telt" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
+                        </div>
+                        <div className="text-[#BF3A0A] flex justify-center">
+                            <ErrorMessage name="telefono"/>
+                        </div>
+                        <div className="flex justify-center">
+                            <Field name="email" placeholder="Email*" type="email" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
+                        </div>
+                        <div className="text-[#BF3A0A] flex justify-center">
+                            <ErrorMessage name="email"/>
+                        </div>
+                        <div className="flex justify-center">
+                            <Field name="about" placeholder="Mensaje*" as="textarea" rows="6" className="mt-[12px] max-w-2xl w-full rounded-sm bg-[#1E293B] px-3 py-1.5 text-base text-white font-Inter outline outline-1 -outline-offset-1 outline-fondobtnmenu placeholder:text-azulbrillante focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-azulbrillante sm:text-sm/6"/>
+                        </div>
+                        <div className="text-[#BF3A0A] flex justify-center">
+                            <ErrorMessage name="about"/>
+                        </div>
+                        <div className="flex justify-center">
+                            <button
+                                type="submit"
+                                disabled={isSubmitting}
+                                className="h-[38px] max-w-2xl w-full mt-[21px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px] disabled:opacity-50" // Add disabled style
+                            >
+                                {isSubmitting ? 'Enviando...' : 'Enviar'}
+                            </button>
+                        </div>
+                        {submitMessage && (
+                            <div style={{ marginTop: '1rem', textAlign: 'center', color: 'red', padding: '10px', fontSize: '18px' }}>
+                                {submitMessage}
+                            </div>
+                        )}
+                    </Form>
+                )}
              </Formik>
         </>
     )
 }
-export default Contacto
+export default Contacto;
