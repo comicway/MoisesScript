@@ -47,7 +47,7 @@ const Contacto = () => {
                     try {
                         const response = await axios.post('/api/sendEmail', values);
                         console.log('Email enviado:', response.data);
-                        setSubmitMessage('Su correo ha sido enviado con éxito, espere, en breve recibirá una respuesta. Muchas gracias'); // Set success message
+                        setSubmitMessage('Su correo ha sido enviado con éxito, espere, en breve recibirá una respuesta. Muchas gracias.'); // Set success message
                         resetForm();
                     } catch (error) {
                         console.error('Error al enviar el email:', error);

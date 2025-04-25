@@ -105,11 +105,11 @@ const LandingPaidMedia = () => {
                         try {
                             const response = await axios.post('/api/sendEmail', values);
                             console.log('Email enviado:', response.data);
-                            setMensajeEnvio('Su correo ha sido enviado con éxito, espere, en breve recibirá una respuesta. Muchas gracias'); 
+                            setMensajeEnvio('Su correo ha sido enviado con éxito, espere, en breve recibirá una respuesta. Muchas gracias.'); 
                             resetForm();
                         } catch (error) {
                             console.error('Error al enviar el email:', error);
-                            setMensajeEnvio('Hubo un error al enviar el correo. Por favor, inténtelo de nuevo.'); // Establece mensaje de error
+                            setMensajeEnvio('Hubo un error al enviar el correo. Por favor, inténtelo de nuevo.');
                         }
                         setSubmitting(false);
                         console.log(values)
