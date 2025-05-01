@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom"
 
-const OdisyShoot = () => {
+const RoverPhotoApp = () => {
     return (
         <>
             <div className='container mx-auto border-b border-azulbrillante pb-[17px] px-2'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">Odisy Shoot</h1>
-                <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Videojuego shoot 'em up 3D</h2>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">Rover Photos App</h1>
+                <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Aplicación conectada a la API de la NASA</h2>
             </div>
-            <div className="container mx-auto pt-[17px] px-2">
+            {/*<div className="container mx-auto pt-[17px] px-2">
                 <img src="./asset/img/logo-odisy-shoot.png" alt="logo OdisyShoot" />
-            </div>
+            </div>*/}
             <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[60px] sm:py-[126px] mt-24 px-2">
                 <section className="container mx-auto">
                     <div className="grid grid-cols-1">
-                        <p className="font-Inter text-letrablanca text-lg mb-4">Como parte del proyecto final del curso de Desarrollo de Videojuegos en Unity de CoderHouse, desarrollé una demo de un juego que combina elementos de género shoot 'em up 3D  y puzles. El objetivo principal de este proyecto fue poner en práctica los conocimientos adquiridos durante el curso. Este videojuego está diseñado específicamente para ser jugado en dispositivos móviles.</p>
-                        <a href="./asset/img/odisyshootejecutable.zip" target="_blank">
+                        <p className="font-Inter text-letrablanca text-lg mb-4">La aplicación, desarrollada con React JS, se conecta a la API de la NASA para acceder a la información de tres rovers marcianos (Curiosity, Opportunity y Spirit). Los usuarios pueden seleccionar un rover y una fecha específica para ver las 20 primeras fotos tomadas ese día. La aplicación también permite consultar el manifiesto de cada rover, mostrando detalles como nombre, estado, fechas de lanzamiento e inicio de actividades, total de soles y fotos.</p>
+                        <p className="font-Inter text-letrablanca text-lg mb-4">El desarrollo se basó en peticiones GET a la API, y el diseño visual se definió mediante un Moodboard, estudio de colores y tipografía, bocetos y un prototipo de alta fidelidad, cuya maquetación final se realizó con TailwindCSS.</p>
+                        {/*<a href="./asset/img/odisyshootejecutable.zip" target="_blank">
                             <button className="h-[38px] w-[150px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px]">Descargar Juego</button>
-                        </a>
+                        </a>*/}
                     </div>
                 </section>
             </div>
@@ -106,4 +107,4 @@ const OdisyShoot = () => {
         </>
     )
 }
-export default OdisyShoot
+export default RoverPhotoApp

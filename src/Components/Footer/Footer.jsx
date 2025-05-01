@@ -7,7 +7,7 @@ const FooterScript = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 sm:grid-cols-6 gap-5">
                     <div className="sm:col-span-5">
-                        <h3 className="text-white font-medium font-Oswald text-[42px]">Este es el momento de contactarme</h3>
+                        <h3 className="text-white font-medium font-Oswald text-[42px] leading-snug">Este es el momento de contactarme</h3>
                         <p className="text-white font-medium font-Inter text-[16px]">¡No dudes en ponerte en contacto conmigo o simplemente saludarme!</p>
                     </div>
                     <a href="https://wa.me/56956542379">

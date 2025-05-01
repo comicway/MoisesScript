@@ -4,8 +4,8 @@ const ToomicsApp = () => {
     return (
         <>
             <div className='container mx-auto border-b border-azulbrillante pb-[17px] px-2'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">Aplicación móvil Toomics</h1>
-                <h2 className="text-white font-medium font-Oswald text-[42px]">Rediseño de la app móvil</h2>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">Aplicación móvil Toomics</h1>
+                <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Rediseño de la app móvil</h2>
             </div>
             <div className="container mx-auto pt-[17px] px-2">
                 <img src="./asset/img/logotoomics.svg" alt="logo toomics" />

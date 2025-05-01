@@ -4,8 +4,8 @@ const ComicApp = () => {
     return (
         <>
             <div className='container mx-auto border-b border-azulbrillante pb-[17px] px-2'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">COMIC APP</h1>
-                <h2 className="text-white font-medium font-Oswald text-[42px]">Proyecto de aplicación móvil: guía especilizada para lectores noveles en comic.</h2>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">COMIC APP</h1>
+                <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Proyecto de aplicación móvil: guía especilizada para lectores noveles en comic.</h2>
             </div>
             <div className="container mx-auto pt-[17px] px-2">
                 <img src="./asset/img/logocomicapp.svg" alt="logo comicapp" />

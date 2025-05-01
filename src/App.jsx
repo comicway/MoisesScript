@@ -14,6 +14,7 @@ import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
 import NichoUx from './Components/ArticuloInterno/NichoUx'
 import LandingPaidMedia from './Components/LandingPages/LandingPaidMedia'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+import RoverPhotoApp from './Components/ProyectoInterno/RoverPhotoApp'
 import { Analytics } from "@vercel/analytics/react"
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path='/comicapp' element={<ComicApp/>} />
             <Route path='/toomics' element={<ToomicsApp/>} />
             <Route path='/odisyshoot' element={<OdisyShoot/>} />
+            <Route path='/roverphotoapp' element={<RoverPhotoApp/>} />
             <Route path='/articulointerno' element={<ArticuloInterno/>} />
             <Route path='/nichoux' element={<NichoUx/>} />
             <Route path='/paidmedia' element={<LandingPaidMedia/>} />

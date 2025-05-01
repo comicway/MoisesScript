@@ -22,8 +22,8 @@ const BlogPage = () => {
     return (
         <>
             <div className='container mx-auto px-2'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">Lee mis artículos</h1>
-                <div className='flex flex-row items-center border-b border-azulbrillante pb-[17px]'>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">Lee mis artículos</h1>
+                <div className='flex flex-row items-center border-b border-azulbrillante pb-[17px] mt-[10px]'>
                     <button onClick={toggleUx} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[188px] mr-2 ${isButtonActive('ux')}`}>DISEÑO UX / UI</button>
                     <button onClick={toggleFrontend} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('frontend')}`}>DESARROLLO FRONTEND</button>
                     <button onClick={toggleVideo} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('video')}`}>VIDEOJUEGOS</button>

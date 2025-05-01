@@ -2,8 +2,8 @@ const ProyectoInterno = () => {
     return (
         <>
             <div className='container mx-auto border-b border-azulbrillante pb-[17px] px-2'>
-                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28">Titulo del proyecto</h1>
-                <h2 className="text-white font-medium font-Oswald text-[42px]">Subtitulo del proyecto</h2>
+                <h1 className="font-bold font-Oswald uppercase text-naranjo text-[70px] sm:text-h1pagina mt-28 leading-none">Titulo del proyecto</h1>
+                <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Subtitulo del proyecto</h2>
             </div>
             <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[60px] sm:py-[126px] mt-24 px-2">
                 <section className="container mx-auto">
