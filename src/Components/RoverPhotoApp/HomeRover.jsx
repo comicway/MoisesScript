@@ -1,9 +1,13 @@
 import {useState, useEffect} from 'react'
 import { Link } from "react-router-dom"
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const HomeRover = () => {
     
     const [roverSelect, setRoverSelect] = useState(localStorage.getItem('selectedRover'));
+    const [dateSelect, setDateSelect] = useState(null);
+    const [displayCalendar, setDisplayCalendar] = useState('inactivo');
 
     useEffect(() => {
         localStorage.clear();
@@ -18,6 +22,13 @@ const HomeRover = () => {
     };
 
     const roverName = roverSelect;
+
+    const selectDate = (date) => {
+        setDateSelect(date);
+        const selectedDate = date.toISOString().split('T')[0];
+        localStorage.setItem('selectedDate', selectedDate);
+        console.log(selectedDate);
+    };
 
     const [launchDate, setLaunchDate] = useState('');
     const [roverStatus, setRoverStatus] = useState('');
@@ -60,6 +71,11 @@ const HomeRover = () => {
         fetchManifest();
     }, [roverName]);
 
+    const isButtonActive = (category) => {
+        if (displayCalendar === 'inactivo') return 'hidden';
+        return displayCalendar === category ? 'border-4 bg-fondobtnmenu' : 'border';
+    };
+
     return (
         <>
             <div className="grid grid-cols-1 mt-5">
@@ -87,14 +103,37 @@ const HomeRover = () => {
                 </div>
             </div>
             <div className="grid grid-cols-1 mt-10">
-            <Link to='/calendar' className="block w-full">
                 <button
                     disabled={!roverSelect}
                     className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">
                     Seleccionar
                 </button>
-            </Link>
             </div>
+            {/*INICIO SELECCION DE FECHA*/}
+            <div className="grid grid-cols-1 mt-5">
+                <div>
+                    <h1 className="text-center">Selecciona una fecha</h1>
+                    <div className="flex justify-center mt-4">
+                        <DatePicker
+                            selected={dateSelect}
+                            onChange={selectDate}
+                            dateFormat="yyyy-MM-dd"
+                            className="p-2 border border-[#BF3B0B] bg-black rounded-md text-center w-full text-white"
+                            isClearable
+                            placeholderText="Selecciona una fecha"
+                            showMonthDropdown
+                            showYearDropdown
+                            dropdownMode="select"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="grid grid-cols-1 mt-10">
+                <Link to='/feed' className="block w-full">
+                    <button disabled={!dateSelect} className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">Siguiente</button>
+                </Link> 
+            </div>
+            {/*FIN SELECCION DE FECHA*/}
             {roverSelect && (
                 <section className="grid grid-cols-1 mt-10">
                     <div className="text-center text-white border-t border-b border-white mt-[32px] text-[20px] font-bold font-SpaceGrotesk py-[18px] first-letter:uppercase">{roverName}</div>

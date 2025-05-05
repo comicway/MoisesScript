@@ -12,9 +12,11 @@
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
     "formik": "^2.4.6",
     "nodemailer": "^6.10.0",
     "react": "^18.3.1",
+    "react-datepicker": "^8.3.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1"
   },
