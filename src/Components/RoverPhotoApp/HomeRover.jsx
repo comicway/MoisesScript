@@ -7,7 +7,7 @@ const HomeRover = () => {
     
     const [roverSelect, setRoverSelect] = useState(localStorage.getItem('selectedRover'));
     const [dateSelect, setDateSelect] = useState(null);
-    const [displayCalendar, setDisplayCalendar] = useState('inactivo');
+    const [displayCalendar, setDisplayCalendar] = useState(0);
 
     useEffect(() => {
         localStorage.clear();
@@ -71,9 +71,11 @@ const HomeRover = () => {
         fetchManifest();
     }, [roverName]);
 
-    const isButtonActive = (category) => {
-        if (displayCalendar === 'inactivo') return 'hidden';
-        return displayCalendar === category ? 'border-4 bg-fondobtnmenu' : 'border';
+    const calendar = () => setDisplayCalendar(1);
+
+    const isSectionActive = (sectioncalendar) => {
+        if (displayCalendar === 0) return 'hidden';
+        return displayCalendar === sectioncalendar ? 'block' : 'hidden';
     };
 
     return (
@@ -104,35 +106,38 @@ const HomeRover = () => {
             </div>
             <div className="grid grid-cols-1 mt-10">
                 <button
+                    onClick={calendar}
                     disabled={!roverSelect}
                     className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">
                     Seleccionar
                 </button>
             </div>
             {/*INICIO SELECCION DE FECHA*/}
-            <div className="grid grid-cols-1 mt-5">
-                <div>
-                    <h1 className="text-center">Selecciona una fecha</h1>
-                    <div className="flex justify-center mt-4">
-                        <DatePicker
-                            selected={dateSelect}
-                            onChange={selectDate}
-                            dateFormat="yyyy-MM-dd"
-                            className="p-2 border border-[#BF3B0B] bg-black rounded-md text-center w-full text-white"
-                            isClearable
-                            placeholderText="Selecciona una fecha"
-                            showMonthDropdown
-                            showYearDropdown
-                            dropdownMode="select"
-                        />
+            <section className={`${isSectionActive(1)}`}>
+                <div className="grid grid-cols-1 mt-5">
+                    <div>
+                        <h1 className="text-center">Selecciona una fecha</h1>
+                        <div className="flex justify-center mt-4">
+                            <DatePicker
+                                selected={dateSelect}
+                                onChange={selectDate}
+                                dateFormat="yyyy-MM-dd"
+                                className="p-2 border border-[#BF3B0B] bg-black rounded-md text-center w-full text-white"
+                                isClearable
+                                placeholderText="Selecciona una fecha"
+                                showMonthDropdown
+                                showYearDropdown
+                                dropdownMode="select"
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="grid grid-cols-1 mt-10">
-                <Link to='/feed' className="block w-full">
-                    <button disabled={!dateSelect} className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">Siguiente</button>
-                </Link> 
-            </div>
+                <div className="grid grid-cols-1 mt-10">
+                    <Link to='/feed' className="block w-full">
+                        <button disabled={!dateSelect} className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">Siguiente</button>
+                    </Link> 
+                </div>
+            </section>
             {/*FIN SELECCION DE FECHA*/}
             {roverSelect && (
                 <section className="grid grid-cols-1 mt-10">
