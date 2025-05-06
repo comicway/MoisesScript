@@ -77,6 +77,10 @@ const HomeRover = () => {
         if (displayCalendar === 0) return 'hidden';
         return displayCalendar === sectioncalendar ? 'block' : 'hidden';
     };
+    const notSectionActive = (notsectioncalendar) => {
+        if (displayCalendar === 1) return 'hidden';
+        return displayCalendar === notsectioncalendar ? 'block' : 'hidden';
+    };
 
     return (
         <>
