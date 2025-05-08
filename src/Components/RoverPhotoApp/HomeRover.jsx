@@ -113,9 +113,8 @@ const HomeRover = () => {
 
     return (
         <>
-            <div className="grid grid-cols-1 mt-5">
+            <div className="grid grid-cols-1 mt-5 border-b border-white py-5 mb-10">
                 <img src="/asset/img/logoroverphotos.svg" alt="" className="mx-auto" />
-                <p className="text-center text-white border-t border-b border-white my-[32px] text-[20px] font-bold font-SpaceGrotesk py-[18px]">¡Elige tu rover preferido!</p>
             </div>
             {/*INICIO SELECCION DE ROVER*/}
             <section className={`${notSectionActive(0)}`}>
@@ -150,29 +149,30 @@ const HomeRover = () => {
             </section>
             {/*FIN SELECCION DE ROVER*/}
             {/*INICIO SELECCION DE FECHA*/}
-            <section className={`${isSectionActive(1)}`}>
-                <div className="grid grid-cols-1 mt-5">
-                    <div>
-                        <h1 className="text-center">Selecciona una fecha</h1>
-                        <div className="flex justify-center mt-4">
-                            <DatePicker
-                                selected={dateSelect}
-                                onChange={selectDate}
-                                dateFormat="yyyy-MM-dd"
-                                className="p-2 border border-[#BF3B0B] bg-black rounded-md text-center w-full text-white"
-                                isClearable
-                                placeholderText="Selecciona una fecha"
-                                showMonthDropdown
-                                showYearDropdown
-                                dropdownMode="select"
-                            />
+            {displayFeed === 0 && (
+                <section className={`${isSectionActive(1)}`}>
+                    <div className="grid grid-cols-1 mt-5">
+                        <div>
+                            <div className="flex justify-center mt-4">
+                                <DatePicker
+                                    selected={dateSelect}
+                                    onChange={selectDate}
+                                    dateFormat="yyyy-MM-dd"
+                                    className="p-2 border border-[#BF3B0B] bg-black rounded-md text-center w-full text-white"
+                                    isClearable
+                                    placeholderText="Selecciona una fecha"
+                                    showMonthDropdown
+                                    showYearDropdown
+                                    dropdownMode="select"
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="grid grid-cols-1 mt-10">
-                    <button onClick={photoFeed} disabled={!dateSelect} className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">Siguiente</button>
-                </div>
-            </section>
+                    <div className="grid grid-cols-1 mt-10">
+                        <button onClick={photoFeed} disabled={!dateSelect} className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded disabled:opacity-50 disabled:cursor-not-allowed">Siguiente</button>
+                    </div>
+                </section>
+            )}
             {/*FIN SELECCION DE FECHA*/}
             {/*INICIO FEED FOTOS*/}
             <section className={`${dateSelected(1)}`}>
@@ -208,20 +208,12 @@ const HomeRover = () => {
                     <p className="text-red-500">No se encontraron fotos para esa fecha, por favor regresar y seleccionar otra</p>
                 )}
             </section>
-            <section className="grid grid-cols-2 gap-5 pb-5">
-                <Link to='/calendar'>
-                    <button className="text-white font-bold font-SpaceGrotesk text-[16px] bg-[#BF3B0B] w-full h-[40px] rounded">Regresar</button>
-                </Link>
-                <Link to='/'>
-                    <button className="text-white font-medium font-SpaceGrotesk text-[16px] bg-none w-full h-[40px] rounded border border-[#BF3B0B]">Ir al inicio</button>
-                </Link>
-            </section>
-            <section>
-                <div className="text-center text-white border-t border-b border-white text-[12px] font-light font-SpaceGrotesk py-[4px]">Diseñado y desarrollado por: moises.script</div>
+            <section className="grid grid-cols-1 gap-5 pb-5">
+                    <button onClick={() => window.location.reload()} className="text-white font-medium font-SpaceGrotesk text-[16px] bg-none w-full h-[40px] rounded border border-[#BF3B0B]">Ir al inicio</button>
             </section>
             </section>
             {/*FIN FEED FOTOS*/}
-            {roverSelect && (
+            {roverSelect && displayFeed === 0 && (
                 <section className="grid grid-cols-1 mt-10">
                     <div className="text-center text-white border-t border-b border-white mt-[32px] text-[20px] font-bold font-SpaceGrotesk py-[18px] first-letter:uppercase">{roverName}</div>
                     <div className="text-center text-white border-b border-white text-[18px] font-bold font-SpaceGrotesk py-[18px]"><span className="font-light">DÍA DE LANZAMIENTO: </span>{launchDate}</div>
