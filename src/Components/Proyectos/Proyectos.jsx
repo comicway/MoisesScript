@@ -70,17 +70,17 @@ const ProyectoPage = () => {
                         </div>
                     </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend')}`}>
-                        {/*
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
+                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/portadaroverapp.png" alt="" />
+                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Rover Photo App</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Frontend</span>
                             <div className="flex justify-between">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                <Link to='/roverphotoapp'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>
-                        */}
                     </div>
                 </div>
             </div>

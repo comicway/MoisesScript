@@ -23,52 +23,18 @@ const RoverPhotoApp = () => {
                 </section>
             </div>
             <div className="container mx-auto px-2">
-                <div className="grid gap-5 grid-cols-1 sm:grid-cols-3">
-                    <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Idea general</h3>
-                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Jorg debe superar acertijos en cada planeta con obstáculos, además de enfrentarse a naves enemigas para avanzar en la historia y llegar a nuevos mundos.</p>
-                    </div>
-                    <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Mecánicas básicas</h3>
-                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Juego que combina acertijos y elementos de disparos para eliminar naves enemigas. Incluye movimientos tanto del personaje como de la nave, además de cuadros de diálogo integrados en la narrativa.</p>
-                    </div>
-                    <div className="text-white border-azulbrillante border border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Género</h3>
-                        <p className="font-Oswald font-light text-[23px] pr-[15px]">Puzzle + shoot 'em up 3D</p>
-                        <h3 className="font-Oswald font-bold text-[27px]">Lenguaje y Programa</h3>
-                        <p className="font-Oswald font-light text-[23px] pr-[15px]">C# y Unity</p>
-                    </div>
-                </div>
-            </div>
-            <div className="container mx-auto px-2">
-                <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
+                <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
-                        <h3 className="font-Oswald font-bold text-[27px]">Dinámica General</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/dinamicajuego.png" alt="dinamica general" />
-                    </div>
-                    <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Escenario #1</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/escenapro1.png" alt="esenario juego unity" />
-                    </div>
-                </div>
-            </div>
-            <div className="container mx-auto px-2">
-                <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
-                    <div className="text-white border-azulbrillante border border-b-4 mt-24 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                        <h3 className="font-Oswald font-bold text-[27px]">Escenario #2</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/escenapro2.png" alt="esenario juego unity" />
-                    </div>
-                    <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
-                    <h3 className="font-Oswald font-bold text-[27px]">Escenario #3</h3>
-                    <img className="mt-[10px] px-2" src="./asset/img/escenapro3.png" alt="esenario juego unity" />
+                        <h3 className="font-Oswald font-bold text-[27px]">Moodboard</h3>
+                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/moodboard-roverapp.png" alt="" />
                     </div>
                 </div>
             </div>
             <div className="container mx-auto px-2">
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
-                        <h3 className="font-Oswald font-bold text-[27px]">Juego Ejecutado</h3>
-                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/vistamoviljuego.png" alt="" />
+                        <h3 className="font-Oswald font-bold text-[27px]">UI Kits</h3>
+                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/uikit-roverapp.png" alt="" />
                     </div>
                 </div>
             </div>
