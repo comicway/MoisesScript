@@ -10,9 +10,9 @@ const ProyectoPage = () => {
 
     console.log(filtroCategory);
 
-    const isCategoryVisible = (category) => {
+    const isCategoryVisible = (...categories) => {
         if (filtroCategory === 'inactivo') return 'block';
-        return filtroCategory === category ? 'block' : 'hidden';
+        return categories.includes(filtroCategory) ? 'block' : 'hidden';
     };
 
     const isButtonActive = (category) => {
@@ -30,7 +30,7 @@ const ProyectoPage = () => {
                     <button onClick={toggleVideo} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('video')}`}>VIDEOJUEGOS</button>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
-                    <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend')}`}>
+                    <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend', 'ux')}`}>
                         <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/portadaMegaBook.png" alt="Aplicación móvil para fomentar los hábitos de lectura" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">App MegaBook</h2>
                         <div className="flex justify-between items-end mt-3">
