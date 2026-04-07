@@ -19,7 +19,7 @@ const CvMoises = () => {
                         <div className="bg-gradient-to-tr from-[#456173] to-[#45617379] py-7 pl-11 border-b-4 border-azulbrillante">
                             <p className="font-Inter font-bold text-letrablanca text-xl mb-1">Moises Contreras</p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
-                                <a href="tel:+56956542379">+56 9 56 54 23 79</a>
+                                <a href="tel:+56977658072">+56 9 77 65 80 72</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
                                 <a href="mailto:info@moises-script.cl">info@moises-script.cl</a>
@@ -36,10 +36,12 @@ const CvMoises = () => {
                                 <p className="font-light font-Oswald text-[17px]">(2024 - ACTUAL)</p>
                                 <p className="mt-4 font-bold font-Oswald text-[22px]">JavaScript</p>
                                 <p className="font-light font-Oswald text-[17px]">(2023 - ACTUAL)</p>
+                                <p className="mt-6 font-bold font-Oswald text-[22px]">Python</p>
+                                <p className="font-light font-Oswald text-[17px]">(2026 - ACTUAL)</p>
                                 <p className="mt-4 font-bold font-Oswald text-[22px]">Tailwind CSS</p>
                                 <p className="font-light font-Oswald text-[17px]">(2024 - ACTUAL)</p>
                                 <p className="mt-4 font-bold font-Oswald text-[22px]">Wordpress</p>
-                                <p className="font-light font-Oswald text-[17px]">(2023 - ACTUAL)</p>
+                                <p className="font-light font-Oswald text-[17px]">(2012 - ACTUAL)</p>
                                 <p className="mt-4 font-bold font-Oswald text-[22px]">CSS</p>
                                 <p className="font-light font-Oswald text-[17px]">(2012 - ACTUAL)</p>
                                 <p className="mt-4 font-bold font-Oswald text-[22px]">HTML</p>
@@ -99,7 +101,7 @@ const CvMoises = () => {
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Literatura</p>
-                                        <p className="font-light font-Oswald text-[17px]">Ciencia ficción y novela negra</p>
+                                        <p className="font-light font-Oswald text-[17px]">Ciencia ficción y fantasía</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center">
@@ -127,14 +129,26 @@ const CvMoises = () => {
                         <section className={`container mx-auto mt-10 ${visibleSection === 'laboral' ? 'block' : 'hidden'}`}>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2022</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2024</p>
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2025</p>
+                                    <p className="text-center font-bold font-Oswald text-18">Actual</p>
+                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                </div>
+                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Desarrollador Frontend - Especialista SEO - Ki Technologies</h2>
+                                    <p className="font-Inter font-light text-white text-[20px]">Responsable del posicionamiento y optimización SEO a través de <span className="font-bold">Contentful</span>, junto con la coordinación de requerimientos creativos para campañas digitales (landing pages y email marketing). Especialista en la ejecución de campañas omnicanal en <span className="font-bold">Salesforce Marketing Cloud</span>, manejando Journey Builder, Automation Studio, Cloud Pages y desarrollo en AMPscript para una de las mayores empresas de retail del mercado nacional.</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> Salesforce Marketing Cloud, Contentfull, SEMrush, Figma, CSS, HTML, AMPscript, JavaScript.</p>
+                                </div>
+                            </div>
+                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2023</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2025</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Gestor de Marketing Digital - Global Ultrasonido</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads, Meta Ads y Linkedin Ads.</span> Estudio de <span className="font-bold">arquitectura de información</span> para modelo de negocio y <span className="font-bold">buyer persona.</span> Diseño y gestión de páginas web en <span className="font-bold">Shopify</span>. Plan y ejecución de estrategias <span className="font-bold">SEO</span> Generación de reportes en <span className="font-bold">Google Looker Studio</span>. Automatización de correos en Gmail mediante el uso de <span className="font-bold">Google Script.</span> Integración de la API de Cliengo para la captación de leads en el formulario de contacto web.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, JavaScript, Shopify, Google Tag Manager, Looker Studio, Meta Ads, Google Ads, LinkedIn Ads, Google Analytics, Google Script, Google Search Console</p>
+                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, JavaScript, Shopify, Google Tag Manager, Looker Studio, Meta Ads, Google Ads, LinkedIn Ads, Google Analytics, Google Script, Google Search Console.</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
@@ -159,7 +173,7 @@ const CvMoises = () => {
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Europa Press</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios   web, landing page, mail, entre otros. Diseño de interfaces para aplicaciones web. <span className="font-bold">Implementación de arquitectura de información, card sorting, tree testing, userflow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad.</span></p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Novartis, Sanofis, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche,
-                                    Synthon, TecnoFarma, entre otros.</p>
+                                        Synthon, TecnoFarma, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop, Optimal Workshop</p>
                                 </div>
                             </div>
@@ -185,9 +199,9 @@ const CvMoises = () => {
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Comware Digital</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Ejecución propuestas gráficas para aplicaciones y páginas web de múltiples clientes. Maquetado en <span className="font-bold">HTML y CSS</span> para luego ser entregado al equipo de programación. Muchas páginas fueron realizadas en <span className="font-bold">Wordpress</span>, modificando temas y creando propias desde cero.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Purina Dog Chow, Golden, Aruba Fashio Week, Avior, Eposak, Gordons,
-                                    Oceania Aruba Rentals, Play Head, Tu Cita de Belleza, Tu Descueston, entre otros.</p>
+                                        Oceania Aruba Rentals, Play Head, Tu Cita de Belleza, Tu Descueston, entre otros.</p>
                                     <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> HTML, CSS, Jquery, Boostrap, Meterial Desing, SASS, Worpress,
-                                    Prestashop.</p>
+                                        Prestashop.</p>
                                 </div>
                             </div>
                         </section>
