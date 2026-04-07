@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Menu = ({ toggle }) => { 
+const Menu = ({ toggle }) => {
 
     return (
         <>
@@ -13,12 +13,12 @@ const Menu = ({ toggle }) => {
                                 <img src="./asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" />
                             </Link>
                             <button onClick={toggle} className='ml-auto'>
-                                <img src="./asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto'/>
+                                <img src="./asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto' />
                             </button>
                         </div>
                     </div>
                     <div className='grid gap-0 grid-cols-1 sm:grid-cols-2 h-[calc(100vh-112px)]'>
-                          <div className='flex items-start'>
+                        <div className='flex items-start'>
                             <nav className='w-full'>
                                 <ul className='text-white text-[58px] sm:text-[94px] font-Oswald uppercase'>
                                     <li className='mb-[3px] font-bold'><Link onClick={toggle} to="/">home y cv</Link></li>
@@ -27,24 +27,24 @@ const Menu = ({ toggle }) => {
                                     <li className='font-light'><Link onClick={toggle} to="/contacto">contacto</Link></li>
                                 </ul>
                             </nav>
-                          </div>
-                          <div className='flex flex-col items-end justify-end pb-16'>
+                        </div>
+                        <div className='flex flex-col items-end justify-end pb-16'>
                             <h4 className="text-white font-Oswald font-bold text-[20px] mb-6">Contacto</h4>
                             <ul className="text-right text-white font-Inter font-normal text-[16px] leading-loose">
-                                <li><a href="tel:+56956542379">+569 56 54 23 79</a></li>
-                                <li><a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a></li>
-                                <li>Quinta Normal</li>
+                                <li><a href="tel:+56977658072">+56 9 77 65 80 72</a></li>
+                                <li><a href="mailto:info@moises-script.cl">info@moises-script.cl</a></li>
+                                <li>Santiago Centro</li>
                                 <li><a href="http://github.com/comicway">github.com/comicway</a></li>
                             </ul>
                             <div className="flex mt-[36px] gap-3">
                                 <a href="https://github.com/comicway" target="blank"><img src="./asset/img/ico-github.svg" alt="GitHub" /></a>
-                                <a href="https://www.instagram.com/moises.script/" target="blank"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                <a href="https://www.threads.net/@moises.script" target="blank"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
+                                <a href="https://www.instagram.com/moises_script/" target="blank"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
+                                <a href="https://www.threads.net/@moises_script" target="blank"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
                             </div>
-                          </div>
+                        </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </>
     )
 };
