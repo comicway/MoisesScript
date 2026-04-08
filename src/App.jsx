@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { Analytics } from "@vercel/analytics/react"
 import HeaderScript from "./Components/Header/Header"
 import FooterScript from "./Components/Footer/Footer"
@@ -16,6 +16,7 @@ import NichoUx from './Components/ArticuloInterno/NichoUx'
 import LandingPaidMedia from './Components/LandingPages/LandingPaidMedia'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import RoverPhotoApp from './Components/ProyectoInterno/RoverPhotoApp'
+import NotFound from './Components/NotFound/NotFound'
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           <Route path='/articulointerno' element={<ArticuloInterno />} />
           <Route path='/nichoux' element={<NichoUx />} />
           <Route path='/paidmedia' element={<LandingPaidMedia />} />
+          <Route path='/404' element={<NotFound />} />
+          <Route path='*' element={<Navigate to="/404" replace />} />
         </Routes>
         <FooterScript />
       </BrowserRouter>

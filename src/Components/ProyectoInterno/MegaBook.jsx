@@ -11,9 +11,12 @@ const MegaBook = () => {
                 <section className="container mx-auto">
                     <div className="grid grid-cols-1">
                         <p className="font-Inter text-letrablanca text-lg mb-4">MegaBook es una aplicación en React JS diseñada para construir el hábito de lectura desde cero mediante psicología del comportamiento y gamificación. El proyecto aplicó la metodología Lean UX para validar rápidamente las necesidades reales de los lectores y alcanzar así su primera fase de interacción.</p>
-                        <p className="font-Inter text-letrablanca text-lg mb-4">Puedes acceder al repositorio en GitHub a través del siguiente enlace:</p>
+                        <p className="font-Inter text-letrablanca text-lg mb-4">Puedes acceder al repositorio en <strong>GitHub</strong> a través del siguiente enlace:</p>
                         <a href="https://github.com/comicway/megabook" target="_blank">
-                            <button className="h-[38px] w-[150px] border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px]">Ver en Github</button>
+                            <button className="h-[38px] w-[150px] bg-azulbrillante font-bold font-Inter text-black text-[15px]">Ver en GitHub</button>
+                        </a>
+                        <a href="https://www.figma.com/proto/AySPPkvqW3aVlY9kAmePuA/App-Habitos-Lectura?node-id=252-487&t=JoFhb74fzbsdCtGu-1&scaling=min-zoom&content-scaling=fixed&page-id=190%3A219&starting-point-node-id=252%3A487&hotspot-hints=0" target="_blank">
+                            <button className="h-[38px] w-[150px] mt-4 border-2 border-azulbrillante font-bold font-Inter text-azulbrillante text-[15px]">Ver prototipo</button>
                         </a>
                     </div>
                 </section>
@@ -75,9 +78,6 @@ const MegaBook = () => {
                         <img className="m-auto" src="/asset/img/PMV.png" alt="" />
                     </div>
                     <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
-                        <img className="m-auto" src="/asset/img/PMV.png" alt="" />
-                    </div>
-                    <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
                         <img className="m-auto" src="/asset/img/TaskFlow.png" alt="" />
                     </div>
                     <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
@@ -92,9 +92,6 @@ const MegaBook = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-1">
-                    <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
-                        <img className="m-auto" src="/asset/img/PMV.png" alt="" />
-                    </div>
                     <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
                         <img className="m-auto" src="/asset/img/PruebasUsabilidad.png" alt="" />
                     </div>
@@ -130,12 +127,12 @@ const MegaBook = () => {
                             </div>
                         </div>
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadaodisyshoot.png" alt="" />
-                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Odisy Shoot</h2>
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadaroverapp.png" alt="" />
+                            <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rover Photo App</h2>
                             <div className="flex justify-between items-end mt-3">
-                                <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
+                                <span className="text-white font-Oswald text-[18px]">Frontend</span>
                                 <div className="flex justify-between">
-                                    <Link to='/odisyshoot'>
+                                    <Link to='/roverphotoapp'>
                                         <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                     </Link>
                                     <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
