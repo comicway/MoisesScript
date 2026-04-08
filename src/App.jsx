@@ -17,6 +17,7 @@ import LandingPaidMedia from './Components/LandingPages/LandingPaidMedia'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import RoverPhotoApp from './Components/ProyectoInterno/RoverPhotoApp'
 import NotFound from './Components/NotFound/NotFound'
+import ScrollUpButton from './Components/ScrollUpButton/ScrollUpButton'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path='*' element={<Navigate to="/404" replace />} />
         </Routes>
         <FooterScript />
+        <ScrollUpButton />
       </BrowserRouter>
     </>
   )
