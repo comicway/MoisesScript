@@ -34,9 +34,9 @@ const ProyectoPage = () => {
                         <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/portadaMegaBook.png" alt="Aplicación móvil para fomentar los hábitos de lectura" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">App MegaBook</h2>
                         <div className="flex justify-between items-end mt-3">
-                            <span className="text-white font-Oswald text-[18px]">Frontend, Diseño UX / UI</span>
+                            <span className="text-white font-Oswald text-[18px]">Diseño UX / UI, Frontend</span>
                             <div className="flex justify-between">
-                                <Link to='/toomics'>
+                                <Link to='/megabook'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
