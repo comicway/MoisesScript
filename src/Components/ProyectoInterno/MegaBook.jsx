@@ -60,9 +60,6 @@ const MegaBook = () => {
                         <img className="m-auto" src="/asset/img/Entrevista.png" alt="" />
                     </div>
                     <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
-                        <img className="m-auto" src="/asset/img/Entrevista.png" alt="" />
-                    </div>
-                    <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[20px] mt-24">
                         <img className="m-auto" src="/asset/img/UserPersona.png" alt="" />
                     </div>
                 </div>
