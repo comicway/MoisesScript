@@ -13,7 +13,7 @@ const BlogPage = () => {
         if (filtroCategory === 'inactivo') return 'block';
         return filtroCategory === category ? 'block' : 'hidden';
     };
-    
+
     const isButtonActive = (category) => {
         if (filtroCategory === 'inactivo') return 'border';
         return filtroCategory === category ? 'border-4 bg-fondobtnmenu' : 'border';
@@ -35,25 +35,27 @@ const BlogPage = () => {
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                             <div className="flex justify-between">
-                            <Link to='/nichoux'>
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
-                            </Link>
+                                <Link to='/nichoux'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
+                                </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend')}`}>
-                        {/*
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
-                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
+                    <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('ux')}`}>
+
+                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="./asset/img/ux-probableV2.jpg" alt="" />
+                        <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Diseño de Experiencia de Usuario (UX) basado en Probabilidades</h2>
                         <div className="flex justify-between items-end mt-3">
-                            <span className="text-white font-Oswald text-[18px]">Frontend</span>
+                            <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                             <div className="flex justify-between">
-                                <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
+                                <Link to='/diseno-ux-y-probabiliades'>
+                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
+                                </Link>
                                 <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>
-                        */}
+
                     </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('video')}`}>
                         {/*

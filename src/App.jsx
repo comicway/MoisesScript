@@ -13,6 +13,7 @@ import OdisyShoot from './Components/ProyectoInterno/OdisyShoot'
 import MegaBook from './Components/ProyectoInterno/MegaBook'
 import ArticuloInterno from './Components/ArticuloInterno/ArticuloInterno'
 import NichoUx from './Components/ArticuloInterno/NichoUx'
+import UxProba from './Components/ArticuloInterno/UxProba'
 import LandingPaidMedia from './Components/LandingPages/LandingPaidMedia'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 import RoverPhotoApp from './Components/ProyectoInterno/RoverPhotoApp'
@@ -39,6 +40,7 @@ function App() {
           <Route path='/megabook' element={<MegaBook />} />
           <Route path='/articulointerno' element={<ArticuloInterno />} />
           <Route path='/nichoux' element={<NichoUx />} />
+          <Route path='/diseno-ux-y-probabiliades' element={<UxProba />} />
           <Route path='/paidmedia' element={<LandingPaidMedia />} />
           <Route path='/404' element={<NotFound />} />
           <Route path='*' element={<Navigate to="/404" replace />} />
