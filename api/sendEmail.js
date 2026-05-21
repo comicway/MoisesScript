@@ -7,14 +7,14 @@ export default async function handler(req, res) {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'info@moises-script.cl',
-                pass: 'pila pxns voob rpni',
+                user: 'moiselias7@gmail.com',
+                pass: 'sdal mbzq uwzi fdim',
             },
         });
 
         const mailOptions = {
             from: email,
-            to: 'info@moises-script.cl',
+            to: 'moiselias7@gmail.com',
             subject: 'Nuevo mensaje de contacto',
             text: `Nombre: ${nombre}\nTeléfono: ${telefono}\nEmail: ${email}\nMensaje: ${about}`,
         };

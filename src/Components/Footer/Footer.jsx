@@ -33,7 +33,7 @@ const FooterScript = () => {
                             <h4 className="text-white font-Oswald font-bold text-[20px]">Contacto</h4>
                             <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
                                 <li><a href="tel:+56977658072">+56 9 77 65 80 72</a></li>
-                                <li><a href="mailto:info@moises-script.cl">info@moises-script.cl</a></li>
+                                <li><a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a></li>
                                 <li>Santiago Centro</li>
                                 <li><a href="http://github.com/comicway">github.com/comicway</a></li>
                             </ul>
