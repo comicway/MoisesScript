@@ -42,7 +42,6 @@ function App() {
           <Route path='/nichoux' element={<NichoUx />} />
           <Route path='/diseno-ux-y-probabiliades' element={<UxProba />} />
           <Route path='/paidmedia' element={<LandingPaidMedia />} />
-          <Route path='/sitemap.xml' />
           <Route path='/404' element={<NotFound />} />
           <Route path='*' element={<Navigate to="/404" replace />} />
         </Routes>
