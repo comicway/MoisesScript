@@ -22,12 +22,12 @@ const CvMoises = () => {
                                 <a href="tel:+56977658072">+56 9 77 65 80 72</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
-                                <a href="mailto:info@moises-script.cl">info@moises-script.cl</a>
+                                <a href="mailto:moiselias7@gmail.com">moiselias7@gmail.com</a>
                             </p>
                             <p className="font-Inter font-extralight text-letrablanca text-xl mb-1">
                                 <a href="http://github.com/comicway">github.com/comicway</a>
                             </p>
-                            <p className="font-Inter font-extralight text-letrablanca text-xl">Santiago Centro</p>
+                            <p className="font-Inter font-extralight text-letrablanca text-xl">Quinta Normal</p>
                         </div>
                         <div className="hidden sm:block">
                             <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
@@ -130,7 +130,7 @@ const CvMoises = () => {
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2025</p>
-                                    <p className="text-center font-bold font-Oswald text-18">Actual</p>
+                                    <p className="text-center font-bold font-Oswald text-18">2026</p>
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
