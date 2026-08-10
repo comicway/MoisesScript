@@ -6,4 +6,9 @@
 :HL["/asset/img/ico-github.svg","image"]
 :HL["/asset/img/ico-instagram.svg","image"]
 :HL["/asset/img/ico-threads.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"roverphotoapp","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"TMgjDPsReV8qjUXTwgeXz"}
+:HL["/asset/img/moodboard-roverapp.png","image"]
+:HL["/asset/img/uikit-roverapp.png","image"]
+:HL["/asset/img/portadacomicapp.png","image"]
+:HL["/asset/img/vectorflecha.svg","image"]
+:HL["/asset/img/portadatoomics.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"roverphotoapp","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"gGg8IR9sy44e0dTOazaqv"}

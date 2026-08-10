@@ -18,14 +18,16 @@ const blogData = {
 
 // 2. generateStaticParams: Pre-renderizado en Build Time
 export function generateStaticParams() {
-  return Object.keys(blogData).map((slug) => ({
-    slug: slug,
-  }));
+  return [
+    { slug: 'nichoux' },
+    { slug: 'diseno-ux-y-probabiliades' }
+  ];
 }
 
 // 3. Metadatos dinámicos
-export function generateMetadata({ params }) {
-  const post = blogData[params.slug];
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const post = blogData[resolvedParams.slug];
   
   if (!post) {
     return { title: 'Artículo no encontrado' };
@@ -39,7 +41,8 @@ export function generateMetadata({ params }) {
 
 // 4. Componente Principal
 export default async function BlogDynamicPage({ params }) {
-  const post = blogData[params.slug];
+  const resolvedParams = await params;
+  const post = blogData[resolvedParams.slug];
 
   if (!post) {
     notFound();

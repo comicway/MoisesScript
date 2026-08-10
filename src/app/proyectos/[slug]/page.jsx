@@ -36,14 +36,19 @@ const projectData = {
 
 // 2. generateStaticParams: Le dice a Next.js qué URLs pre-renderizar en Build Time
 export function generateStaticParams() {
-  return Object.keys(projectData).map((slug) => ({
-    slug: slug,
-  }));
+  return [
+    { slug: 'comicapp' },
+    { slug: 'toomics' },
+    { slug: 'megabook' },
+    { slug: 'odisyshoot' },
+    { slug: 'roverphotoapp' }
+  ];
 }
 
 // 3. generateMetadata: Inyecta los Meta Tags dinámicamente según el slug
-export function generateMetadata({ params }) {
-  const project = projectData[params.slug];
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const project = projectData[resolvedParams.slug];
   
   if (!project) {
     return { title: 'Proyecto no encontrado' };
@@ -57,7 +62,8 @@ export function generateMetadata({ params }) {
 
 // 4. Componente Principal (Debe ser async)
 export default async function ProjectDynamicPage({ params }) {
-  const project = projectData[params.slug];
+  const resolvedParams = await params;
+  const project = projectData[resolvedParams.slug];
 
   if (!project) {
     notFound();

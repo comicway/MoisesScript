@@ -271,14 +271,8 @@ const BlogRecientes = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/blog/nichoux",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                        children: "Leer blog"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                                        lineNumber: 31,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                    className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                    children: "Leer blog"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
                                                     lineNumber: 30,
@@ -290,7 +284,7 @@ const BlogRecientes = ()=>{
                                                     alt: ""
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 31,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
@@ -320,7 +314,7 @@ const BlogRecientes = ()=>{
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                    lineNumber: 38,
+                                    lineNumber: 36,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -328,7 +322,7 @@ const BlogRecientes = ()=>{
                                     children: "Diseño de Experiencia de Usuario (UX) basado en Probabilidades"
                                 }, void 0, false, {
                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 37,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -339,7 +333,7 @@ const BlogRecientes = ()=>{
                                             children: "Diseño UX/UI"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                            lineNumber: 41,
+                                            lineNumber: 39,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -347,17 +341,11 @@ const BlogRecientes = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/blog/diseno-ux-y-probabiliades",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                        children: "Leer blog"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                                        lineNumber: 44,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                    className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                    children: "Leer blog"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                                    lineNumber: 43,
+                                                    lineNumber: 41,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -366,25 +354,25 @@ const BlogRecientes = ()=>{
                                                     alt: ""
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 42,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                            lineNumber: 42,
+                                            lineNumber: 40,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 38,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Components/BlogRecientes/BlogRecientes.jsx",
-                            lineNumber: 37,
+                            lineNumber: 35,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -2634,14 +2622,8 @@ const ProyectosRecientes = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         href: "/proyectos/megabook",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                            children: "Ver proyecto"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                            lineNumber: 32,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                        children: "Ver proyecto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
                                                         lineNumber: 31,
@@ -2653,7 +2635,7 @@ const ProyectosRecientes = ()=>{
                                                         alt: ""
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 32,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
@@ -2683,7 +2665,7 @@ const ProyectosRecientes = ()=>{
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 37,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2691,7 +2673,7 @@ const ProyectosRecientes = ()=>{
                                         children: "Rover Photo App"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 40,
+                                        lineNumber: 38,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2702,7 +2684,7 @@ const ProyectosRecientes = ()=>{
                                                 children: "Frontend"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 42,
+                                                lineNumber: 40,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2710,17 +2692,11 @@ const ProyectosRecientes = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         href: "/proyectos/roverphotoapp",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                            children: "Ver proyecto"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                            lineNumber: 45,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                        children: "Ver proyecto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 44,
+                                                        lineNumber: 42,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2729,25 +2705,25 @@ const ProyectosRecientes = ()=>{
                                                         alt: ""
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 43,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 43,
+                                                lineNumber: 41,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 41,
+                                        lineNumber: 39,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                lineNumber: 38,
+                                lineNumber: 36,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2759,7 +2735,7 @@ const ProyectosRecientes = ()=>{
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 48,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2767,7 +2743,7 @@ const ProyectosRecientes = ()=>{
                                         children: "Comic App"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 49,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2778,7 +2754,7 @@ const ProyectosRecientes = ()=>{
                                                 children: "Diseño UX/UI"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 55,
+                                                lineNumber: 51,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2786,17 +2762,11 @@ const ProyectosRecientes = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         href: "/proyectos/comicapp",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                            children: "Ver proyecto"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                            lineNumber: 58,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                        children: "Ver proyecto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 53,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2805,25 +2775,25 @@ const ProyectosRecientes = ()=>{
                                                         alt: ""
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 54,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 52,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 50,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                lineNumber: 51,
+                                lineNumber: 47,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2835,7 +2805,7 @@ const ProyectosRecientes = ()=>{
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 59,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2843,7 +2813,7 @@ const ProyectosRecientes = ()=>{
                                         children: "Rediseño App Toomics"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 60,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2854,7 +2824,7 @@ const ProyectosRecientes = ()=>{
                                                 children: "Diseño UX/UI"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 68,
+                                                lineNumber: 62,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2862,17 +2832,11 @@ const ProyectosRecientes = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         href: "/proyectos/toomics",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "text-azulbrillante font-Inter font-medium text-[20px]",
-                                                            children: "Ver proyecto"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                            lineNumber: 71,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                        className: "text-azulbrillante font-Inter font-medium text-[20px]",
+                                                        children: "Ver proyecto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 70,
+                                                        lineNumber: 64,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2881,25 +2845,25 @@ const ProyectosRecientes = ()=>{
                                                         alt: ""
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                        lineNumber: 73,
+                                                        lineNumber: 65,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                                lineNumber: 69,
+                                                lineNumber: 63,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 61,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Components/ProyectosRecientes/ProyectosRecientes.jsx",
-                                lineNumber: 64,
+                                lineNumber: 58,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]

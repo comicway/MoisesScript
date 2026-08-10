@@ -28,9 +28,7 @@ const ProyectosRecientes = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI, Frontend</span>
                                 <div className="flex justify-between">
-                                    <Link href='/proyectos/megabook'>
-                                        <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                    </Link>
+                                    <Link href='/proyectos/megabook' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
@@ -41,9 +39,7 @@ const ProyectosRecientes = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Frontend</span>
                                 <div className="flex justify-between">
-                                    <Link href='/proyectos/roverphotoapp'>
-                                        <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                    </Link>
+                                    <Link href='/proyectos/roverphotoapp' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
@@ -54,9 +50,7 @@ const ProyectosRecientes = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                    <Link href='/proyectos/comicapp'>
-                                        <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                    </Link>
+                                    <Link href='/proyectos/comicapp' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
@@ -67,9 +61,7 @@ const ProyectosRecientes = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                    <Link href='/proyectos/toomics'>
-                                        <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                    </Link>
+                                    <Link href='/proyectos/toomics' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>

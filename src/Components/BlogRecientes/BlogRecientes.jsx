@@ -27,9 +27,7 @@ const BlogRecientes = () => {
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                             <div className="flex justify-between">
-                                <Link href='/blog/nichoux'>
-                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
-                                </Link>
+                                <Link href='/blog/nichoux' className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</Link>
                                 <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>
@@ -40,9 +38,7 @@ const BlogRecientes = () => {
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                             <div className="flex justify-between">
-                                <Link href='/blog/diseno-ux-y-probabiliades'>
-                                    <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
-                                </Link>
+                                <Link href='/blog/diseno-ux-y-probabiliades' className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</Link>
                                 <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import ProyectoPage from "../../Components/Proyectos/Proyectos";
+import ProyectoPage from '../Proyectos';
 
 export const metadata = {
   title: "Portafolio de Proyectos | Moises Script",

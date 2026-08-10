@@ -5,4 +5,6 @@
 :HL["/asset/img/ico-github.svg","image"]
 :HL["/asset/img/ico-instagram.svg","image"]
 :HL["/asset/img/ico-threads.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nichoux","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"TMgjDPsReV8qjUXTwgeXz"}
+:HL["/asset/img/nichoux.jpg","image"]
+:HL["/asset/img/nichoux1.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nichoux","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"gGg8IR9sy44e0dTOazaqv"}

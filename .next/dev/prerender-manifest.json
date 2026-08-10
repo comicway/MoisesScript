@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/proyectos/comicapp":{},"/proyectos/toomics":{},"/proyectos/megabook":{},"/proyectos/odisyshoot":{},"/proyectos/roverphotoapp":{}},"dynamicRoutes":{"/proyectos/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/proyectos/[slug]","routeRegex":"^\\/proyectos\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"73c643f098a5ddb6eff0c9cdae27f883","previewModeSigningKey":"6a7862b3ac7843c3df18a76a10335887837d3e4050fa8b508167d4fbb9346d9c","previewModeEncryptionKey":"f58639a6270ebb596c603b1170df792dae527b5850a8a39960af2e4e56284322"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "3cd284d765bfe5148931e04d4ad51bee",
+    "previewModeSigningKey": "838ef662b0632289e80672b443ec58a6fe32e30debc1881c91923b2fa31cff27",
+    "previewModeEncryptionKey": "4b857d1f5ed501d2e2c2471dad6920fc854faf9faa3b3c6b8176f3744057aee2"
+  }
+}
