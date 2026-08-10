@@ -1,11 +1,12 @@
+"use client";
 import {useState, useEffect} from 'react'
-import { Link } from "react-router-dom"
+import Link from "next/link"
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const HomeRover = () => {
     
-    const [roverSelect, setRoverSelect] = useState(localStorage.getItem('selectedRover'));
+    const [roverSelect, setRoverSelect] = useState(typeof window !== 'undefined' ? localStorage.getItem('selectedRover') : null);
     const [dateSelect, setDateSelect] = useState(null);
     const [displayCalendar, setDisplayCalendar] = useState(0);
     const [displayFeed, setDisplayFeed] = useState(0);
@@ -23,7 +24,7 @@ const HomeRover = () => {
     };
 
     const roverName = roverSelect;
-    const date = localStorage.getItem('selectedDate');
+    const date = typeof window !== 'undefined' ? localStorage.getItem('selectedDate') : null;
 
     const selectDate = (date) => {
         setDateSelect(date);

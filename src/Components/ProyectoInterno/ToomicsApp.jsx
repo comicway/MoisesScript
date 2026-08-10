@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import Link from "next/link"
 
 const ToomicsApp = () => {
     return (
@@ -8,7 +8,7 @@ const ToomicsApp = () => {
                 <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Rediseño de la app móvil</h2>
             </div>
             <div className="container mx-auto pt-[17px] px-2">
-                <img src="./asset/img/logotoomics.svg" alt="logo toomics" />
+                <img src="/asset/img/logotoomics.svg" alt="logo toomics" />
             </div>
             <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[60px] sm:py-[126px] mt-24 px-2">
                 <section className="container mx-auto">
@@ -47,8 +47,8 @@ const ToomicsApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
                         <h3 className="font-Oswald font-bold text-[27px]">1. Estrategia</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/estrategia1.png" alt="" />
-                        <img className="mt-[10px] px-2" src="./asset/img/estrategia2.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/estrategia1.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/estrategia2.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -56,8 +56,8 @@ const ToomicsApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">2. Alcance</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/alcance1.png" alt="" />
-                        <img className="mt-[10px] px-2" src="./asset/img/alcance2.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/alcance1.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/alcance2.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -65,8 +65,8 @@ const ToomicsApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
                         <h3 className="font-Oswald font-bold text-[27px]">3. Estructura</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/estructura1.png" alt="" />
-                        <img className="mt-[10px] px-2" src="./asset/img/estructura2.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/estructura1.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/estructura2.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -74,8 +74,8 @@ const ToomicsApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">4. Superficie</h3>
-                        <img className="mt-[10px] px-2" src="./asset/img/superficie1.png" alt="" />
-                        <img className="mt-[10px] px-2" src="./asset/img/superficie2.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/superficie1.png" alt="" />
+                        <img className="mt-[10px] px-2" src="/asset/img/superficie2.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -84,28 +84,28 @@ const ToomicsApp = () => {
                     <h2 className="text-white font-medium font-Oswald text-[42px]">Otros proyectos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[0px] sm:mt-[37px]">
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadacomicapp.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadacomicapp.png" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                <Link to='/comicapp'>
+                                <Link href='/comicapp'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadaodisyshoot.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadaodisyshoot.png" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Odisy Shoot</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
                                 <div className="flex justify-between">
-                                <Link to='/odisyshoot'>
+                                <Link href='/odisyshoot'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
                         </div>

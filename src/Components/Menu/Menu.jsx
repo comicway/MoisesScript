@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Menu = ({ toggle }) => {
 
@@ -9,11 +10,11 @@ const Menu = ({ toggle }) => {
                 <div className="container mx-auto">
                     <div className='grid gap-0 gird-cols-1 h-[112px]'>
                         <div className="flex items-center">
-                            <Link to='/'>
-                                <img src="./asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" />
+                            <Link href='/'>
+                                <img src="/asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" />
                             </Link>
                             <button onClick={toggle} className='ml-auto'>
-                                <img src="./asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto' />
+                                <img src="/asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto' />
                             </button>
                         </div>
                     </div>
@@ -21,10 +22,10 @@ const Menu = ({ toggle }) => {
                         <div className='flex items-start'>
                             <nav className='w-full'>
                                 <ul className='text-white text-[58px] sm:text-[94px] font-Oswald uppercase'>
-                                    <li className='mb-[3px] font-bold'><Link onClick={toggle} to="/">home y cv</Link></li>
-                                    <li className='mb-[3px] font-light'><Link onClick={toggle} to="/proyectos">proyectos</Link></li>
-                                    <li className='mb-[3px] font-light'><Link onClick={toggle} to="/blog">blog</Link></li>
-                                    <li className='font-light'><Link onClick={toggle} to="/contacto">contacto</Link></li>
+                                    <li className='mb-[3px] font-bold'><Link onClick={toggle} href="/">home y cv</Link></li>
+                                    <li className='mb-[3px] font-light'><Link onClick={toggle} href="/proyectos">proyectos</Link></li>
+                                    <li className='mb-[3px] font-light'><Link onClick={toggle} href="/blog">blog</Link></li>
+                                    <li className='font-light'><Link onClick={toggle} href="/contacto">contacto</Link></li>
                                 </ul>
                             </nav>
                         </div>
@@ -37,9 +38,9 @@ const Menu = ({ toggle }) => {
                                 <li><a href="http://github.com/comicway">github.com/comicway</a></li>
                             </ul>
                             <div className="flex mt-[36px] gap-3">
-                                <a href="https://github.com/comicway" target="blank"><img src="./asset/img/ico-github.svg" alt="GitHub" /></a>
-                                <a href="https://www.instagram.com/moises_script/" target="blank"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                <a href="https://www.threads.net/@moises_script" target="blank"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
+                                <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" /></a>
+                                <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" /></a>
+                                <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" /></a>
                             </div>
                         </div>
                     </div>

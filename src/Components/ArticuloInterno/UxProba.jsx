@@ -13,7 +13,7 @@ const UxProba = () => {
             <article className="container mx-auto px-2 pb-[60px] sm:max-w-4xl">
                 <div className="grid gap-5 grid-cols-1 mt-[25px]">
                     <div>
-                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="./asset/img/ux-probabiliades.png" alt="identificar nichos como diseñador ux" />
+                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="/asset/img/ux-probabiliades.png" alt="identificar nichos como diseñador ux" />
                     </div>
                     <div>
                         <p className="text-white font-Inter font-normal text-[18px]">Voy a iniciar esta entrada del blog siendo completamente sincero: no tenía ninguna idea para escribir sobre ella, así que decidí buscar inspiración en mi cuaderno de NoteBook LM sobre diseño UX/UI. En él tengo cargadas las mejores fuentes y libros más relevantes que he encontrado en el área de la experiencia de usuario.</p>
@@ -40,7 +40,7 @@ const UxProba = () => {
                         <p className="text-white font-Inter font-normal text-[18px] pt-[15px]">Para aplicar este principio en tus diseños, imagina cada acción que realiza el usuario como un costo, por ejemplo, en una escala de 1 a 5. Si una acción representa un alto costo para el usuario (costo 5), es probable que sea de bajo valor para los objetivos del negocio (costo 1). Por lo tanto, debes tratar de simplificar las tareas para reducir el esfuerzo del usuario y aumentar el retorno monetario para el negocio.
                         </p>
                         <div>
-                            <img className="rounded-[20px] py-[15px] w-full object-cover" src="./asset/img/ux-probable.jpg" alt="identificar nichos como diseñador ux" />
+                            <img className="rounded-[20px] py-[15px] w-full object-cover" src="/asset/img/ux-probable.jpg" alt="identificar nichos como diseñador ux" />
                         </div>
                         <h2 className="text-white font-medium font-Oswald sm:text-[42px] py-[25px] text-[34px] leading-snug">Optimización de Conversiones Críticas</h2>
                         <p className="text-white font-Inter font-normal text-[18px] pt-[15px]">Al aplicar estos dos aspectos probabilisticos, es posible optimizar conversiones de alto valor tanto para los usuarios como para el negocio. A continuación se presentan algunos consejos a tener en cuenta durante el proceso de diseño:</p>

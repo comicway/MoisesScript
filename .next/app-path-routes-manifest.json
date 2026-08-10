@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/articulointerno/page": "/articulointerno",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/contacto/page": "/contacto",
+  "/page": "/",
+  "/paidmedia/page": "/paidmedia",
+  "/proyectointerno/page": "/proyectointerno",
+  "/proyectos/[slug]/page": "/proyectos/[slug]",
+  "/proyectos/page": "/proyectos"
+}

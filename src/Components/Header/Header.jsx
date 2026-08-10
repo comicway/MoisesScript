@@ -1,6 +1,9 @@
+"use client";
+
 import React from 'react';
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import Menu from '../Menu/Menu';
 
 const HeaderScript = () => {
@@ -13,7 +16,7 @@ const HeaderScript = () => {
         setIsDivHidden(!isDivHidden);
     };
 
-    const { pathname } = useLocation();
+    const pathname = usePathname() || '/';
     const nombreTitulo = pathname === '/' ? 'home y cv' : pathname.split('/').pop();
     
     return (
@@ -21,8 +24,8 @@ const HeaderScript = () => {
       <div className={`container mx-auto px-4 ${isDivHidden ? 'hidden' : ''}`}>
         <div className='grid gap-0 grid-cols-2 h-[60px] sm:grid-cols-3 sm:h-106'>
             <div className='flex items-center'>
-                <Link to='/'>
-                    <img src="./asset/img/logomoisesscript.svg" alt="logo moises.script" />
+                <Link href='/'>
+                    <img src="/asset/img/logomoisesscript.svg" alt="logo moises.script" />
                 </Link>  
             </div>
             <div className='sm:flex items-center justify-center hidden'>
@@ -33,7 +36,7 @@ const HeaderScript = () => {
                     <div className='h-18 w-18 bg-naranjo rounded-full'></div>
                 </button>
                 <button onClick={toggleMenu} className='h-7 w-41 bg-fondobtnmenu rounded-full border-4 border-colorborder ml-7px'>
-                        <img src="./asset/img/lineasmenu.svg" alt="lineas menu" className='m-auto'/>
+                        <img src="/asset/img/lineasmenu.svg" alt="lineas menu" className='m-auto'/>
                 </button>
             </div>
         </div>

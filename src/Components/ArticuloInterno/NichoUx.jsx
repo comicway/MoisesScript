@@ -13,7 +13,7 @@ const NichoUx = () => {
             <article className="container mx-auto px-2 pb-[60px] sm:max-w-4xl">
                 <div className="grid gap-5 grid-cols-1 mt-[25px]">
                     <div>
-                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="./asset/img/nichoux.jpg" alt="identificar nichos como diseñador ux" />
+                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="/asset/img/nichoux.jpg" alt="identificar nichos como diseñador ux" />
                     </div>
                     <div>
                         <p className="text-white font-Inter font-normal text-[18px]">La idea de esta serie de artículos sobre el emprendimiento en Diseño UX / UI surgió a partir de una gran incertidumbre: ¿por qué los cursos, universidades, institutos e incluso influencers enfocan el aprendizaje del Diseño UX únicamente hacia la meta de buscar empleo?</p>
@@ -29,7 +29,7 @@ const NichoUx = () => {
                 </div>
                 <div className="grid gap-5 grid-cols-1 mt-[25px]">
                     <div>
-                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="./asset/img/nichoux1.jpg" alt="identificar nichos como diseñador ux"/>
+                        <img className="rounded-[20px] py-[15px] w-full object-cover" src="/asset/img/nichoux1.jpg" alt="identificar nichos como diseñador ux"/>
                     </div>
                     <div>
                     <h2 className="text-white font-medium font-Oswald sm:text-[42px] py-[25px] text-[34px] leading-snug">¿Cuántas personas hablan de ese servicio o producto?</h2>

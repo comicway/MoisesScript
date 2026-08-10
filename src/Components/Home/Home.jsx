@@ -1,3 +1,4 @@
+"use client";
 import SlidePage from '../../Components/SlidePage/SlidePage'
 import AboutMe from "../../Components/AboutMe/AboutMe"
 import CvMoises from "../../Components/CvMoises/CvMoises"

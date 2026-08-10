@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 
 const CvMoises = () => {
@@ -70,7 +71,7 @@ const CvMoises = () => {
                                 <h3 className="font-bold font-Oswald text-[27px]">Intereses</h3>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="./asset/img/iconocine.svg" alt="Icono de cine" />
+                                        <img src="/asset/img/iconocine.svg" alt="Icono de cine" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Cine</p>
@@ -79,7 +80,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="./asset/img/iconofotografia.svg" alt="Icono de fotografia" />
+                                        <img src="/asset/img/iconofotografia.svg" alt="Icono de fotografia" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Fotografía</p>
@@ -88,7 +89,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="./asset/img/iconojuegos.svg" alt="Icono de videojuego" />
+                                        <img src="/asset/img/iconojuegos.svg" alt="Icono de videojuego" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Video Juegos</p>
@@ -97,7 +98,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="./asset/img/iconoliteratura.svg" alt="Icono de literatura" />
+                                        <img src="/asset/img/iconoliteratura.svg" alt="Icono de literatura" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Literatura</p>
@@ -106,7 +107,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="./asset/img/iconocomic.svg" alt="Icono de comic" />
+                                        <img src="/asset/img/iconocomic.svg" alt="Icono de comic" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Comic</p>

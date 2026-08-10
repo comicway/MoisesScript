@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react";
 
 const SlidePage = () => {
@@ -24,7 +25,7 @@ const SlidePage = () => {
                 <span className="flex justify-center font-Oswald text-3xl text-letrablanca">ver cv</span>
                 <div className="mx-auto w-55 mt-2">
                     <a href="#cv">
-                        <img src="./asset/img/flechaabajo.svg" alt="flecha abajo" />
+                        <img src="/asset/img/flechaabajo.svg" alt="flecha abajo" />
                     </a>
                 </div>
             </div>

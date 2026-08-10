@@ -13,7 +13,7 @@ const ArticuloInterno = () => {
             <article className="container mx-auto px-2 pb-[60px]">
                 <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 mt-[25px]">
                     <div>
-                        <img className="rounded-[20px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
+                        <img className="rounded-[20px] w-full object-cover" src="/asset/img/imgportada.png" alt="" />
                     </div>
                     <div>
                         <p className="text-white font-Inter font-normal text-[18px]">I’m from Singapore and I have been working as a Product Designer for more than 7 years. I’ve worked for a Hanziree company Pabloo as a Product Designer and Front-end Developer for 3 years.
@@ -32,7 +32,7 @@ I’m from Singapore and I have been working as a Product Designer for more than
 I’m from Singapore and I have been working as a Product Designer for more than 7 years.</p>
                     </div>
                     <div>
-                        <img className="rounded-[20px] w-full object-cover" src="./asset/img/imgportada.png" alt="" />
+                        <img className="rounded-[20px] w-full object-cover" src="/asset/img/imgportada.png" alt="" />
                     </div>
                     <div>
                         <p className="text-white font-Inter font-normal text-[18px]">I’m from Singapore and I have been working as a Product Designer for more than 7 years. I’ve worked for a Hanziree company Pabloo as a Product Designer and Front-end Developer for 3 years.

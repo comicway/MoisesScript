@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import Link from "next/link"
 import HomeRover from '../../Components/RoverPhotoApp/HomeRover'
 
 const RoverPhotoApp = () => {
@@ -26,7 +26,7 @@ const RoverPhotoApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
                         <h3 className="font-Oswald font-bold text-[27px]">Moodboard</h3>
-                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/moodboard-roverapp.png" alt="" />
+                        <img className="mt-[10px] px-2 m-auto" src="/asset/img/moodboard-roverapp.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const RoverPhotoApp = () => {
                 <div className="grid gap-5 grid-cols-1">
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
                         <h3 className="font-Oswald font-bold text-[27px]">UI Kits</h3>
-                        <img className="mt-[10px] px-2 m-auto" src="./asset/img/uikit-roverapp.png" alt="" />
+                        <img className="mt-[10px] px-2 m-auto" src="/asset/img/uikit-roverapp.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -43,28 +43,28 @@ const RoverPhotoApp = () => {
                     <h2 className="text-white font-medium font-Oswald text-[42px]">Otros proyectos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[0px] sm:mt-[37px]">
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadacomicapp.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadacomicapp.png" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                <Link to='/comicapp'>
+                                <Link href='/comicapp'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="./asset/img/portadatoomics.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadatoomics.png" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rediseño App Toomics</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                <Link to='/toomics'>
+                                <Link href='/toomics'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="./asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
                                 </div>
                             </div>
                         </div>

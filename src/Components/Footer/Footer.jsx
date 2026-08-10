@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import Link from "next/link"
 
 const FooterScript = () => {
     return (
@@ -21,11 +21,11 @@ const FooterScript = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 pb-[16px]">
                         <div className="sm:col-span-2">
                             <div className="flex flex-col">
-                                <img src="./asset/img/logomoisesscript.svg" alt="logo moises.script" className="self-start w-auto sm:h-auto sm:mb-[122px]" />
+                                <img src="/asset/img/logomoisesscript.svg" alt="logo moises.script" className="self-start w-auto sm:h-auto sm:mb-[122px]" />
                                 <div className="flex mt-[20px] sm:mt-auto gap-3">
-                                    <a href="https://github.com/comicway" target="blank"><img src="./asset/img/ico-github.svg" alt="GitHub" /></a>
-                                    <a href="https://www.instagram.com/moises_script/" target="blank"><img src="./asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                    <a href="https://www.threads.net/@moises_script" target="blank"><img src="./asset/img/ico-threads.svg" alt="Threads" /></a>
+                                    <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" /></a>
+                                    <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" /></a>
+                                    <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" /></a>
                                 </div>
                             </div>
                         </div>
@@ -41,10 +41,10 @@ const FooterScript = () => {
                         <div>
                             <h4 className="text-white font-Oswald font-bold text-[20px]">Mapa del Sitio</h4>
                             <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
-                                <Link to='/'><li>Home CV</li></Link>
-                                <Link to='/proyectos'><li>Proyectos</li></Link>
-                                <Link to='/blog'><li>Blog</li></Link>
-                                <Link to='/contacto'><li>Contacto</li></Link>
+                                <Link href='/'><li>Home CV</li></Link>
+                                <Link href='/proyectos'><li>Proyectos</li></Link>
+                                <Link href='/blog'><li>Blog</li></Link>
+                                <Link href='/contacto'><li>Contacto</li></Link>
                             </ul>
                         </div>
                     </div>
