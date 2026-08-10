@@ -38,11 +38,7 @@ const projectData = {
 export const dynamicParams = false; // Solo genera páginas definidas en generateStaticParams
 export function generateStaticParams() {
   return [
-    { slug: 'comicapp' },
-    { slug: 'toomics' },
-    { slug: 'megabook' },
-    { slug: 'odisyshoot' },
-    { slug: 'roverphotoapp' }
+    { slug: 'comicapp' } // Solo prerenderiza esta página para probar
   ];
 }
 

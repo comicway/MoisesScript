@@ -20,8 +20,7 @@ const blogData = {
 export const dynamicParams = false; // Solo genera páginas definidas en generateStaticParams
 export function generateStaticParams() {
   return [
-    { slug: 'nichoux' },
-    { slug: 'diseno-ux-y-probabiliades' }
+    { slug: 'nichoux' } // Solo prerenderiza esta página para probar
   ];
 }
 

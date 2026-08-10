@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    turbo: false, // Desactiva Turbopack para evitar problemas con SSG
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;
