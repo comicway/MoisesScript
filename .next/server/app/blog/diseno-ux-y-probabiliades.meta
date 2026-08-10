@@ -1,4 +1,5 @@
 {
+  "status": 404,
   "headers": {
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",

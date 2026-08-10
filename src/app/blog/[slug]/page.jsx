@@ -1,16 +1,16 @@
 import { notFound } from 'next/navigation';
-import NichoUx from "../../../../src/Components/ArticuloInterno/NichoUx";
-import UxProba from "../../../../src/Components/ArticuloInterno/UxProba";
+import NichoUx from '../../components/NichoUx';
+import UxProba from '../../components/UxProba';
 
 // 1. Mapeo de artículos del blog
 const blogData = {
   "nichoux": {
-    component: <NichoUx />,
+    component: NichoUx,
     title: "¿Qué es un Nicho en UX? | Artículo de Diseño",
     description: "Aprende sobre la importancia de definir un nicho en el diseño UX. Estrategias, ventajas y cómo especializarte para destacar en la industria tecnológica."
   },
   "diseno-ux-y-probabiliades": {
-    component: <UxProba />,
+    component: UxProba,
     title: "Diseño UX y Probabilidades | Análisis y Estrategia",
     description: "Un análisis profundo sobre cómo aplicar la estadística y las probabilidades en la toma de decisiones para el Diseño de Experiencia de Usuario (UX)."
   }
@@ -24,9 +24,8 @@ export function generateStaticParams() {
 }
 
 // 3. Metadatos dinámicos
-export async function generateMetadata({ params }) {
-  const resolvedParams = await params;
-  const post = blogData[resolvedParams.slug];
+export function generateMetadata({ params }) {
+  const post = blogData[params.slug];
   
   if (!post) {
     return { title: 'Artículo no encontrado' };
@@ -40,12 +39,11 @@ export async function generateMetadata({ params }) {
 
 // 4. Componente Principal
 export default async function BlogDynamicPage({ params }) {
-  const resolvedParams = await params;
-  const post = blogData[resolvedParams.slug];
+  const post = blogData[params.slug];
 
   if (!post) {
     notFound();
   }
 
-  return post.component;
+  return <post.component />;
 }

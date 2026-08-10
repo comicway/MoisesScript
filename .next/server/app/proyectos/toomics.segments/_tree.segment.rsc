@@ -6,16 +6,4 @@
 :HL["/asset/img/ico-github.svg","image"]
 :HL["/asset/img/ico-instagram.svg","image"]
 :HL["/asset/img/ico-threads.svg","image"]
-:HL["/asset/img/logotoomics.svg","image"]
-:HL["/asset/img/estrategia1.png","image"]
-:HL["/asset/img/estrategia2.png","image"]
-:HL["/asset/img/alcance1.png","image"]
-:HL["/asset/img/alcance2.png","image"]
-:HL["/asset/img/estructura1.png","image"]
-:HL["/asset/img/estructura2.png","image"]
-:HL["/asset/img/superficie1.png","image"]
-:HL["/asset/img/superficie2.png","image"]
-:HL["/asset/img/portadacomicapp.png","image"]
-:HL["/asset/img/vectorflecha.svg","image"]
-:HL["/asset/img/portadaodisyshoot.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"toomics","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"5GFx3jhSFcCZ_6XcF7ihr"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"toomics","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"TMgjDPsReV8qjUXTwgeXz"}
