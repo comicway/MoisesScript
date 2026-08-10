@@ -35,6 +35,7 @@ const projectData = {
 };
 
 // 2. generateStaticParams: Le dice a Next.js qué URLs pre-renderizar en Build Time
+export const dynamicParams = false; // Solo genera páginas definidas en generateStaticParams
 export function generateStaticParams() {
   return [
     { slug: 'comicapp' },

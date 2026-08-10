@@ -7,4 +7,4 @@
 :HL["/asset/img/ico-threads.svg","image"]
 :HL["/asset/img/ux-probabiliades.png","image"]
 :HL["/asset/img/ux-probable.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"diseno-ux-y-probabiliades","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"gGg8IR9sy44e0dTOazaqv"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"diseno-ux-y-probabiliades","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"dmRu9iqlQgkgsM9Z66WZA"}

@@ -17,6 +17,7 @@ const blogData = {
 };
 
 // 2. generateStaticParams: Pre-renderizado en Build Time
+export const dynamicParams = false; // Solo genera páginas definidas en generateStaticParams
 export function generateStaticParams() {
   return [
     { slug: 'nichoux' },
