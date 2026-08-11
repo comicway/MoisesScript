@@ -38,7 +38,11 @@ const projectData = {
 export const dynamicParams = false; // Solo genera páginas definidas en generateStaticParams
 export function generateStaticParams() {
   return [
-    { slug: 'comicapp' } // Solo prerenderiza esta página para probar
+    { slug: 'comicapp' },
+    { slug: 'toomics' },
+    { slug: 'megabook' },
+    { slug: 'odisyshoot' },
+    { slug: 'roverphotoapp' }
   ];
 }
 
@@ -66,12 +70,5 @@ export default async function ProjectDynamicPage({ params }) {
     notFound();
   }
 
-  // PRUEBA DE AISLAMIENTO: No renderizamos el componente real todavía
-  // return <project.component />;
-  return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      <h1>{project.title}</h1>
-      <p>Renderizado exitoso de prueba. El bloqueo estaba en el componente interno.</p>
-    </div>
-  );
+  return <project.component />;
 }
