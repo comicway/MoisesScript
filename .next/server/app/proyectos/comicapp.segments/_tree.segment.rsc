@@ -24,4 +24,4 @@
 :HL["/asset/img/portadatoomics.png","image"]
 :HL["/asset/img/vectorflecha.svg","image"]
 :HL["/asset/img/portadaodisyshoot.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"comicapp","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"OeNUm0ktvLkgGeifDcVWY"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"proyectos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"comicapp","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"mRPeUb8RTpPnDwQSXSfVu"}

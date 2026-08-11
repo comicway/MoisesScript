@@ -5,4 +5,4 @@
 :HL["/asset/img/ico-github.svg","image"]
 :HL["/asset/img/ico-instagram.svg","image"]
 :HL["/asset/img/ico-threads.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"contacto","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"OeNUm0ktvLkgGeifDcVWY"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"contacto","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"mRPeUb8RTpPnDwQSXSfVu"}

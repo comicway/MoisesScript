@@ -96,7 +96,7 @@
     },
     "compiler": {},
     "expireTime": 31536000,
-    "staticPageGenerationTimeout": 60,
+    "staticPageGenerationTimeout": 120,
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -175,7 +175,7 @@
       "proxyPrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 15,
+      "cpus": 1,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptOperationCache": null,
@@ -310,7 +310,7 @@
         "react-icons/vsc",
         "react-icons/wi"
       ],
-      "useCacheTimeout": 54,
+      "useCacheTimeout": 108,
       "instantInsights": {
         "validationLevel": "warning"
       },
