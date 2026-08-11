@@ -46,6 +46,9 @@ export const metadata = {
     description: "Servicios profesionales de diseño UX/UI para crear experiencias digitales excepcionales.",
     images: ["/og-image.jpg"],
   },
+  icons: {
+    icon: "/favimoises.svg",
+  },
   robots: {
     index: true,
     follow: true,

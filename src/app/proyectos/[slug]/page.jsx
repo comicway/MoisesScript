@@ -9,18 +9,18 @@ import RoverPhotoApp from '../../components/RoverPhotoApp';
 const projectData = {
   "comicapp": {
     component: ComicApp,
-    title: "Caso de Estudio: ComicApp | Diseño UX/UI",
-    description: "Descubre el proceso de diseño UX/UI detrás de ComicApp. Investigación, prototipado y solución de interfaz para una aplicación de lectura de cómics."
+    title: "Caso de Estudio: ComicApp | Diseño UX / UI",
+    description: "Descubre el proceso de diseño UX / UI detrás de ComicApp. Investigación, prototipado y solución de interfaz para una aplicación de lectura de cómics."
   },
   "toomics": {
     component: ToomicsApp,
-    title: "Caso de Estudio: Toomics | Rediseño UX/UI",
-    description: "Análisis y propuesta de rediseño UX/UI para la plataforma Toomics. Mejorando la experiencia del usuario y la retención en lectura de webtoons."
+    title: "Caso de Estudio: Toomics | Rediseño UX / UI",
+    description: "Análisis y propuesta de rediseño UX / UI para la plataforma Toomics. Mejorando la experiencia del usuario y la retención en lectura de webtoons."
   },
   "megabook": {
     component: MegaBook,
-    title: "Caso de Estudio: MegaBook | UX/UI e-Commerce",
-    description: "Proyecto de experiencia de usuario (UX) e interfaz (UI) para MegaBook. Optimizando el flujo de compra y la arquitectura de la información en tiendas online."
+    title: "Caso de Estudio: MegaBook | UX UI y Frontend",
+    description: "Proyecto de experiencia de usuario (UX) e interfaz (UI) para MegaBook. Una aplicación para motivar buenos hábitos de lectura."
   },
   "odisyshoot": {
     component: OdisyShoot,
@@ -29,8 +29,8 @@ const projectData = {
   },
   "roverphotoapp": {
     component: RoverPhotoApp,
-    title: "Caso de Estudio: Rover Photo App | UX/UI Móvil",
-    description: "Diseño UX/UI para la aplicación móvil Rover Photo App. Optimizando la experiencia fotográfica y el flujo de navegación para usuarios en dispositivos móviles."
+    title: "Caso de Estudio: Rover Photo App | UX / UI Móvil",
+    description: "Diseño UX / UI para la aplicación móvil Rover Photo App. Optimizando la experiencia fotográfica y el flujo de navegación para usuarios en dispositivos móviles."
   }
 };
 
@@ -50,7 +50,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const project = projectData[resolvedParams.slug];
-  
+
   if (!project) {
     return { title: 'Proyecto no encontrado' };
   }

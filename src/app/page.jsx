@@ -1,8 +1,8 @@
 import HomePage from "../Components/Home/Home";
 
 export const metadata = {
-  title: "Servicios de Diseño UX / UI | Moises Script",
-  description: "Explora cómo transformamos ideas en experiencias digitales. Especialistas en diseño interactivo, prototipado y desarrollo frontend."
+  title: "Diseño UX / UI | Moisés Contreras",
+  description: "Especialistas en Diseño UX / UI, prototipado y desarrollo frontend. Convierte ideas complejas en experiencias digitales interactivas e intuitivas para tus usuarios."
 };
 
 export default function Home() {
