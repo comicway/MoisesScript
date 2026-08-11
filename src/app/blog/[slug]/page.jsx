@@ -48,5 +48,12 @@ export default async function BlogDynamicPage({ params }) {
     notFound();
   }
 
-  return <post.component />;
+  // PRUEBA DE AISLAMIENTO: No renderizamos el componente real todavía
+  // return <post.component />;
+  return (
+    <div style={{ padding: "50px", textAlign: "center" }}>
+      <h1>{post.title}</h1>
+      <p>Renderizado exitoso de prueba. El bloqueo estaba en el componente interno.</p>
+    </div>
+  );
 }

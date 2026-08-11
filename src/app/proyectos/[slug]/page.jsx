@@ -66,5 +66,12 @@ export default async function ProjectDynamicPage({ params }) {
     notFound();
   }
 
-  return <project.component />;
+  // PRUEBA DE AISLAMIENTO: No renderizamos el componente real todavía
+  // return <project.component />;
+  return (
+    <div style={{ padding: "50px", textAlign: "center" }}>
+      <h1>{project.title}</h1>
+      <p>Renderizado exitoso de prueba. El bloqueo estaba en el componente interno.</p>
+    </div>
+  );
 }

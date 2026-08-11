@@ -142,39 +142,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/blog/diseno-ux-y-probabiliades": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 36000,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/blog/[slug]",
-      "dataRoute": "/blog/diseno-ux-y-probabiliades.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/blog/nichoux": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 35371,
+      "htmlSize": 18928,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -314,7 +286,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 42409,
+      "htmlSize": 19489,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -329,118 +301,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/proyectos/[slug]",
       "dataRoute": "/proyectos/comicapp.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/proyectos/megabook": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 37192,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/proyectos/[slug]",
-      "dataRoute": "/proyectos/megabook.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/proyectos/odisyshoot": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 34289,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/proyectos/[slug]",
-      "dataRoute": "/proyectos/odisyshoot.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/proyectos/roverphotoapp": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 32546,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/proyectos/[slug]",
-      "dataRoute": "/proyectos/roverphotoapp.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/proyectos/toomics": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 35204,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/proyectos/[slug]",
-      "dataRoute": "/proyectos/toomics.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
