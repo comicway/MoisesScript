@@ -58,6 +58,9 @@ export async function generateMetadata({ params }) {
   return {
     title: project.title,
     description: project.description,
+    alternates: {
+      canonical: `https://www.moises-script.cl/proyectos/${resolvedParams.slug}`,
+    },
   };
 }
 

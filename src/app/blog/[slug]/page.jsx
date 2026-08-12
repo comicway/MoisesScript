@@ -29,7 +29,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const post = blogData[resolvedParams.slug];
-  
+
   if (!post) {
     return { title: 'Artículo no encontrado' };
   }
@@ -37,6 +37,9 @@ export async function generateMetadata({ params }) {
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `https://www.moises-script.cl/blog/${resolvedParams.slug}`,
+    },
   };
 }
 
