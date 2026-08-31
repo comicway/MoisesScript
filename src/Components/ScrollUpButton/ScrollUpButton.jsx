@@ -39,7 +39,7 @@ const ScrollUpButton = () => {
                         src="/asset/img/subir.svg" 
                         alt="Subir al inicio" 
                         className="w-[50px] h-[50px] drop-shadow-lg"
-                    />
+                    width="100" height="100" />
                 </button>
             )}
         </div>

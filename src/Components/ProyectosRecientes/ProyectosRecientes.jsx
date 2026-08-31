@@ -23,46 +23,46 @@ const ProyectosRecientes = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[45px] sm:mt-[117px] px-2">
                         <div className="mt-[20px] sm:mt-[98px]">
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadaMegaBook.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadaMegaBook.webp" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">App MegaBook</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI, Frontend</span>
                                 <div className="flex justify-between">
                                     <Link href='/proyectos/megabook' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>
                         <div className="mt-[20px] sm:mt-[98px]">
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadaroverapp.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadaroverapp.webp" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rover Photo App</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Frontend</span>
                                 <div className="flex justify-between">
                                     <Link href='/proyectos/roverphotoapp' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>
                         <div className="mt-[20px]">
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadacomicapp.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadacomicapp.webp" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Comic App</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
                                     <Link href='/proyectos/comicapp' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>
                         <div className="mt-[20px]">
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadatoomics.png" alt="" />
+                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadatoomics.webp" alt="" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rediseño App Toomics</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
                                     <Link href='/proyectos/toomics' className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,17 @@
+# Browsers that support modern ES6+ features natively
+# Eliminates need for polyfills/transforms for:
+# Array.at, Array.flat, Array.flatMap
+# Object.fromEntries, Object.hasOwn
+# String.trimEnd, String.trimStart
+
+last 2 versions
+not dead
+not < 0.5%
+not op_mini all
+
+# Explicit modern browsers
+Chrome >= 87
+Firefox >= 78
+Safari >= 14
+Edge >= 88
+Opera >= 73

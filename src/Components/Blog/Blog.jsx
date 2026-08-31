@@ -39,7 +39,7 @@ const BlogPage = () => {
                                 <Link href='/blog/nichoux'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const BlogPage = () => {
                                 <Link href='/blog/diseno-ux-y-probabiliades'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
 
@@ -66,7 +66,7 @@ const BlogPage = () => {
                             <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
                             <div className="flex justify-between">
                                 <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                         */}

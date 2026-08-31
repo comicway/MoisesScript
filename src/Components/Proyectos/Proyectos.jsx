@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import Link from 'next/link';
 
@@ -32,7 +33,7 @@ const ProyectoPage = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend', 'ux')}`}>
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/portadaMegaBook.png" alt="Aplicación móvil para fomentar los hábitos de lectura" />
+                        <Image src="/asset/img/portadaMegaBook.png" alt="Aplicación móvil para fomentar los hábitos de lectura" width={1200} height={630} className="rounded-[20px] h-[330px] w-full object-cover" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">App MegaBook</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX / UI, Frontend</span>
@@ -40,12 +41,12 @@ const ProyectoPage = () => {
                                 <Link href='/proyectos/megabook'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('frontend')}`}>
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/portadaroverapp.png" alt="" />
+                        <Image src="/asset/img/portadaroverapp.png" alt="" width={1200} height={630} className="rounded-[20px] h-[330px] w-full object-cover" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Rover Photo App</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Frontend</span>
@@ -53,12 +54,12 @@ const ProyectoPage = () => {
                                 <Link href='/proyectos/roverphotoapp'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>
                     <div className={`mt-[90px] ${isCategoryVisible('ux')}`}>
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/portadacomicapp.png" alt="portada comic app" />
+                        <Image src="/asset/img/portadacomicapp.png" alt="portada comic app" width={1200} height={630} className="rounded-[20px] h-[330px] w-full object-cover" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Comic App</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX / UI</span>
@@ -66,12 +67,12 @@ const ProyectoPage = () => {
                                 <Link href='/proyectos/comicapp'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('ux')}`}>
-                        <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/portadatoomics.png" alt="" />
+                        <Image src="/asset/img/portadatoomics.png" alt="" width={1200} height={630} className="rounded-[20px] h-[330px] w-full object-cover" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Rediseño App Toomics</h2>
                         <div className="flex justify-between items-end mt-3">
                             <span className="text-white font-Oswald text-[18px]">Diseño UX / UI</span>
@@ -79,7 +80,7 @@ const ProyectoPage = () => {
                                 <Link href='/proyectos/toomics'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>
@@ -92,7 +93,7 @@ const ProyectoPage = () => {
                                 <Link href='/proyectos/odisyshoot'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>

@@ -73,7 +73,7 @@ const ProyectoInterno = () => {
                             <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
                             <div className="flex justify-end mt-2">
                                 <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                         <div className='mt-[90px]'>
@@ -81,7 +81,7 @@ const ProyectoInterno = () => {
                             <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Titulo de proyecto 1</h2>
                             <div className="flex justify-end mt-2">
                                 <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
                     </div>

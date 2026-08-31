@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import axios from 'axios';
@@ -54,7 +55,7 @@ const LandingPaidMedia = () => {
                 <section className="container mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
                         <div className="p-5">
-                            <img src="/asset/img/moisescontreras.png" alt="" />
+                            <Image src="/asset/img/moisescontreras.png" alt="" width={360} height={325} className="" />
                         </div>
                         <div className="p-5 sm:col-span-3">
                             <p className="font-Inter text-letrablanca text-lg mb-4">Hola, mi nombre es Moisés, especialista en Paid Media con más de 4 años de experiencia en Google Ads y Meta Business Suite.</p>
@@ -71,22 +72,22 @@ const LandingPaidMedia = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 mt-[65px]">
                     <div>
-                        <img src="/asset/img/google-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
+                        <img src="/asset/img/google-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"width="150" height="50" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Google Ads</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Campañas de búsqueda de alto rendimiento y estrategias de remarketing efectivas. Todo en la red de búsqueda más grande del planeta.</p>
                     </div>
                     <div>
-                        <img src="/asset/img/meta-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
+                        <img src="/asset/img/meta-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"width="150" height="50" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Meta Bussines Suite</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Conexión con tu audiencia ideal. Coloca tus anuncios en las redes sociales más populares.</p>
                     </div>
                     <div>
-                        <img src="/asset/img/tiktok-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
+                        <img src="/asset/img/tiktok-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"width="150" height="50" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">TitTok for Bussines</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Estrategias innovadoras para llegar a la Generación Z y crear contenido viral. Atrae nuevos clientes a tu negocio.</p>
                     </div>
                     <div>
-                        <img src="/asset/img/linkedIn-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"/>
+                        <img src="/asset/img/linkedIn-ads-logo.svg" className="sm:w-[60%] w-[40%] mx-auto mt-4"width="150" height="50" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">LinkedIn Ads</p>
                         <p className="font-Inter font-medium text-letrablanca text-[15px] mt-1 text-center">Captación de leads B2B cualificados y fortalecimiento de tu presencia profesional.</p>
                     </div>
@@ -173,15 +174,15 @@ const LandingPaidMedia = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-[65px]">
                     <div>
-                        <img src="/asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
+                        <img src="/asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"width="150" height="150" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Red de Búsqueda</p>
                     </div>
                     <div>
-                        <img src="/asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
+                        <img src="/asset/img/certificado-google-1.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"width="150" height="150" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Red de Display</p>
                     </div>
                     <div>
-                        <img src="/asset/img/certificado-meta.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"/>
+                        <img src="/asset/img/certificado-meta.svg" className="sm:w-[60%] w-[50%] mx-auto mt-6"width="150" height="150" />
                         <p className="font-Oswald text-letrablanca text-[25px] mt-2 text-center">Asociado de marketing digital</p>
                     </div>
                 </div>

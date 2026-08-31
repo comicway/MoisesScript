@@ -14,7 +14,7 @@ const SlidePage = () => {
             });
         }, 6000);
 
-        return () => clearInterval(intervalId); 
+        return () => clearInterval(intervalId);
     }, []);
 
     return (
@@ -25,7 +25,7 @@ const SlidePage = () => {
                 <span className="flex justify-center font-Oswald text-3xl text-letrablanca">ver cv</span>
                 <div className="mx-auto w-55 mt-2">
                     <a href="#cv">
-                        <img src="/asset/img/flechaabajo.svg" alt="flecha abajo" />
+                        <img src="/asset/img/flechaabajo.svg" alt="flecha abajo" width="40" height="40" className="mx-auto" />
                     </a>
                 </div>
             </div>

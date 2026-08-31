@@ -5,7 +5,7 @@ const AboutMe = () => {
                 <section className="container mx-auto">
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
                         <div className="p-5">
-                            <img src="/asset/img/moisescontreras.png" alt="" />
+                            <img src="/asset/img/moisescontreras.webp" alt="" />
                         </div>
                         <div className="p-5 sm:col-span-3">
                             <p className="font-Inter text-letrablanca text-lg mb-4">Desde el 2011, he diseñado páginas web para diversos mercados, como tecnología, salud y entretenimiento. Mi especialidad es el diseño UI y la maquetación frontend, utilizando diversas tecnologías; React JS, Tailwindcss, Bootstrap y Material Design.</p>
@@ -14,8 +14,8 @@ const AboutMe = () => {
                             <p className="font-Inter text-letrablanca text-lg">Te invito a revisar mi currículum y, posteriormente, explorar mi portafolio con mis proyectos más impactantes y recientes.</p>
                             <button className="w-full mt-5">
                                 <div className="flex flex-row justify-end w-full">
-                                    <img src="/asset/img/descargar.svg" alt="" />
-                                    <a href="./asset/img/CV-2026-V5-Moises-Contreras-Informatica.pdf" target="_blank">
+                                    <img src="/asset/img/descargar.svg" alt="" width="24" height="24" />
+                                    <a href="./asset/img/CV-2026-V6-Moises-Contreras-Informatica.pdf" target="_blank">
                                         <span className="font-Inter font-bold text-letrablanca text-18 ml-2.5">Descargar CV</span>
                                     </a>
                                 </div>

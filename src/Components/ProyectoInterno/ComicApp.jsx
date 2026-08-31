@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link"
 
 const ComicApp = () => {
@@ -8,7 +9,7 @@ const ComicApp = () => {
                 <h2 className="text-white font-medium font-Oswald sm:text-[42px] text-[34px] leading-snug">Proyecto de aplicación móvil: guía especilizada para lectores noveles en comic.</h2>
             </div>
             <div className="container mx-auto pt-[17px] px-2">
-                <img src="/asset/img/logocomicapp.svg" alt="logo comicapp" />
+                <img src="/asset/img/logocomicapp.svg" alt="logo comicapp" width="150" height="50" />
             </div>
             <div className="bg-gradient-to-tr from-[#456173] to-[#45617300] py-[60px] sm:py-[126px] mt-24 px-2">
                 <section className="container mx-auto">
@@ -125,7 +126,7 @@ const ComicApp = () => {
                     <h2 className="text-white font-medium font-Oswald text-[42px]">Otros proyectos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[0px] sm:mt-[37px]">
                         <div className='mt-[90px]'>
-                            <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadatoomics.png" alt="" />
+                            <Image src="/asset/img/portadatoomics.png" alt="" width={1200} height={630} className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" />
                             <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Rediseño App Toomics</h2>
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
@@ -133,7 +134,7 @@ const ComicApp = () => {
                                 <Link href='/toomics'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>
@@ -146,7 +147,7 @@ const ComicApp = () => {
                                 <Link href='/odisyshoot'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
-                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" />
+                                    <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                                 </div>
                             </div>
                         </div>

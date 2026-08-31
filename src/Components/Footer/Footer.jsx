@@ -21,11 +21,11 @@ const FooterScript = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 pb-[16px]">
                         <div className="sm:col-span-2">
                             <div className="flex flex-col">
-                                <img src="/asset/img/logomoisesscript.svg" alt="logo moises.script" className="self-start w-auto sm:h-auto sm:mb-[122px]" />
+                                <img src="/asset/img/logomoisesscript.svg" alt="logo moises.script" className="self-start w-auto sm:h-auto sm:mb-[122px]" width="200" height="40" />
                                 <div className="flex mt-[20px] sm:mt-auto gap-3">
-                                    <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" /></a>
-                                    <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                    <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" /></a>
+                                    <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" width="24" height="24" /></a>
+                                    <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" width="24" height="24" /></a>
+                                    <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" width="24" height="24" /></a>
                                 </div>
                             </div>
                         </div>

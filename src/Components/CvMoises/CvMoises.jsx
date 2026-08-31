@@ -71,7 +71,7 @@ const CvMoises = () => {
                                 <h3 className="font-bold font-Oswald text-[27px]">Intereses</h3>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="/asset/img/iconocine.svg" alt="Icono de cine" />
+                                        <img src="/asset/img/iconocine.svg" alt="Icono de cine" width="60" height="60" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Cine</p>
@@ -80,7 +80,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="/asset/img/iconofotografia.svg" alt="Icono de fotografia" />
+                                        <img src="/asset/img/iconofotografia.svg" alt="Icono de fotografia" width="60" height="60" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Fotografía</p>
@@ -89,7 +89,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="/asset/img/iconojuegos.svg" alt="Icono de videojuego" />
+                                        <img src="/asset/img/iconojuegos.svg" alt="Icono de videojuego" width="60" height="60" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Video Juegos</p>
@@ -98,7 +98,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="/asset/img/iconoliteratura.svg" alt="Icono de literatura" />
+                                        <img src="/asset/img/iconoliteratura.svg" alt="Icono de literatura" width="60" height="60" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Literatura</p>
@@ -107,7 +107,7 @@ const CvMoises = () => {
                                 </div>
                                 <div className="flex items-center">
                                     <div className="mt-7">
-                                        <img src="/asset/img/iconocomic.svg" alt="Icono de comic" />
+                                        <img src="/asset/img/iconocomic.svg" alt="Icono de comic" width="60" height="60" />
                                     </div>
                                     <div className="ml-2">
                                         <p className="mt-6 font-bold font-Oswald text-[22px]">Comic</p>
@@ -217,7 +217,28 @@ const CvMoises = () => {
                                     <h2 className="font-Oswald font-bold text-white text-[27px]">Lic. en Diseño Gráfico - Universidad José María Vargas</h2>
                                     <p className="font-Inter font-light text-white text-[20px]">Carrera larga de 5 años, donde obtuve conocimiento dentro de la comunicación visual. Pudiendo elaborar proyectos prácticos en diferentes áreas, como el impreso, multimedia, publicidad, empresarial y web. Mi especialización en la carrera se centró en el diseño de interfaces gráficas.</p>
                                 </div>
-                            </div>
+                </div>
+                <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                    <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
+                        <p className="text-center mt-2 font-bold font-Oswald text-18">2026</p>
+                        <p className="text-center font-bold font-Oswald text-18">Actual</p>
+                        <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                    </div>
+                    <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                        <h2 className="font-Oswald font-bold text-white text-[27px]">Magíster Ingeniería en Informática - Universidad Andrés Bello</h2>
+                        <p className="font-Inter font-light text-white text-[20px]">Actualmente estoy cursando este magíster, el cual posee dos polos: Ciencia de Datos e Ingeniería en Informática Aplicada.</p>
+                    </div>
+    </div>
+                <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
+                    <div className="text-white mx-auto mt-[10px]">
+                        <p className="text-center font-bold font-Oswald text-18">2026</p>
+                        <div className="h-10 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                    </div>
+                    <div className="col-span-4 sm:col-span-6 pb-[30px]">
+                        <h2 className="font-Oswald font-bold text-white text-[27px]">Diplomado: Ciencia de Datos - Universidad Andrés Bello</h2>
+                        <p className="font-Inter font-light text-white text-[20px]">Al realizar este diplomado me encuentro en la capacidad técnica y poseo las habilidades necesarias para actuar como científico de datos, recuperando datasets, realizando análisis EDA, para luego entrenar modelos de Machine Learning, tanto supervisados como no supervisados, con la finalidad de realizar predicciones o categorizar elementos.</p>
+                    </div>
+                </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="text-white mx-auto mt-[10px]">
                                     <p className="text-center font-bold font-Oswald text-18">2024</p>

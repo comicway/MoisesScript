@@ -1,8 +1,14 @@
 "use client";
 import {useState, useEffect} from 'react'
 import Link from "next/link"
-import DatePicker from "react-datepicker";
+
 import "react-datepicker/dist/react-datepicker.css";
+import dynamic from 'next/dynamic';
+
+const DynamicDatePicker = dynamic(() => import('react-datepicker'), {
+  ssr: false,
+  loading: () => <p className="text-white text-center py-2">Cargando calendario...</p>
+});
 
 const HomeRover = () => {
     
@@ -115,7 +121,7 @@ const HomeRover = () => {
     return (
         <>
             <div className="grid grid-cols-1 mt-5 border-b border-white py-5 mb-10">
-                <img src="/asset/img/logoroverphotos.svg" alt="" className="mx-auto" />
+                <img src="/asset/img/logoroverphotos.svg" alt="" className="mx-auto" width="100" height="100" />
             </div>
             {/*INICIO SELECCION DE ROVER*/}
             <section className={`${notSectionActive(0)}`}>
@@ -155,7 +161,7 @@ const HomeRover = () => {
                     <div className="grid grid-cols-1 mt-5">
                         <div>
                             <div className="flex justify-center mt-4">
-                                <DatePicker
+                                <DynamicDatePicker
                                     selected={dateSelect}
                                     onChange={selectDate}
                                     dateFormat="yyyy-MM-dd"
@@ -182,11 +188,11 @@ const HomeRover = () => {
                     <img src="/asset/img/rover-curiosity-3d.png" alt="Rover Curiosity" className='mx-auto'/>
                 </div>
                 <div>
-                    <img src="/asset/img/icono-sol.svg" alt="" className='w-full h-[68px]'/>
+                    <img src="/asset/img/icono-sol.svg" alt="" className='w-full h-[68px]'width="100" height="100" />
                     <p className='text-white font-SpaceGrotesk font-bold text-[16px] text-center'>{maxSol}</p>
                 </div>
                 <div>
-                    <img src="/asset/img/icono-camera.svg" alt="" className='w-full h-[68px]'/>
+                    <img src="/asset/img/icono-camera.svg" alt="" className='w-full h-[68px]'width="100" height="100" />
                     <p className='text-white font-SpaceGrotesk font-bold text-[16px] text-center'>{totalPhotos}</p>
                 </div>
             </section>
@@ -223,7 +229,7 @@ const HomeRover = () => {
                         <div className="bg-[#0FF2F2] font-bold text-black px-2 text-center w-[200px] first-letter:uppercase">{roverStatus}</div>
                     </div>
                     <div className="flex justify-evenly items-center text-white border-b border-white font-SpaceGrotesk py-[18px]">
-                        <div><img src="/asset/img/icono-sol.svg" alt="" /></div>
+                        <div><img src="/asset/img/icono-sol.svg" alt="" width="100" height="100" /></div>
                         <div className="">
                             <p className="font-light text-center text-[15px]">Soles Totales</p>
                             <p className="font-bold text-center text-[40px] mt-[-15px]">{maxSol}</p>
@@ -232,7 +238,7 @@ const HomeRover = () => {
                     <div className="text-center text-white border-b border-white text-[18px] font-bold font-SpaceGrotesk py-[18px]"><span className="font-light">INICIO DE ACTIVIDADES: </span>{landingDate}</div>
                     <div className="text-center text-white border-b border-white text-[18px] font-bold font-SpaceGrotesk py-[18px]"><span className="font-light">ÚLTIMO DÍA DE FOTOS: </span>{maxDate}</div>
                     <div className="flex justify-evenly items-center text-white border-b border-white font-SpaceGrotesk py-[18px]">
-                        <div><img src="/asset/img/icono-camera.svg" alt="" /></div>
+                        <div><img src="/asset/img/icono-camera.svg" alt="" width="100" height="100" /></div>
                         <div className="">
                             <p className="font-light text-center text-[15px]">Fotos Tomadas</p>
                             <p className="font-bold text-center text-[40px] mt-[-15px]">{totalPhotos}</p>

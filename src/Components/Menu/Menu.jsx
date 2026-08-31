@@ -11,10 +11,10 @@ const Menu = ({ toggle }) => {
                     <div className='grid gap-0 gird-cols-1 h-[112px]'>
                         <div className="flex items-center">
                             <Link href='/'>
-                                <img src="/asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" />
+                                <img src="/asset/img/logomoisesscript_blanco.svg" alt="logo moises.script" width="200" height="40" />
                             </Link>
                             <button onClick={toggle} className='ml-auto'>
-                                <img src="/asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto' />
+                                <img src="/asset/img/cerrarmenu.svg" alt="lineas menu" className='m-auto' width="30" height="30" />
                             </button>
                         </div>
                     </div>
@@ -38,9 +38,9 @@ const Menu = ({ toggle }) => {
                                 <li><a href="http://github.com/comicway">github.com/comicway</a></li>
                             </ul>
                             <div className="flex mt-[36px] gap-3">
-                                <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" /></a>
-                                <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" /></a>
-                                <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" /></a>
+                                <a href="https://github.com/comicway" target="blank"><img src="/asset/img/ico-github.svg" alt="GitHub" width="24" height="24" /></a>
+                                <a href="https://www.instagram.com/moises_script/" target="blank"><img src="/asset/img/ico-instagram.svg" alt="Instagram" width="24" height="24" /></a>
+                                <a href="https://www.threads.net/@moises_script" target="blank"><img src="/asset/img/ico-threads.svg" alt="Threads" width="24" height="24" /></a>
                             </div>
                         </div>
                     </div>

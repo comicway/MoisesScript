@@ -94,9 +94,14 @@ self.__SERVER_FILES_MANIFEST={
       "serverFunctions": true,
       "browserToTerminal": "warn"
     },
-    "compiler": {},
+    "compiler": {
+      "reactRemoveProperties": true,
+      "styledComponents": true,
+      "removeConsole": true
+    },
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 120,
+    "output": "standalone",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"

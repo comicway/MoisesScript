@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/articulointerno/page": "app/articulointerno/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/contacto/page": "app/contacto/page.js",
+  "/page": "app/page.js",
+  "/paidmedia/page": "app/paidmedia/page.js",
+  "/proyectointerno/page": "app/proyectointerno/page.js",
+  "/proyectos/[slug]/page": "app/proyectos/[slug]/page.js",
+  "/proyectos/page": "app/proyectos/page.js"
+}
