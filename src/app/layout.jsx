@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
         <Suspense fallback={null}>
           <HeaderScript />
         </Suspense>
-        {children}
+        <main className="flex-grow">{children}</main>
         <FooterScript />
         <Suspense fallback={null}>
           <ScrollUpButton />

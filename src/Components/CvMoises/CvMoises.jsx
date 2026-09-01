@@ -121,10 +121,10 @@ const CvMoises = () => {
                         <h2 className="font-medium font-Oswald uppercase text-naranjo text-7xl">MIRA MI CV</h2>
                         <div className="flex justify-between border-b-4 border-azulbrillante pb-4">
                             <button onClick={toggleLaboral}>
-                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'laboral' ? 'text-white' : 'text-white/30'}`}>Experiencia Laboral</span>
+                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'laboral' ? 'text-white' : 'text-white/50'}`}>Experiencia Laboral</span>
                             </button>
                             <button onClick={toggleEstudios}>
-                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'estudios' ? 'text-white' : 'text-white/30'}`}>Estudios</span>
+                                <span className={`font-bold font-Oswald text-[27px] ${visibleSection === 'estudios' ? 'text-white' : 'text-white/50'}`}>Estudios</span>
                             </button>
                         </div>
                         <section className={`container mx-auto mt-10 ${visibleSection === 'laboral' ? 'block' : 'hidden'}`}>

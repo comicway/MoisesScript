@@ -1,4 +1,4 @@
-import Contacto from "../../Components/Contacto/Contacto";
+import ContactoClient from "./ContactoClient";
 
 export const metadata = {
   title: "Contacto | Moises Script",
@@ -9,5 +9,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <Contacto />;
+  return <ContactoClient />;
 }

@@ -1,4 +1,4 @@
-import LandingPaidMedia from "../../Components/LandingPages/LandingPaidMedia";
+import LandingPaidMediaClient from "./LandingPaidMediaClient";
 
 export const metadata = {
   title: "Landing Page de Paid Media | Servicios de Diseño",
@@ -9,5 +9,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LandingPaidMedia />;
+  return <LandingPaidMediaClient />;
 }

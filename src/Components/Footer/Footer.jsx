@@ -41,10 +41,10 @@ const FooterScript = () => {
                         <div>
                             <h4 className="text-white font-Oswald font-bold text-[20px]">Mapa del Sitio</h4>
                             <ul className="text-linkoff font-Inter font-normal text-[16px] mt-[35px] leading-loose">
-                                <Link href='/'><li>Home CV</li></Link>
-                                <Link href='/proyectos'><li>Proyectos</li></Link>
-                                <Link href='/blog'><li>Blog</li></Link>
-                                <Link href='/contacto'><li>Contacto</li></Link>
+                                <li><Link href='/'>Home CV</Link></li>
+                                <li><Link href='/proyectos'>Proyectos</Link></li>
+                                <li><Link href='/blog'>Blog</Link></li>
+                                <li><Link href='/contacto'>Contacto</Link></li>
                             </ul>
                         </div>
                     </div>
