@@ -66,8 +66,8 @@ const ComicApp = () => {
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">User Persona</h3>
                         <p className="font-Oswald font-light text-[23px] pr-[15px]">Entrevistas a 5 personas con intereses similares.</p>
-              <img className="mt-[10px] px-2" src="/asset/img/entrevistacomicapp.png" alt="user persona" />
-              <img className="mt-[10px] px-2" src="/asset/img/protopersonacomicapp.png" alt="user persona" />
+              <img className="mt-[10px] px-2" src="/asset/img/entrevistacomicapp.pngv=2" alt="user persona" />
+              <img className="mt-[10px] px-2" src="/asset/img/protopersonacomicapp.pngv=2" alt="user persona" />
                     </div>
                 </div>
             </div>
