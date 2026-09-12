@@ -117,7 +117,7 @@ const MegaBook = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                    <Link href='/toomics'>
+                                    <Link href='/proyectos/toomics'>
                                         <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                     </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
@@ -130,7 +130,7 @@ const MegaBook = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Frontend</span>
                                 <div className="flex justify-between">
-                                    <Link href='/roverphotoapp'>
+                                    <Link href='/proyectos/roverphotoapp'>
                                         <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                     </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />

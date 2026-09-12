@@ -90,7 +90,7 @@ const ToomicsApp = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                <Link href='/comicapp'>
+                                <Link href='/proyectos/comicapp'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
@@ -103,7 +103,7 @@ const ToomicsApp = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
                                 <div className="flex justify-between">
-                                <Link href='/odisyshoot'>
+                                <Link href='/proyectos/odisyshoot'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
