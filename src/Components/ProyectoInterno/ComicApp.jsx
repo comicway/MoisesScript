@@ -66,7 +66,8 @@ const ComicApp = () => {
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">User Persona</h3>
                         <p className="font-Oswald font-light text-[23px] pr-[15px]">Entrevistas a 5 personas con intereses similares.</p>
-                        <img className="mt-[10px] px-2" src="/asset/img/protopersona.png" alt="user persona" />
+              <img className="mt-[10px] px-2" src="/asset/img/entrevistacomicapp.png" alt="user persona" />
+              <img className="mt-[10px] px-2" src="/asset/img/protopersonacomicapp.png" alt="user persona" />
                     </div>
                 </div>
             </div>
@@ -92,7 +93,7 @@ const ComicApp = () => {
                 <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
                     <div className="text-white border-azulbrillante border border-b-4 mt-24 p-[20px] bg-gradient-to-t from-[#45617350] to-[#45617300]">
                         <h3 className="font-Oswald font-bold text-[27px]">Taskflow</h3>
-                        <img className="mt-[10px] px-2" src="/asset/img/taskflow.png" alt="taskflow" />
+                        <img className="mt-[10px] px-2" src="/asset/img/taskflowcomicapp.png" alt="taskflow" />
                     </div>
                     <div className="text-white bg-gradient-to-tr from-[#456173] to-[#45617300] p-[20px] mt-24">
                         <h3 className="font-Oswald font-bold text-[27px]">Geralflow</h3>
@@ -131,7 +132,7 @@ const ComicApp = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
                                 <div className="flex justify-between">
-                                <Link href='/toomics'>
+                                <Link href='/proyectos/toomics'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
@@ -144,7 +145,7 @@ const ComicApp = () => {
                             <div className="flex justify-between items-end mt-3">
                                 <span className="text-white font-Oswald text-[18px]">Videojuegos</span>
                                 <div className="flex justify-between">
-                                <Link href='/odisyshoot'>
+                                <Link href='/proyectos/odisyshoot'>
                                     <button className="text-azulbrillante font-Inter font-medium text-[20px]">Ver proyecto</button>
                                 </Link>
                                     <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
