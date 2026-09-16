@@ -57,7 +57,22 @@ const BlogPage = () => {
                             </div>
                         </div>
 
+            </div>
+            <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('ux')}`}>
+
+                <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/queesdisenouxHomeGrilla.webp" alt="el programa Figma" />
+                <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">¿Qué es el diseño UX - UI? Un punto de vista práctico</h2>
+                <div className="flex justify-between items-end mt-3">
+                    <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
+                    <div className="flex justify-between">
+                        <Link href='/blog/que-es-diseno-ux-ui'>
+                            <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
+                        </Link>
+                        <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                     </div>
+                </div>
+
+            </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('video')}`}>
                         {/*
                         <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/imgportada.png" alt="" />
