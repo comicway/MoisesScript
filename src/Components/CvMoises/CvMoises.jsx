@@ -32,90 +32,44 @@ const CvMoises = () => {
                         </div>
                         <div className="hidden sm:block">
                             <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                                <h3 className="font-bold font-Oswald text-[27px]">Programación</h3>
-                                <p className="mt-6 font-bold font-Oswald text-[22px]">React Js</p>
-                                <p className="font-light font-Oswald text-[17px]">(2024 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">JavaScript</p>
-                                <p className="font-light font-Oswald text-[17px]">(2023 - ACTUAL)</p>
-                                <p className="mt-6 font-bold font-Oswald text-[22px]">Python</p>
-                                <p className="font-light font-Oswald text-[17px]">(2026 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">Tailwind CSS</p>
-                                <p className="font-light font-Oswald text-[17px]">(2024 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">Wordpress</p>
-                                <p className="font-light font-Oswald text-[17px]">(2012 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">CSS</p>
-                                <p className="font-light font-Oswald text-[17px]">(2012 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">HTML</p>
-                                <p className="font-light font-Oswald text-[17px]">(2012 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">C#</p>
-                                <p className="font-light font-Oswald text-[17px]">(2023 - 2024)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">UNITY</p>
-                                <p className="font-light font-Oswald text-[17px]">(2023 - 2024)</p>
-                            </div>
-                        </div>
-                        <div className="hidden sm:block">
-                            <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                                 <h3 className="font-bold font-Oswald text-[27px]">Diseño UX / UI</h3>
-                                <p className="mt-6 font-bold font-Oswald text-[22px]">Figma</p>
-                                <p className="font-light font-Oswald text-[17px]">(2020 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">Maze</p>
-                                <p className="font-light font-Oswald text-[17px]">(2022 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">Hotjar</p>
-                                <p className="font-light font-Oswald text-[17px]">(2022 - ACTUAL)</p>
-                                <p className="mt-4 font-bold font-Oswald text-[22px]">Optimal Workshop</p>
-                                <p className="font-light font-Oswald text-[17px]">(2022 - ACTUAL)</p>
+                                <p className="mt-6 font-Oswald text-[22px]">Optimal Workshop</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Figma</p>
+                                <p className="mt-6 font-Oswald text-[22px]">Maze</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Design Systems</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Lean UX</p>
+                                <p className="mt-4 font-Oswald text-[22px]">User Journey Map</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Card Sorting</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Agile</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Design Thinking</p>
                             </div>
                         </div>
                         <div className="hidden sm:block">
                             <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
-                                <h3 className="font-bold font-Oswald text-[27px]">Intereses</h3>
-                                <div className="flex items-center">
-                                    <div className="mt-7">
-                                        <img src="/asset/img/iconocine.svg" alt="Icono de cine" width="60" height="60" />
-                                    </div>
-                                    <div className="ml-2">
-                                        <p className="mt-6 font-bold font-Oswald text-[22px]">Cine</p>
-                                        <p className="font-light font-Oswald text-[17px]">Ciencia ficción e intriga</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center">
-                                    <div className="mt-7">
-                                        <img src="/asset/img/iconofotografia.svg" alt="Icono de fotografia" width="60" height="60" />
-                                    </div>
-                                    <div className="ml-2">
-                                        <p className="mt-6 font-bold font-Oswald text-[22px]">Fotografía</p>
-                                        <p className="font-light font-Oswald text-[17px]">Producto, paisaje y retrato </p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center">
-                                    <div className="mt-7">
-                                        <img src="/asset/img/iconojuegos.svg" alt="Icono de videojuego" width="60" height="60" />
-                                    </div>
-                                    <div className="ml-2">
-                                        <p className="mt-6 font-bold font-Oswald text-[22px]">Video Juegos</p>
-                                        <p className="font-light font-Oswald text-[17px]">Nintendo y PC</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center">
-                                    <div className="mt-7">
-                                        <img src="/asset/img/iconoliteratura.svg" alt="Icono de literatura" width="60" height="60" />
-                                    </div>
-                                    <div className="ml-2">
-                                        <p className="mt-6 font-bold font-Oswald text-[22px]">Literatura</p>
-                                        <p className="font-light font-Oswald text-[17px]">Ciencia ficción y fantasía</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center">
-                                    <div className="mt-7">
-                                        <img src="/asset/img/iconocomic.svg" alt="Icono de comic" width="60" height="60" />
-                                    </div>
-                                    <div className="ml-2">
-                                        <p className="mt-6 font-bold font-Oswald text-[22px]">Comic</p>
-                                        <p className="font-light font-Oswald text-[17px]">DC, manga y anime</p>
-                                    </div>
-                                </div>
+                                <h3 className="font-bold font-Oswald text-[27px]">Frontend</h3>
+                                <p className="mt-6 font-Oswald text-[22px]">React</p>
+                                <p className="mt-4 font-Oswald text-[22px]">React Native</p>
+                                <p className="mt-4 font-Oswald text-[22px]">JavaScript</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Tailwind CSS</p>
+                                <p className="mt-4 font-Oswald text-[22px]">HTML5/CSS3</p>
+                                <p className="mt-4 font-Oswald text-[22px]">SQL</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Python</p>
+                                <p className="mt-4 font-Oswald text-[22px]">GitHub</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Contentful</p>
+                                <p className="mt-4 font-Oswald text-[22px]">Wordpress</p>
                             </div>
-                        </div>
+              </div>
+              <div className="hidden sm:block">
+                  <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
+                      <h3 className="font-bold font-Oswald text-[27px]">Data & Analytics</h3>
+                      <p className="mt-6 font-Oswald text-[22px]">Big Data</p>
+                      <p className="mt-4 font-Oswald text-[22px]">Machine Learning</p>
+                      <p className="mt-4 font-Oswald text-[22px]">Google Analytics 4</p>
+                      <p className="mt-4 font-Oswald text-[22px]">Looker Studio</p>
+                      <p className="mt-4 font-Oswald text-[22px]">Power Bi</p>
+                      <p className="mt-4 font-Oswald text-[22px]">Google Tag Manager</p>
+                  </div>
+              </div>
                     </div>
                     <div className="px-5 md:col-span-3">
                         <h2 className="font-medium font-Oswald uppercase text-naranjo text-7xl">MIRA MI CV</h2>
@@ -132,36 +86,22 @@ const CvMoises = () => {
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2025</p>
                                     <p className="text-center font-bold font-Oswald text-18">2026</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                    <div className="h-15 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Desarrollador Frontend - Especialista SEO - Ki Technologies</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Responsable del posicionamiento y optimización SEO a través de <span className="font-bold">Contentful</span>, junto con la coordinación de requerimientos creativos para campañas digitales (landing pages y email marketing). Especialista en la ejecución de campañas omnicanal en <span className="font-bold">Salesforce Marketing Cloud</span>, manejando Journey Builder, Automation Studio, Cloud Pages y desarrollo en AMPscript para una de las mayores empresas de retail del mercado nacional.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> Salesforce Marketing Cloud, Contentfull, SEMrush, Figma, CSS, HTML, AMPscript, JavaScript.</p>
-                                </div>
-                            </div>
-                            <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
-                                <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
-                                    <p className="text-center mt-2 font-bold font-Oswald text-18">2023</p>
-                                    <p className="text-center font-bold font-Oswald text-18">2025</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
-                                </div>
-                                <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Gestor de Marketing Digital - Global Ultrasonido</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads, Meta Ads y Linkedin Ads.</span> Estudio de <span className="font-bold">arquitectura de información</span> para modelo de negocio y <span className="font-bold">buyer persona.</span> Diseño y gestión de páginas web en <span className="font-bold">Shopify</span>. Plan y ejecución de estrategias <span className="font-bold">SEO</span> Generación de reportes en <span className="font-bold">Google Looker Studio</span>. Automatización de correos en Gmail mediante el uso de <span className="font-bold">Google Script.</span> Integración de la API de Cliengo para la captación de leads en el formulario de contacto web.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, JavaScript, Shopify, Google Tag Manager, Looker Studio, Meta Ads, Google Ads, LinkedIn Ads, Google Analytics, Google Script, Google Search Console.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Desarrollador Frontend - Ki Technologies</h2><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]">Optimicé la presencia digital de un retailer líder mediante la estructuración <span className="font-bold">SEO</span> en <span className="font-bold">Contentful</span> y la automatización de campañas en <span className="font-bold">Salesforce Marketing Cloud</span> (Journey Builder, Cloud Pages y AMPscript). Esta integración técnica y de contenidos dinámicos incrementó significativamente el tráfico al sitio web y redujo los tiempos de despliegue de las campañas.</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
                                     <p className="text-center mt-2 font-bold font-Oswald text-18">2020</p>
-                                    <p className="text-center font-bold font-Oswald text-18">Actual</p>
-                                    <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
+                                    <p className="text-center font-bold font-Oswald text-18">2025</p>
+                                    <div className="h-5 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Analista Marketing Digital - Comic Way Spa</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Creación, administración y optimización de campañas en <span className="font-bold">Google Ads y Meta Ads</span>. Analista <span className="font-bold">SEO</span>, e implementación técnica en sitio web. Gestión cuenta de <span className="font-bold">Mercado Libre y Falabella Seller Center</span>, administración de ventas, subida de productos, elaboración de campañas en <span className="font-bold">Mercado Ads</span>, entre otros. Elaboración de <span className="font-bold">encuestas y entrevistas</span> para estruturar el <span className="font-bold">buyer perfona</span> requerido en marketing digital.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Wordpress, Marcado Libre, Falabelle Seller Center, Google Ads, Meta Ads, Google Search Console, Google Analytics.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Gestor de Marketing Digital - Global Ultrasonido y Comic Way</h2><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]">Gestión integral de e-commerce y adquisición digital. Optimización de embudos de conversión (CRO), posicionamiento SEO y administración de pauta (Google/Meta Ads)</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
@@ -171,11 +111,10 @@ const CvMoises = () => {
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Europa Press</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Diseño de variadas piezas gráficas digitales para el rubro del marketing farmacéutico, como sitios   web, landing page, mail, entre otros. Diseño de interfaces para aplicaciones web. <span className="font-bold">Implementación de arquitectura de información, card sorting, tree testing, userflow, wireframe en baja y alta, prototipados, motion, user persona, usos de design systems, pruebas de usabildiad.</span></p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong>Novartis, Sanofis, Takeda, Gilead, Asofarma, Abbott, Lundbek, Roche,
-                                        Synthon, TecnoFarma, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> CSS, HTML, Figma, Illustrator, Photoshop, Optimal Workshop</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Europa Press</h2><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">UX Research y Arquitectura de Información:</span> Ejecuté estudios con usuarios <span className="font-bold">(Card Sorting, Tree Testing y pruebas de usabilidad con Optimal Workshop y Maze)</span> para definir la arquitectura de información y los flujos de usuario en plataformas web.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Diseño UI y Prototipado:</span> Diseñé la interfaz, <span className="font-bold">wireframes y prototipos de alta fidelidad en Figma</span>, construyendo componentes escalables bajo <span className="font-bold">Design Systems</span> y maquetación en HTML/CSS.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Impacto en Clientes:</span> Entregué soluciones digitales para marcas globales <span className="font-bold">(como Roche, Novartis, Abbott y Sanofi)</span>, alcanzando de forma sistemática un 100% de cumplimiento en los KPIs de negocio, interacción y conversión definidos para cada proyecto.</p>
                                 </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
@@ -185,10 +124,11 @@ const CvMoises = () => {
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]"> Webmaster E-commers - Mi Chile Spa Xiaomi Chile</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Creación de tienda online en Wordpress para la venta de productos Xiaomi en Chile (distribuidor oficial). Mejoras continuas en el e-commers según las analíticas arrojadas en <span className="font-bold">Google Analytics</span>. Encargado de realizar marketing digital tomando con mayor fuerza el <span className="font-bold">SEO (posicionamiento web en Google) Facebook Ads y Google Shopping</span></p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong>Wordpress, Google Analytics, Google Ads, Google Search Console, Photoshop, Illustrator, HTML CSS.</p>
-                                </div>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]"> Webmaster E-commers - Mi Chile Spa Xiaomi Chile</h2><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Desarrollo E-commerce y UI</span>: Diseñé e implementé la tienda en línea oficial sobre WordPress (HTML/CSS), iterando la arquitectura y navegación a partir del análisis continuo de comportamiento en Google Analytics.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Adquisición y Marketing Digital:</span> Lideré la estrategia de posicionamiento orgánico <span className="font-bold">(SEO)</span> y la pauta en Google Ads para la captación de tráfico cualificado y prospección de clientes.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Impacto de Negocio:</span> Generé un incremento exponencial en las ventas del canal e-commerce, logrando un Retorno sobre la Inversión (ROI) mayor a 6x.</p>
+                                    </div>
                             </div>
                             <div className="grid gap-5 grid-cols-5 sm:grid-cols-7">
                                 <div className="rounded-full border border-white w-[66px] h-[66px] text-white mx-auto">
@@ -197,12 +137,10 @@ const CvMoises = () => {
                                     <div className="h-32 w-0 mt-5 border-l border-dashed border-[1px] border-white mx-auto"></div>
                                 </div>
                                 <div className="col-span-4 sm:col-span-6 pb-[30px]">
-                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Comware Digital</h2>
-                                    <p className="font-Inter font-light text-white text-[20px]">Ejecución propuestas gráficas para aplicaciones y páginas web de múltiples clientes. Maquetado en <span className="font-bold">HTML y CSS</span> para luego ser entregado al equipo de programación. Muchas páginas fueron realizadas en <span className="font-bold">Wordpress</span>, modificando temas y creando propias desde cero.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Clientes:</strong> Purina Dog Chow, Golden, Aruba Fashio Week, Avior, Eposak, Gordons,
-                                        Oceania Aruba Rentals, Play Head, Tu Cita de Belleza, Tu Descueston, entre otros.</p>
-                                    <p className="font-Inter font-light text-white text-[20px] mt-10"><strong>Herramientas:</strong> HTML, CSS, Jquery, Boostrap, Meterial Desing, SASS, Worpress,
-                                        Prestashop.</p>
+                                    <h2 className="font-Oswald font-bold text-white text-[27px]">Diseñador UI - Comware Digital</h2><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Diseño UI y Maquetación Frontend:</span> Diseñé propuestas gráficas y maqueté componentes responsive <span className="font-bold">(HTML5, CSS3, SASS, Bootstrap, Material Design)</span> para sitios web y aplicaciones móviles.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Desarrollo CMS a Medida:</span> Modifiqué y construí temas propios desde cero en <span className="font-bold">WordPress</span>, asegurando una arquitectura de código limpia.</p><br></br>
+                                    <p className="font-Inter font-light text-white text-[20px]"><span className="font-bold">Entrega y Cumplimiento:</span> Entregué productos digitales para marcas internacionales <span className="font-bold">(como Purina, Avior y Gordons)</span>, garantizando el estándar visual deseado y el cumplimiento de sus objetivos comerciales.</p>
                                 </div>
                             </div>
                         </section>
