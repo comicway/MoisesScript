@@ -34,40 +34,40 @@ const CvMoises = () => {
                             <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                                 <h3 className="font-bold font-Oswald text-[27px]">Diseño UX / UI</h3>
                                 <p className="mt-6 font-Oswald text-[22px]">Optimal Workshop</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Figma</p>
-                                <p className="mt-6 font-Oswald text-[22px]">Maze</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Design Systems</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Lean UX</p>
-                                <p className="mt-4 font-Oswald text-[22px]">User Journey Map</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Card Sorting</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Agile</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Design Thinking</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Figma</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Maze</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Design Systems</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Lean UX</p>
+                                <p className="mt-2 font-Oswald text-[22px]">User Journey Map</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Card Sorting</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Agile</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Design Thinking</p>
                             </div>
                         </div>
                         <div className="hidden sm:block">
                             <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                                 <h3 className="font-bold font-Oswald text-[27px]">Frontend</h3>
                                 <p className="mt-6 font-Oswald text-[22px]">React</p>
-                                <p className="mt-4 font-Oswald text-[22px]">React Native</p>
-                                <p className="mt-4 font-Oswald text-[22px]">JavaScript</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Tailwind CSS</p>
-                                <p className="mt-4 font-Oswald text-[22px]">HTML5/CSS3</p>
-                                <p className="mt-4 font-Oswald text-[22px]">SQL</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Python</p>
-                                <p className="mt-4 font-Oswald text-[22px]">GitHub</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Contentful</p>
-                                <p className="mt-4 font-Oswald text-[22px]">Wordpress</p>
+                                <p className="mt-2 font-Oswald text-[22px]">React Native</p>
+                                <p className="mt-2 font-Oswald text-[22px]">JavaScript</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Tailwind CSS</p>
+                                <p className="mt-2 font-Oswald text-[22px]">HTML5/CSS3</p>
+                                <p className="mt-2 font-Oswald text-[22px]">SQL</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Python</p>
+                                <p className="mt-2 font-Oswald text-[22px]">GitHub</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Contentful</p>
+                                <p className="mt-2 font-Oswald text-[22px]">Wordpress</p>
                             </div>
               </div>
               <div className="hidden sm:block">
                   <div className="text-white border-azulbrillante border-2 border-b-4 mt-55 pt-8 pl-8 pb-8 bg-gradient-to-t from-[#45617350] to-[#45617300]">
                       <h3 className="font-bold font-Oswald text-[27px]">Data & Analytics</h3>
                       <p className="mt-6 font-Oswald text-[22px]">Big Data</p>
-                      <p className="mt-4 font-Oswald text-[22px]">Machine Learning</p>
-                      <p className="mt-4 font-Oswald text-[22px]">Google Analytics 4</p>
-                      <p className="mt-4 font-Oswald text-[22px]">Looker Studio</p>
-                      <p className="mt-4 font-Oswald text-[22px]">Power Bi</p>
-                      <p className="mt-4 font-Oswald text-[22px]">Google Tag Manager</p>
+                      <p className="mt-2 font-Oswald text-[22px]">Machine Learning</p>
+                      <p className="mt-2 font-Oswald text-[22px]">Google Analytics 4</p>
+                      <p className="mt-2 font-Oswald text-[22px]">Looker Studio</p>
+                      <p className="mt-2 font-Oswald text-[22px]">Power Bi</p>
+                      <p className="mt-2 font-Oswald text-[22px]">Google Tag Manager</p>
                   </div>
               </div>
                     </div>
