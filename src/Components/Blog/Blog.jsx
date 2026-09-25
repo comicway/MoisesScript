@@ -73,6 +73,21 @@ const BlogPage = () => {
                 </div>
 
             </div>
+            <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('ux')}`}>
+
+                <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/grillaBlog-mk.webp" alt="deportista realizando un sprint en bicicleta" />
+                <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">Metodologías y métodos ágiles para resolver problemas de marketing</h2>
+                <div className="flex justify-between items-end mt-3">
+                    <span className="text-white font-Oswald text-[18px]">Diseño UX</span>
+                    <div className="flex justify-between">
+                        <Link href='/blog/metodos-agiles-y-el-marketing'>
+                            <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
+                        </Link>
+                        <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
+                    </div>
+                </div>
+
+            </div>
                     <div className={`mt-[44px] sm:mt-[90px] ${isCategoryVisible('video')}`}>
                         {/*
                         <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/imgportada.png" alt="" />

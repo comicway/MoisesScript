@@ -53,7 +53,18 @@ const BlogRecientes = () => {
                                 <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                             </div>
                         </div>
+            </div>
+            <div className="mt-[20px]">
+                <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/HomeGrilla-mk.webp" alt="ciclista mujer realizando un sprint" />
+                <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">Metodologías y métodos ágiles para resolver problemas de marketing</h2>
+                <div className="flex justify-between items-end mt-3">
+                    <span className="text-white font-Oswald text-[18px]">Diseño UX</span>
+                    <div className="flex justify-between">
+                        <Link href='/blog/metodos-agiles-y-el-marketing' className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</Link>
+                        <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                     </div>
+                </div>
+            </div>
                 </div>
             </section>
         </>

@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import NichoUx from '../../components/NichoUx';
 import UxProba from '../../components/UxProba';
 import QueEsDisenoUXUI from '../../components/QueEsDisenoUXUI';
+import AgileMarketing from '../../components/AgileMarketing';
+
 
 
 // 1. Mapeo de artículos del blog
@@ -20,6 +22,11 @@ const blogData = {
     component: QueEsDisenoUXUI,
     title: "¿Qué es Diseño UX y UI? | Definición práctica",
     description: "Descubre qué es el Diseño UX / UI desde una perspectiva realista y práctica. Aprende a equilibrar la experiencia de usuario con la rentabilidad del negocio."
+  },
+  "metodos-agiles-y-el-marketing": {
+    component: AgileMarketing,
+    title: "¿Cómo los métodos ágiles pueden potenciar tus campañas de marketing digital?",
+    description: "Aprende a aplicar métodos ágiles, Lean UX y Design Sprint en marketing digital para optimizar conversiones, validar hipótesis y minimizar riesgos."
   }
 };
 
@@ -29,7 +36,8 @@ export function generateStaticParams() {
   return [
     { slug: 'nichoux' },
     { slug: 'diseno-ux-y-probabiliades' },
-    { slug: 'que-es-diseno-ux-ui' }
+    { slug: 'que-es-diseno-ux-ui' },
+    { slug: 'metodos-agiles-y-el-marketing' }
   ];
 }
 
