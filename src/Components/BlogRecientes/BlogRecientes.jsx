@@ -22,6 +22,17 @@ const BlogRecientes = () => {
                 </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-[117px] px-2">
             <div className="mt-[20px]">
+                <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/homeGrilla-metrics.webp" alt="persona viendo metricas en un computador" />
+                <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">¡Hey, Diseñador UX! Piérdele el miedo a las métricas</h2>
+                <div className="flex justify-between items-end mt-3">
+                    <span className="text-white font-Oswald text-[18px]">Diseño UX</span>
+                    <div className="flex justify-between">
+                        <Link href='/blog/analitica-y-metricas-ux' className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</Link>
+                        <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
+                    </div>
+                </div>
+            </div>
+            <div className="mt-[20px]">
                 <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/queesdisenouxHomeGrilla.webp" alt="computador con programa Figma" />
                 <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">¿Qué es el diseño UX - UI? Un punto de vista práctico</h2>
                 <div className="flex justify-between items-end mt-3">
@@ -42,17 +53,6 @@ const BlogRecientes = () => {
                         <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
                     </div>
                 </div>
-            </div>
-                    <div className="mt-[20px]">
-                        <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/portadablognicho.webp" alt="buscar nicho como diseñador ux" />
-                        <h2 className="text-white font-Oswald text-[27px] sm:mt-[45px] mt-[24px] border-b-4 border-azulbrillante pb-[28px]">El nicho: Claves para emprender como Diseñador UX/UI</h2>
-                        <div className="flex justify-between items-end mt-3">
-                            <span className="text-white font-Oswald text-[18px]">Diseño UX/UI</span>
-                            <div className="flex justify-between">
-                                <Link href='/blog/nichoux' className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</Link>
-                                <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
-                            </div>
-                        </div>
             </div>
             <div className="mt-[20px]">
                 <img className="rounded-[20px] sm:h-[507px] h-auto w-full object-cover" src="/asset/img/HomeGrilla-mk.webp" alt="ciclista mujer realizando un sprint" />

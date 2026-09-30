@@ -29,7 +29,20 @@ const BlogPage = () => {
                     <button onClick={toggleFrontend} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('frontend')}`}>DESARROLLO FRONTEND</button>
                     <button onClick={toggleVideo} className={`rounded-full border-colorborder font-Oswald font-normal text-[12px] sm:text-[22px] text-white p-1 w-[274px] mr-2 ${isButtonActive('video')}`}>VIDEOJUEGOS</button>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-9 pb-[70px] sm:pb-[0px]">
+            <div className={`mt-[90px] ${isCategoryVisible('ux')}`}>
+                <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/grillaBlog-metrics.webp" alt="persona viendo metricas en un computador" />
+                <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">¡Hey, Diseñador UX! Piérdele el miedo a las métricas</h2>
+                <div className="flex justify-between items-end mt-3">
+                    <span className="text-white font-Oswald text-[18px]">Diseño UX</span>
+                    <div className="flex justify-between">
+                        <Link href='/blog/analitica-y-metricas-ux'>
+                            <button className="text-azulbrillante font-Inter font-medium text-[20px]">Leer blog</button>
+                        </Link>
+                        <img className="pl-1" src="/asset/img/vectorflecha.svg" alt="" width="20" height="20" />
+                    </div>
+                </div>
+            </div>
                     <div className={`mt-[90px] ${isCategoryVisible('ux')}`}>
                         <img className="rounded-[20px] h-[330px] w-full object-cover" src="/asset/img/portadablognicho.jpg" alt="nicho diseño ux" />
                         <h2 className="text-white font-Oswald text-[27px] mt-[45px] border-b border-azulbrillante pb-[28px]">El nicho: Claves para emprender como Diseñador UX/UI</h2>

@@ -3,8 +3,7 @@ import NichoUx from '../../components/NichoUx';
 import UxProba from '../../components/UxProba';
 import QueEsDisenoUXUI from '../../components/QueEsDisenoUXUI';
 import AgileMarketing from '../../components/AgileMarketing';
-
-
+import AnaliticaMetricaUX from '../../components/AnaliticaMetricaUX';
 
 // 1. Mapeo de artículos del blog
 const blogData = {
@@ -27,6 +26,11 @@ const blogData = {
     component: AgileMarketing,
     title: "¿Cómo los métodos ágiles pueden potenciar tus campañas de marketing digital?",
     description: "Aprende a aplicar métodos ágiles, Lean UX y Design Sprint en marketing digital para optimizar conversiones, validar hipótesis y minimizar riesgos."
+  },
+  "analitica-y-metricas-ux": {
+    component: AnaliticaMetricaUX,
+    title: "Piérdele el miedo a las métricas del diseño UX | Algunos consejos",
+    description: "Aprende a perderle el miedo a los números y domina los tipos de datos, estadística descriptiva y las métricas UX más usadas."
   }
 };
 
@@ -37,7 +41,8 @@ export function generateStaticParams() {
     { slug: 'nichoux' },
     { slug: 'diseno-ux-y-probabiliades' },
     { slug: 'que-es-diseno-ux-ui' },
-    { slug: 'metodos-agiles-y-el-marketing' }
+    { slug: 'metodos-agiles-y-el-marketing' },
+    { slug: 'analitica-y-metricas-ux' }
   ];
 }
 
