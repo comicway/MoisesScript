@@ -4,6 +4,7 @@ import UxProba from '../../components/UxProba';
 import QueEsDisenoUXUI from '../../components/QueEsDisenoUXUI';
 import AgileMarketing from '../../components/AgileMarketing';
 import AnaliticaMetricaUX from '../../components/AnaliticaMetricaUX';
+import VibeCodingVsInge from '../../components/VibeCodingVsInge';
 
 // 1. Mapeo de artículos del blog
 const blogData = {
@@ -31,6 +32,11 @@ const blogData = {
     component: AnaliticaMetricaUX,
     title: "Piérdele el miedo a las métricas del diseño UX | Algunos consejos",
     description: "Aprende a perderle el miedo a los números y domina los tipos de datos, estadística descriptiva y las métricas UX más usadas."
+  },
+  "vibe-coding-vs-ingenieria-de-prompts": {
+    component: VibeCodingVsInge,
+    title: "Vibe coding para diseñadores UX / UI, ¡NO!, mejor usa Ingeneria de Prompt",
+    description: "Aprende a sustituir el vibe coding por la ingeniería de prompts. Potencia tu flujo de trabajo UX con mejores instrucciones, modelos locales e IDEs agénticos."
   }
 };
 
@@ -42,7 +48,8 @@ export function generateStaticParams() {
     { slug: 'diseno-ux-y-probabiliades' },
     { slug: 'que-es-diseno-ux-ui' },
     { slug: 'metodos-agiles-y-el-marketing' },
-    { slug: 'analitica-y-metricas-ux' }
+    { slug: 'analitica-y-metricas-ux' },
+    { slug: 'vibe-coding-vs-ingenieria-de-prompts' }
   ];
 }
 
