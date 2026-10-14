@@ -24,6 +24,13 @@ export const metadata = {
   title: "Servicios de Diseño UX / UI | Moises Script",
   description: "Servicios profesionales de diseño UX/UI para crear experiencias digitales excepcionales. Diseñamos interfaces intuitivas y atractivas que mejoran la interacción del usuario y potencian tu marca.",
   keywords: ["diseño ux", "diseño ui", "front end", "react", "next js"],
+  authors: [
+    {
+      name: "Moisés Contreras",
+      url: "https://www.moises-script.cl",
+    },
+  ],
+  creator: "Moisés Contreras",
   alternates: {
     canonical: "/",
   },
@@ -48,6 +55,7 @@ export const metadata = {
     title: "Servicios de Diseño UX / UI | Moises Script",
     description: "Servicios profesionales de diseño UX/UI para crear experiencias digitales excepcionales.",
     images: ["/og-image.jpg"],
+    creator: "@moises_script",
   },
   icons: {
     icon: "/favimoises.svg",
@@ -71,6 +79,82 @@ export default function RootLayout({ children }) {
       className={`${oswald.variable} ${inter.variable} h-full antialiased`}
     >
       <head>
+        {/* JSON-LD: GEO Schema Graph */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  "@id": "https://www.moises-script.cl/#person",
+                  "name": "Moisés Contreras",
+                  "alternateName": "Moises Script",
+                  "description": "Diseñador UX/UI y Frontend Developer chileno. Escribe sobre experiencia de usuario, metodologías ágiles, analítica UX e inteligencia artificial aplicada al diseño.",
+                  "url": "https://www.moises-script.cl",
+                  "image": {
+                    "@type": "ImageObject",
+                    "url": "https://www.moises-script.cl/moisescontreras.webp",
+                    "width": 800,
+                    "height": 800
+                  },
+                  "jobTitle": "Diseñador UX / UI & Frontend Developer",
+                  "nationality": { "@type": "Country", "name": "Chile" },
+                  "knowsAbout": ["Diseño UX", "Diseño UI", "Frontend Development", "React", "Next.js", "Metodologías ágiles", "Analítica web", "Ingeniería de prompts"],
+                  "worksFor": { "@id": "https://www.moises-script.cl/#organization" },
+                  "mainEntityOfPage": { "@id": "https://www.moises-script.cl/#webpage" },
+                  "sameAs": [
+                    "https://www.instagram.com/moises_script/",
+                    "https://www.threads.com/@moises_script",
+                    "https://www.linkedin.com/in/moises-script/",
+                    "https://github.com/comicway"
+                  ]
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.moises-script.cl/#organization",
+                  "name": "Moises Script",
+                  "alternateName": "Moises Script UX/UI",
+                  "url": "https://www.moises-script.cl",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.moises-script.cl/favimoises.svg"
+                  },
+                  "founder": { "@id": "https://www.moises-script.cl/#person" },
+                  "foundingLocation": { "@type": "Place", "name": "Chile" },
+                  "description": "Servicios de diseño UX/UI y desarrollo frontend enfocado en crear experiencias digitales excepcionales.",
+                  "sameAs": [
+                    "https://www.instagram.com/moises_script/",
+                    "https://www.linkedin.com/in/moises-script/",
+                    "https://github.com/comicway"
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.moises-script.cl/#website",
+                  "url": "https://www.moises-script.cl",
+                  "name": "Moises Script",
+                  "description": "Servicios profesionales de diseño UX/UI y artículos de diseño de experiencia de usuario.",
+                  "inLanguage": "es-CL",
+                  "author": { "@id": "https://www.moises-script.cl/#person" },
+                  "publisher": { "@id": "https://www.moises-script.cl/#organization" }
+                },
+                {
+                  "@type": "ProfessionalService",
+                  "@id": "https://www.moises-script.cl/#service",
+                  "name": "Moises Script – Servicios UX/UI",
+                  "url": "https://www.moises-script.cl",
+                  "description": "Servicios profesionales de diseño UX/UI para crear experiencias digitales excepcionales. Diseñamos interfaces intuitivas y atractivas que mejoran la interacción del usuario y potencian tu marca.",
+                  "provider": { "@id": "https://www.moises-script.cl/#organization" },
+                  "areaServed": "CL",
+                  "inLanguage": "es-CL",
+                  "serviceType": ["Diseño UX", "Diseño UI", "Frontend Development"]
+                }
+              ]
+            })
+          }}
+        />
         <Script
           id="gtm-script"
           strategy="afterInteractive"

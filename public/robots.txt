@@ -1,3 +1,51 @@
+# --- Reglas generales ---
 User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /proyectos/
 Disallow: /articulointerno
 Disallow: /proyectointerno
+
+# --- GPTBot (OpenAI / ChatGPT) ---
+User-agent: GPTBot
+Allow: /
+Allow: /blog/
+Disallow: /articulointerno
+Disallow: /proyectointerno
+
+# --- ClaudeBot (Anthropic / Claude) ---
+User-agent: ClaudeBot
+Allow: /
+Allow: /blog/
+
+# --- PerplexityBot ---
+User-agent: PerplexityBot
+Allow: /
+Allow: /blog/
+
+# --- Google Extended (Gemini / AI Overviews) ---
+User-agent: Google-Extended
+Allow: /
+Allow: /blog/
+
+# --- Cohere AI ---
+User-agent: cohere-ai
+Allow: /
+Allow: /blog/
+
+# --- Meta AI ---
+User-agent: FacebookBot
+Allow: /
+Allow: /blog/
+
+# --- Applebot (Siri / Apple Intelligence) ---
+User-agent: Applebot
+Allow: /
+Allow: /blog/
+
+# --- Sitemap ---
+Sitemap: https://www.moises-script.cl/sitemap.xml
+
+# --- LLMs discovery ---
+LLMs-txt: https://www.moises-script.cl/llms.txt
+LLMs-full-txt: https://www.moises-script.cl/llms-full.txt

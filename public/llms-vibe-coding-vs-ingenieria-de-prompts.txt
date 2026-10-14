@@ -1,0 +1,68 @@
+# Moises Script — Vibe Coding vs. Ingeniería de Prompts para diseñadores UX/UI
+
+**URL**: https://www.moises-script.cl/blog/vibe-coding-vs-ingenieria-de-prompts
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-10-09
+**Palabras clave**: vibe coding, ingeniería de prompts, IA diseño UX, prompt engineering, LLM diseñadores, IDEs agénticos, modelos locales
+
+---
+
+## Introducción
+
+¿No te ha sucedido que, al pedirle código a la inteligencia artificial, se vuelve un poco tonta o, al probar el resultado, nada funciona como esperabas? Esta sensación de reaccionar ante las respuestas de la IA y tener la intuición de cómo interactuar con ella se llama *Vibe Coding*. De hecho, de allí viene el nombre.
+
+En este artículo aprenderemos a codificar con mejor calidad usando la ingeniería de *prompts*.
+
+## ¿Qué es la ingeniería de prompts?
+
+Un *prompt* es una instrucción recibida por un modelo LLM para encontrar una respuesta determinada. Sin embargo, si la instrucción es deficiente, dará como resultado una respuesta de mala calidad. Este es el problema resuelto por la ingeniería de *prompts*.
+
+La ingeniería de *prompts*, además de comprender los principios y fundamentos detrás del funcionamiento de un modelo LLM, agrupa las técnicas necesarias para generar respuestas más coherentes y relevantes.
+
+Con esto, el diseñador UX puede potenciar sus habilidades, no solo para la generación de código, sino durante toda la etapa *end-to-end* de un producto digital.
+
+### Un caso real
+
+En uno de mis trabajos anteriores, perdimos el acceso a una cuenta de Asana. Aproveché la oportunidad para crear nuestro propio "Asana": tomé un proyecto de código abierto, lo copié y, con la ayuda de mis agentes de IA y la ingeniería de *prompts*, en menos de una semana realicé un clon de Asana ajustado al flujo de trabajo del equipo. Esto lo logré sabiendo dos cosas: los fundamentos de arquitectura y programación, y técnicas de ingeniería de *prompts*. Usando solo *vibe coding*, no hubiera podido enfrentar este problema.
+
+### El gran consejo
+
+Sé lo más específico posible, sin redundancias, directo al grano. Evita las imprecisiones o las generalizaciones.
+
+- **Prompt estándar**: "Explica el concepto de ingeniería de *prompts*. Usa explicaciones cortas para facilitar su entendimiento."
+- **Mejora del prompt**: "Usa 2-3 oraciones para explicar el concepto de ingeniería de *prompts* a un estudiante de secundaria."
+
+## Mi estructura actual de trabajo
+
+### Primero: Gems (Skills) de Gemini
+
+Tengo un Gems configurado para optimizar los *prompts* creados por mí, con el objetivo de evitar alucinaciones en el modelo o agente, consumiendo la menor cantidad de *tokens* posible sin perder la calidad. Como resultado, obtengo un *prompt* con técnicas mezcladas: *Meta Prompting*, *Modular Prompting* y *Role Prompting*.
+
+### Partes del prompt
+
+- **Rol**: ¿Cómo quieres ver actuar al modelo? Aquí le dices al modelo quién es.
+- **Instrucción**: Son las tareas específicas por realizar, desglosadas en puntos.
+- **Conocimiento**: Si queremos introducir un saber nuevo y particular, lo ideal es suministrarle estos datos al modelo.
+- **Contexto**: Si el modelo carece de conocimiento previo, se le puede dar un contexto directo y sin muchos adornos.
+- **Datos de entrada**: La información utilizada por el modelo para trabajar.
+- **Salida**: Instrucciones adicionales sobre cómo deseas recibir la respuesta.
+
+> **Tip**: Trata, en lo posible, de dividir las instrucciones en tareas sencillas. Esto evitará errores en el modelo y aumentará la calidad de sus respuestas.
+
+### Modelos locales, Open WebUI y ZED
+
+Para los *prompts* de uso local, suelo ser mucho más específico y breve, evitando saturar los recursos del computador. Uso Open WebUI (levantada por Docker) como interfaz gráfica con Ollama. También uso el IDE ZED, que puede levantar modelos locales de forma nativa.
+
+### IDEs agénticos
+
+Trata siempre de trabajar con IDEs, ya que te permitirán ver el código creado (o modificado) por tu agente. Alterno entre estos tres: Kiro, Antigravity y Cursor.
+
+## Un mensaje final para los diseñadores UX
+
+Si logré convencerte de usar la ingeniería de *prompts*, te recomiendo experimentar mucho, practicar y practicar. Ahora tienes en tus manos el poder de simular pruebas de usabilidad, optimizar el tiempo de investigación y documentación, o realizar MVP mucho más realistas y funcionales.
+
+## Recursos
+
+- Ejemplos de prompts: https://www.promptingguide.ai/es/introduction/examples
+- Guía de mejores prácticas por OpenAI: https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+- Guía en español de IBM: https://www.ibm.com/mx-es/think/prompt-engineering

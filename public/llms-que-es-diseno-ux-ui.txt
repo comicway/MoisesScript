@@ -1,0 +1,43 @@
+# Moises Script — ¿Qué es el Diseño UX / UI? Un punto de vista práctico
+
+**URL**: https://www.moises-script.cl/blog/que-es-diseno-ux-ui
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-16
+**Palabras clave**: qué es diseño UX, qué es diseño UI, experiencia de usuario, UX UI Chile, función diseñador UX
+
+---
+
+## Un punto de vista práctico
+
+Este artículo define de forma diferente el concepto de diseño UX y UI, desde un punto de vista práctico y realista.
+
+¿Qué es el Diseño UX? El diseñador no solo crea experiencias, sino que ayuda a resolver los problemas del negocio.
+
+Y aquí está el dilema: el diseñador UX crea mejores experiencias para el usuario con el fin de resolver un problema, pero sin dejar atrás los intereses del negocio. Y ahí está la combinación ganadora, lo que hace que un producto digital sea exitoso.
+
+¿Entonces qué es el diseño UX? Es una disciplina que empatiza con las necesidades del usuario sin dejar atrás la viabilidad económica, con la finalidad de crear una buena experiencia que cumpla con las expectativas del usuario, evitando lo más posible las frustraciones y los puntos de dolor al interactuar con dicho producto o servicio, ya sea físico o digital.
+
+El diseño UX no se aplica solo a productos digitales; también, y de forma muy holgada, se puede aplicar a productos totalmente físicos, tangibles, análogos, utilizando las mismas buenas prácticas, herramientas y métodos.
+
+## ¿Cuál es la función principal de un diseñador UX?
+
+- **Estudia el negocio y sus problemas**: Levanta información relevante acerca del negocio. Plantea preguntas como: ¿De qué va el negocio?, ¿cuál es el problema a resolver?, ¿cómo genera ganancias?, ¿cuál es su círculo de oro?
+- **Empatiza y comprende**: El diseñador entiende las emociones y motivaciones del usuario.
+- **Descubre los puntos de dolor y satisfacción**: El diseñador identifica justo el momento donde el usuario siente fricción.
+- **Diseña un plan o flujo**: Lo importante aquí es poder ver de forma visual el camino por el cual el usuario debería transitar para llegar a un final satisfactorio.
+- **Testea con usuarios reales**: Las pruebas de usabilidad se deben realizar con usuarios que de verdad sean el target del negocio.
+- **Plantea arquetipos**: Crea una ficha de personaje tal cual como en una historia de ficción; esto ayuda a identificar y empatizar con el usuario.
+- **Propone ideas**: ¿Qué hacer con tanta información? Proponer soluciones con base en los insights descubiertos.
+- **Dibuja wireframes**: Las ideas se dibujan en líneas y cuadros simples.
+- **Realiza prototipos**: Existen muchos programas online sencillos que permiten realizar wireframes y prototipos.
+- **Realiza entrevistas y encuestas**: Ayuda a conocer las intenciones de los usuarios y sus motivaciones.
+- **Analiza datos**: El dato debería ser el arma secreta del diseñador. Tomar decisiones con base en los datos recolectados puede significar el éxito o el fracaso de un proyecto.
+- **Defiende y expone su trabajo**: De nada vale el trabajo previo si el diseñador no es capaz de exponerlo de forma clara y sencilla.
+
+## ¿Y dónde queda el diseñador UI?
+
+El diseño UI va de la mano con el UX. UI no es diseñar vistas bonitas, sino realizar diseño gráfico de interfaces de forma coherente, basada en datos y en decisiones con fundamentos. El diseñador UI domina tamaños, proporciones, colores, tipografía y diseña interacciones.
+
+El diseño UI es una profesión sumamente importante la cual, posiblemente, nunca morirá, a menos que las inteligencias artificiales lleguen a tener conciencia y criterios creativos propios.
+
+*Este artículo está realizado totalmente por Moisés Contreras. Muchas gracias.*

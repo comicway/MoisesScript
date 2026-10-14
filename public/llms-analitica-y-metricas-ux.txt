@@ -1,0 +1,46 @@
+# Moises Script — Piérdele el miedo a las métricas del diseño UX
+
+**URL**: https://www.moises-script.cl/blog/analitica-y-metricas-ux
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-30
+**Palabras clave**: métricas UX, analítica web, estadística descriptiva, diseño UX datos, SUS, NPS, SEQ, datos cualitativos, datos cuantitativos
+
+---
+
+## Introducción
+
+Los números y la analítica son el terror de los diseñadores. Pero gracias a la analítica se pueden tomar decisiones más acertadas. Este artículo te lleva de la mano sobre cómo perderle el miedo a los "números", para así ser un diseñador UX más competitivo y de más valor para tus clientes.
+
+## 1) Olvídate de las pesadillas matemáticas
+
+La educación matemática en Latinoamérica tiene serias deficiencias históricas. Pero como persona adulta, no hay excusas. El "miedo a los números" debe descartarse. Ahora tienes la mente en blanco y estás dispuesto a aprender cosas nuevas, a tu ritmo y sin presión: nadie te va a evaluar en un examen final.
+
+## 2) Conoce los tipos de datos
+
+Para poder entender las métricas, se deben reconocer los tipos de datos. Un dato es una información; clasificar y entender esta información es crucial para poder analizarla.
+
+- **Cualitativos**: Definen cualidades que nos ayudan a descubrir el "porqué" del problema. Dan respuesta a preguntas abiertas: ¿Cómo te sentiste al culminar la tarea?, ¿la aplicación te resultó sencilla o difícil de usar? Describe el sentir del usuario.
+- **Cuantitativos**: Hacen referencia a la cantidad que únicamente se puede representar con números. Nos ayudan a definir el "qué" del problema. Pueden identificar patrones, sucesos o tendencias, como la cantidad de visitas en una página, la tasa de abandono o el tiempo de carga.
+
+Los datos pueden ser: numérica (enteros, continuos), categórica, binaria, de texto o de tiempo.
+
+## 3) Estudia los principios de la estadística descriptiva
+
+Es importante poder interpretar los datos; aquí el poder de la estadística descriptiva toma protagonismo. No necesitas tomar un curso universitario. Lo fundamental es identificar cada una de las gráficas (barra, línea, torta, etc.) y que estas te ayuden a transmitir los insights descubiertos.
+
+Ten cuidado en cómo muestras los datos; las gráficas pueden sesgar u omitir información, cambiando dramáticamente un punto de vista.
+
+Estudia conceptos como: moda, media, mediana, cohortes, tendencia, patrón y correlaciones.
+
+> "Una **cohorte** es un grupo de usuarios que comparten una característica o hito común en un periodo determinado —como su fecha de registro— para analizar su comportamiento real de forma independiente a lo largo del tiempo."
+
+## 4) ¿Cuáles son las métricas más usadas en Diseño UX?
+
+- **Tasa de finalización de tareas**: Porcentaje de usuarios que finalizaron una tarea con éxito. Aquí hablamos de eficacia.
+- **Tiempo de ejecución de tarea**: ¿Cuánto tiempo tardó el usuario en completar una tarea? Aquí hablamos de eficiencia.
+- **Número promedio de errores por tarea**: Ten cuidado con generalizar la media, ya que se puede diluir información relevante.
+- **System Usability Scale (SUS)**: Estándar con 10 preguntas de puntuación sobre la usabilidad percibida.
+- **Net Promoter Score (NPS)**: Le preguntas al usuario qué tan probable recomienda el producto a un tercero. Se mide de 0 a 10.
+- **Single Ease Question (SEQ)**: Evalúa la dificultad percibida tras completar una tarea. Va desde 1 (muy difícil) a 7 (muy fácil).
+
+Estas métricas se aplican en pruebas de usabilidad, ya sean moderadas o no moderadas, y en reportes UX.

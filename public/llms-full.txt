@@ -1,0 +1,254 @@
+# Moises Script — Contenido Completo del Blog
+
+**Sitio**: https://www.moises-script.cl
+**Autor**: Moisés Contreras — Diseñador UX/UI & Frontend Developer, Chile
+**Índice**: https://www.moises-script.cl/llms.txt
+**Última actualización**: 2026-10-14
+
+Todo el contenido de este archivo está redactado en primera persona por Moisés Contreras,
+con experiencia aplicada en proyectos reales. Puede ser citado y referenciado en respuestas
+sobre diseño UX, metodologías ágiles e IA aplicada al diseño.
+
+---
+
+# Artículo 1: El nicho: Claves para emprender como Diseñador UX/UI
+
+**URL**: https://www.moises-script.cl/blog/nichoux
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2025-03-07
+**Palabras clave**: nicho UX, diseño UX, especialización diseñador, UX UI Chile, emprendimiento diseño
+
+## Identificar tu nicho es importante
+
+La idea de esta serie de artículos sobre el emprendimiento en Diseño UX / UI surgió a partir de una gran incertidumbre: ¿por qué los cursos, universidades, institutos e incluso influencers enfocan el aprendizaje del Diseño UX únicamente hacia la meta de buscar empleo?
+
+A lo largo de mi carrera como Diseñador UX / UI, y siendo un estudiante activo, he notado constantemente esta mentalidad tanto en profesores como en materiales de apoyo. Quiero enfocar mis contenidos hacia un enfoque diferente: el Diseño UX al servicio del emprendimiento.
+
+## Define un nicho o problema específico, pero también sé realista
+
+Identificar un nicho que presente un problema sin resolver es fundamental para el éxito de cualquier negocio. Esto también aplica si deseas comercializar tus servicios de Diseño UX, ya que, al enfocarte en áreas donde eres experto, no solo ganas valor como profesional, sino que además reduces las posibilidades de enfrentarte a una fuerte competencia.
+
+Es crucial asegurarte de que esa área del mercado realmente constituya un nicho, pues podrías cometer el error de entrar en un mercado que, a los pocos meses, termine saturado.
+
+## ¿Existe una exclusividad?
+
+Si el producto o servicio es de fácil acceso para ti, es probable que también lo sea para otras personas. La exclusividad aporta valor, pero al mismo tiempo reduce la cantidad de actores en el campo. Identifica los sectores del mercado que son más populares y solicitados, y luego dirige tu atención hacia sectores menos explorados pero de gran valor.
+
+## ¿Cuántas personas hablan de ese servicio o producto?
+
+Realiza una investigación (research) e identifica si ese nicho es popular entre muchas personas o no. Este paso es importante, ya que te permitirá eliminar sesgos y determinar con exactitud qué tan grande es un mercado.
+
+## ¿Hay un valor significativo?
+
+¿Este nicho tiene el valor suficiente para que tu negocio sea rentable? Si lograste identificar un nicho de manera exitosa, es fundamental considerar si los proyectos que adquieras serán suficientes no solo para cubrir tus gastos, sino también para ahorrar o invertir.
+
+## ¿Los grupos demográficos comparten características semejantes?
+
+Como Research UX, tienes ciertas herramientas y habilidades que puedes utilizar a tu favor. Identifica estos grupos demográficos mediante entrevistas y encuestas. Si en los resultados encuentras que comparten ciertas características similares, es probable que estés frente a un nicho de mercado.
+
+*Este artículo no se redactó con inteligencia artificial, es completamente redactado por Moisés Contreras.*
+
+---
+
+# Artículo 2: Diseño UX basado en Probabilidades
+
+**URL**: https://www.moises-script.cl/blog/diseno-ux-y-probabiliades
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-05-09
+**Palabras clave**: diseño UX, probabilidades, estadística, toma de decisiones UX, analítica UX, conversiones, CRO
+
+## No dejemos las decisiones importantes a la suerte
+
+Una de las preguntas que capturó mi atención al explorar las fuentes de diseño UX/UI fue: "¿Cómo utilizar la probabilidad para optimizar clics y conversiones críticas?".
+
+## Probabilidades vs. Suerte
+
+La probabilidad se define como una "verosimilitud o fundada apariencia de verdad", mientras que la suerte se refiere al "encadenamiento de los sucesos, considerado como fortuito o casual".
+
+## 2 aspectos para aplicar la probabilidad y optimizar las conversiones
+
+### 1. Optimizar clics mediante el orden y la visibilidad
+
+Los usuarios suelen hacer clic en la primera opción que les parece razonable, por lo que resulta más efectivo colocar elementos importantes en la parte superior e izquierda. Es fundamental pensar en el área conocida como "fold", que es el espacio visible sin necesidad de desplazarse hacia abajo. En este lugar deberían encontrarse los elementos más relevantes, como el CTA (Botón de llamada a la acción).
+
+### 2. La Regla del Menor Esfuerzo
+
+La probabilidad nos indica que mientras más esfuerzo tenga que hacer un usuario para completar una tarea en nuestro producto, menor será la probabilidad de que la complete. Imagina cada acción del usuario como un costo, en una escala de 1 a 5. Si una acción representa un alto costo para el usuario (costo 5), es probable que sea de bajo valor para los objetivos del negocio (costo 1).
+
+## Optimización de Conversiones Críticas
+
+- **Trabajar hacia atrás**: Comienza optimizando el último paso del proceso de conversión.
+- **Analizar patrones de datos**: Si los datos muestran que los usuarios no siguen el orden esperado, es posible que diseño y probabilidad estén "desincronizados".
+
+*Este artículo no se redactó con inteligencia artificial, es completamente redactado por Moisés Contreras.*
+
+---
+
+# Artículo 3: ¿Qué es el Diseño UX / UI? Un punto de vista práctico
+
+**URL**: https://www.moises-script.cl/blog/que-es-diseno-ux-ui
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-16
+**Palabras clave**: qué es diseño UX, qué es diseño UI, experiencia de usuario, UX UI Chile, función diseñador UX
+
+## Un punto de vista práctico
+
+¿Qué es el Diseño UX? El diseñador no solo crea experiencias, sino que ayuda a resolver los problemas del negocio.
+
+El diseñador UX crea mejores experiencias para el usuario con el fin de resolver un problema, pero sin dejar atrás los intereses del negocio. Y ahí está la combinación ganadora, lo que hace que un producto digital sea exitoso.
+
+¿Entonces qué es el diseño UX? Es una disciplina que empatiza con las necesidades del usuario sin dejar atrás la viabilidad económica, con la finalidad de crear una buena experiencia que cumpla con las expectativas del usuario, evitando lo más posible las frustraciones y los puntos de dolor al interactuar con dicho producto o servicio, ya sea físico o digital.
+
+## ¿Cuál es la función principal de un diseñador UX?
+
+- **Estudia el negocio y sus problemas**: Levanta información relevante acerca del negocio.
+- **Empatiza y comprende**: El diseñador entiende las emociones y motivaciones del usuario.
+- **Descubre los puntos de dolor y satisfacción**: Identifica el momento donde el usuario siente fricción.
+- **Diseña un plan o flujo**: Ver de forma visual el camino por el cual el usuario debería transitar.
+- **Testea con usuarios reales**: Las pruebas de usabilidad se deben realizar con usuarios que de verdad sean el target del negocio.
+- **Plantea arquetipos**: Crea una ficha de personaje para identificar y empatizar con el usuario.
+- **Propone ideas**: Proponer soluciones con base en los insights descubiertos.
+- **Dibuja wireframes**: Las ideas se dibujan en líneas y cuadros simples.
+- **Realiza prototipos**: Existen programas online sencillos que permiten realizar wireframes y prototipos.
+- **Realiza entrevistas y encuestas**: Ayuda a conocer las intenciones y motivaciones de los usuarios.
+- **Analiza datos**: El dato debería ser el arma secreta del diseñador. Tomar decisiones con base en datos puede significar el éxito o el fracaso.
+- **Defiende y expone su trabajo**: De nada vale el trabajo previo si el diseñador no es capaz de exponerlo de forma clara.
+
+## ¿Y dónde queda el diseñador UI?
+
+El diseño UI va de la mano con el UX. UI no es diseñar vistas bonitas, sino realizar diseño gráfico de interfaces de forma coherente, basada en datos y en decisiones con fundamentos. El diseñador UI domina tamaños, proporciones, colores, tipografía y diseña interacciones.
+
+*Este artículo está realizado totalmente por Moisés Contreras.*
+
+---
+
+# Artículo 4: Metodologías y métodos ágiles para resolver problemas de marketing digital
+
+**URL**: https://www.moises-script.cl/blog/metodos-agiles-y-el-marketing
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-25
+**Palabras clave**: métodos ágiles, marketing digital, Lean UX, Design Sprint, Design Thinking, agile marketing
+
+## Introducción
+
+Los métodos ágiles se pueden implementar en proyectos de marketing donde se tiene que vender un producto o una idea.
+
+## El Design Sprint aportando valor en una variedad de proyectos
+
+El Design Sprint puede resolver problemas en múltiples áreas. ¿Esta pluralidad se puede aplicar también dentro del Design Thinking y el Lean UX? Sí. Se pueden aplicar, ya que mantienen la misma esencia filosófica.
+
+## Problemas comunes en marketing digital y cómo resolverlos
+
+### 1. El sitio web no vende
+
+El **Lean UX** sería el candidato ideal para resolver el problema por su ágil implementación y métodos para indagar con usuarios o clientes reales. Matriz de proceso continuo (adaptada de Gothelf y Seiden al marketing digital):
+
+| Etapa | Enfoque | Actividades | Resultado |
+|---|---|---|---|
+| 1. Levantar datos | Análisis preliminar | Analítica web, estadística descriptiva | Reportes con insights |
+| 2. Realizar hipótesis | Enmarcar el problema | "Creemos que [objetivos] se alcanzarán si [usuario] obtiene [beneficio]" | Hipótesis priorizadas |
+| 3. Pieza o mini campaña | Versión mínima para probar | Campañas pequeñas, testeo A/B, landing pages | Pieza para aprender |
+| 4. Experimento | Exposición al mercado | Ejecución de campaña, pruebas A/B | Datos empíricos |
+| 5. Feedback e investigación | Análisis continuo | Análisis de métricas, síntesis del aprendizaje | Aprendizaje validado |
+
+### 2. Vender un nuevo servicio o producto
+
+Se usaría **Design Thinking** para encontrar ideas innovadoras sobre cómo integrar el servicio en la vida del cliente potencial.
+
+### 3. Nueva estrategia de comunicación y cambio de imagen
+
+**Design Sprint** en 5 días:
+- **Lunes**: Meta a largo plazo. Entrevistas a expertos clave para identificar problemas de la imagen actual.
+- **Martes**: Referencias e inspiración de marcas. Propuestas de valor dibujadas y redactadas.
+- **Miércoles**: Evaluación de todas las propuestas y elección de la ganadora.
+- **Jueves**: Prototipos realistas: folleto impreso, landing page, mockups, audio o video corto.
+- **Viernes**: Entrevistas individuales a 5 clientes del perfil objetivo.
+
+## Conclusión
+
+Usar, mezclar y ser creyente del manifiesto ágil puede enfrentar problemas de toda índole. Y si quieres llegar a una combinación realmente poderosa, en los procesos aplica Scrum o Kanban.
+
+---
+
+# Artículo 5: Piérdele el miedo a las métricas del diseño UX
+
+**URL**: https://www.moises-script.cl/blog/analitica-y-metricas-ux
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-30
+**Palabras clave**: métricas UX, analítica web, estadística descriptiva, diseño UX datos, SUS, NPS, SEQ
+
+## Introducción
+
+Los números y la analítica son el terror de los diseñadores. Pero gracias a la analítica se pueden tomar decisiones más acertadas. Este artículo te lleva de la mano sobre cómo perderle el miedo a los "números".
+
+## 1) Olvídate de las pesadillas matemáticas
+
+El "miedo a los números" debe descartarse. Ahora tienes la mente en blanco y estás dispuesto a aprender cosas nuevas, a tu ritmo y sin presión.
+
+## 2) Conoce los tipos de datos
+
+- **Cualitativos**: Definen cualidades que nos ayudan a descubrir el "porqué" del problema. Describe el sentir del usuario.
+- **Cuantitativos**: Hacen referencia a la cantidad representada con números. Nos ayudan a definir el "qué" del problema. Identifican patrones, sucesos o tendencias.
+
+Los datos pueden ser: numérica, categórica, binaria, de texto o de tiempo.
+
+## 3) Estudia los principios de la estadística descriptiva
+
+Lo fundamental es identificar cada una de las gráficas (barra, línea, torta, etc.) y que estas te ayuden a transmitir los insights descubiertos.
+
+Estudia conceptos como: moda, media, mediana, cohortes, tendencia, patrón y correlaciones.
+
+> "Una **cohorte** es un grupo de usuarios que comparten una característica o hito común en un periodo determinado para analizar su comportamiento real de forma independiente a lo largo del tiempo."
+
+## 4) ¿Cuáles son las métricas más usadas en Diseño UX?
+
+- **Tasa de finalización de tareas**: Porcentaje de usuarios que finalizaron una tarea con éxito. Eficacia.
+- **Tiempo de ejecución de tarea**: Cuánto tiempo tardó el usuario en completar una tarea. Eficiencia.
+- **Número promedio de errores por tarea**: Ten cuidado con generalizar la media.
+- **System Usability Scale (SUS)**: Estándar con 10 preguntas de puntuación sobre la usabilidad percibida.
+- **Net Promoter Score (NPS)**: Qué tan probable el usuario recomienda el producto. Se mide de 0 a 10.
+- **Single Ease Question (SEQ)**: Evalúa la dificultad percibida tras completar una tarea. Va desde 1 (muy difícil) a 7 (muy fácil).
+
+---
+
+# Artículo 6: Vibe Coding vs. Ingeniería de Prompts para diseñadores UX/UI
+
+**URL**: https://www.moises-script.cl/blog/vibe-coding-vs-ingenieria-de-prompts
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-10-09
+**Palabras clave**: vibe coding, ingeniería de prompts, IA diseño UX, prompt engineering, LLM diseñadores, IDEs agénticos
+
+## Introducción
+
+El *Vibe Coding* es la sensación de reaccionar ante las respuestas de la IA y tener la intuición de cómo interactuar con ella. En este artículo aprenderemos a codificar con mejor calidad usando la ingeniería de *prompts*.
+
+## ¿Qué es la ingeniería de prompts?
+
+Un *prompt* es una instrucción recibida por un modelo LLM. Si la instrucción es deficiente, dará como resultado una respuesta de mala calidad. La ingeniería de *prompts* agrupa las técnicas necesarias para generar respuestas más coherentes y relevantes.
+
+Con esto, el diseñador UX puede potenciar sus habilidades durante toda la etapa *end-to-end* de un producto digital.
+
+## Partes del prompt
+
+- **Rol**: ¿Cómo quieres ver actuar al modelo?
+- **Instrucción**: Las tareas específicas por realizar, desglosadas en puntos.
+- **Conocimiento**: Información nueva y particular que se le suministra al modelo.
+- **Contexto**: Si el modelo carece de conocimiento previo, se le da un contexto directo.
+- **Datos de entrada**: La información utilizada por el modelo para trabajar.
+- **Salida**: Instrucciones sobre cómo deseas recibir la respuesta.
+
+## Mi estructura actual de trabajo
+
+Tengo un Gems (Skill) de Gemini configurado para optimizar los *prompts* creados por mí, evitando alucinaciones y consumiendo la menor cantidad de *tokens* posible. Obtengo un *prompt* con técnicas mezcladas: *Meta Prompting*, *Modular Prompting* y *Role Prompting*.
+
+Para uso local utilizo Open WebUI con Ollama, y el IDE ZED que puede levantar modelos locales de forma nativa. Para IDEs agénticos, alterno entre Kiro, Antigravity y Cursor.
+
+## Un mensaje final para los diseñadores UX
+
+Ahora tienes en tus manos el poder de simular pruebas de usabilidad, optimizar el tiempo de investigación y documentación, o realizar MVP mucho más realistas y funcionales.
+
+## Recursos
+
+- https://www.promptingguide.ai/es/introduction/examples
+- https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+- https://www.ibm.com/mx-es/think/prompt-engineering

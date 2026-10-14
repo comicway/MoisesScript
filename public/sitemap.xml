@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
    <!-- Core Pages -->
    <url>
       <loc>https://www.moises-script.cl/</loc>
-      <changefreq>always</changefreq>
+      <lastmod>2026-10-14</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/proyectos</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/blog</loc>
+      <lastmod>2026-10-09</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/contacto</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/paidmedia</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
@@ -30,26 +36,31 @@
    <!-- Proyectos Dinámicos -->
    <url>
       <loc>https://www.moises-script.cl/proyectos/comicapp</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/proyectos/toomics</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/proyectos/odisyshoot</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/proyectos/roverphotoapp</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/proyectos/megabook</loc>
+      <lastmod>2026-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
@@ -57,12 +68,39 @@
    <!-- Blog Dinámico -->
    <url>
       <loc>https://www.moises-script.cl/blog/nichoux</loc>
+      <lastmod>2025-03-07</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
+      <priority>0.7</priority>
    </url>
    <url>
       <loc>https://www.moises-script.cl/blog/diseno-ux-y-probabiliades</loc>
+      <lastmod>2026-05-09</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
+      <priority>0.7</priority>
    </url>
+   <url>
+      <loc>https://www.moises-script.cl/blog/que-es-diseno-ux-ui</loc>
+      <lastmod>2026-09-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://www.moises-script.cl/blog/metodos-agiles-y-el-marketing</loc>
+      <lastmod>2026-09-25</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://www.moises-script.cl/blog/analitica-y-metricas-ux</loc>
+      <lastmod>2026-09-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://www.moises-script.cl/blog/vibe-coding-vs-ingenieria-de-prompts</loc>
+      <lastmod>2026-10-09</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
 </urlset>
