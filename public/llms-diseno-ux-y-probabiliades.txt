@@ -1,0 +1,43 @@
+# Moises Script — Diseño UX basado en Probabilidades
+
+**URL**: https://www.moises-script.cl/blog/diseno-ux-y-probabiliades
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-05-09
+**Palabras clave**: diseño UX, probabilidades, estadística, toma de decisiones UX, analítica UX, conversiones, CRO
+
+---
+
+## No dejemos las decisiones importantes a la suerte
+
+Una de las preguntas que capturó mi atención al explorar las fuentes de diseño UX/UI fue: "¿Cómo utilizar la probabilidad para optimizar clics y conversiones críticas?".
+
+## Probabilidades vs. Suerte
+
+Es importante comenzar aclarando que las afirmaciones presentadas están basadas en verosimilitudes fundadas en la verdad, y no son mera coincidencia o suerte. La probabilidad se define como una "verosimilitud o fundada apariencia de verdad", mientras que la suerte se refiere al "encadenamiento de los sucesos, considerado como fortuito o casual".
+
+## 2 aspectos para aplicar la probabilidad y optimizar las conversiones
+
+Gracias a la probabilidad podemos tomar decisiones más informadas y fundamentadas, en lugar de basarnos en experiencia personal, intuiciones, gustos o caprichos.
+
+### 1. Optimizar clics mediante el orden y la visibilidad
+
+Para aumentar el ratio de clics en un elemento relevante dentro de una página web, landing page, aplicación o producto digital, es importante tener en cuenta la posición del mismo. Las estadísticas muestran que los usuarios suelen hacer clic en la primera opción que les parece razonable, por lo que resulta más efectivo colocar elementos importantes en la parte superior e izquierda.
+
+Es fundamental pensar en el área conocida como "fold", que es el espacio visible sin necesidad de desplazarse hacia abajo. En este lugar deberían encontrarse los elementos más relevantes, como el CTA (Botón de llamada a la acción).
+
+### 2. La Regla del Menor Esfuerzo
+
+En la era digital actual, los usuarios prefieren interactuar con productos tecnológicos o digitales que sean fáciles y rápidos de usar. La probabilidad nos indica que mientras más esfuerzo tenga que hacer un usuario para completar una tarea en nuestro producto, menor será la probabilidad de que la complete.
+
+Para aplicar este principio en tus diseños, imagina cada acción que realiza el usuario como un costo, por ejemplo, en una escala de 1 a 5. Si una acción representa un alto costo para el usuario (costo 5), es probable que sea de bajo valor para los objetivos del negocio (costo 1).
+
+## Optimización de Conversiones Críticas
+
+Al aplicar estos dos aspectos probabilísticos, es posible optimizar conversiones de alto valor tanto para los usuarios como para el negocio:
+
+- **Trabajar hacia atrás**: Comienza optimizando el último paso del proceso de conversión. Perder un usuario al final del túnel de pago es mucho más costoso que perderlo al principio.
+- **Analizar patrones de datos**: Si los datos muestran que los usuarios no siguen el orden esperado, es posible que diseño y probabilidad estén "desincronizados". Esto indica una oportunidad para rediseñar el flujo.
+
+Es importante recordar que una mente UX no está actuando al máximo de su capacidad si no entiende el contexto general del producto o pieza digital en la que esté trabajando.
+
+*Este artículo no se redactó con inteligencia artificial, es completamente redactado por Moisés Contreras.*

@@ -1,0 +1,56 @@
+# Moises Script — Metodologías y métodos ágiles para resolver problemas de marketing digital
+
+**URL**: https://www.moises-script.cl/blog/metodos-agiles-y-el-marketing
+**Autor**: Moisés Contreras
+**Fecha de publicación**: 2026-09-25
+**Palabras clave**: métodos ágiles, marketing digital, Lean UX, Design Sprint, Design Thinking, agile marketing, campañas digitales
+
+---
+
+## Introducción
+
+Los métodos ágiles se pueden implementar en proyectos de marketing donde se tiene que vender un producto o una idea. De hecho, debería ser así; los métodos ágiles también han sido usados para proyectos centrados únicamente en auditoría.
+
+## El Design Sprint aportando valor en una variedad de proyectos
+
+El libro "Sprint: El método para resolver problemas" de Jake Knapp da como ejemplos varios proyectos distintos: una página web de café, un robot botones para asistir a huéspedes en hoteles, un sistema de gestión de ensayos clínicos, un servicio médico estilo consultorio para niños, entre otros. El Design Sprint puede resolver problemas en múltiples áreas.
+
+¿Esta pluralidad se puede aplicar también dentro de metodologías y métodos como el Design Thinking y el Lean UX? Sí. Se pueden aplicar, ya que mantienen la misma esencia filosófica.
+
+## Problemas comunes en marketing digital y cómo resolverlos con métodos ágiles
+
+### 1. El sitio web no vende
+
+Tomando en cuenta que el sitio tiene una gran cantidad de visitas y el tipo de conversión sea generar leads o ventas online, hay que realizar un descubrimiento, entender el porqué de la baja tasa de conversión. En este caso, el **Lean UX** sería el candidato ideal para resolver el problema por su ágil implementación y métodos para indagar con usuarios o clientes reales.
+
+La siguiente es una matriz de proceso continuo basada en Lean UX (adaptada al marketing digital por Moisés Contreras, a partir de Gothelf y Seiden):
+
+| Etapa | Enfoque | Actividades | Resultado |
+|---|---|---|---|
+| 1. Levantar datos cualitativos y cuantitativos | Análisis preliminar para levantar insights | Estudio de analítica web, estadística descriptiva | Reportes con listados de insights |
+| 2. Realizar hipótesis | Enmarcar el problema partiendo de suposiciones | Redacción de hipótesis: "Creemos que [objetivos] se alcanzarán si [usuario] obtiene [beneficio] con [idea]" | Declaraciones de hipótesis priorizadas |
+| 3. Pieza o mini campaña | Diseñar la versión más rápida y pequeña posible | Campañas digitales pequeñas, piezas para testeo A/B, landing pages | Pieza funcional para aprender |
+| 4. Poner en marcha un experimento | Exponer la propuesta al mercado | Ejecución de campaña, pruebas de usabilidad, pruebas A/B | Datos empíricos sobre la reacción del usuario |
+| 5. Feedback e investigación | Analizar resultados en equipo | Sesiones de observación, análisis de métricas, síntesis del aprendizaje | Aprendizaje validado para iterar, aplicar o pivotar |
+
+### 2. Vender un nuevo servicio o producto
+
+Aquí serviría tanto el **Design Thinking** como el **Design Sprint**. Se usaría Design Thinking para poder encontrar ideas innovadoras sobre cómo integrar de forma amigable el servicio o producto en la vida del cliente potencial.
+
+### 3. Nueva estrategia de comunicación y cambio de imagen
+
+Un caso real: una cadena de centros comerciales en Latinoamérica realizó una reestructuración de su imagen de marca sin datos ni validación. Plantearon una serie de ideas a ciegas, sin conocer el punto de vista de su audiencia. Se invirtieron millones y los indicadores siguieron igual.
+
+¿Cómo hubiera afrontado esto? Usando **Design Sprint**:
+
+- **Lunes**: Se establece la meta a largo plazo. Se entrevista a expertos clave para identificar problemas y fricciones de la imagen actual.
+- **Martes**: Se buscan referencias e inspiración de marcas existentes. Luego se dibujan y redactan nuevas propuestas de valor.
+- **Miércoles**: Se evalúan todas las propuestas y se elige una ganadora.
+- **Jueves**: Se realizan prototipos realistas: folleto impreso, landing page, mockups, empaques, audio o video corto.
+- **Viernes**: Se entrevista individualmente a 5 clientes del perfil objetivo para conocer sus reacciones espontáneas.
+
+Si se hubiera realizado este método, la empresa hubiera: reducido el riesgo y minimizado la pérdida económica, eliminado las discusiones subjetivas sobre decisiones estéticas, y alineado a todo el departamento de marketing en un mismo objetivo.
+
+## Conclusión
+
+Usar, mezclar y ser creyente del manifiesto ágil puede enfrentar problemas de toda índole, no solo tecnológicos, sino también de marketing y hasta personales. Y si quieres llegar a una combinación realmente poderosa, en los procesos aplica Scrum o Kanban.

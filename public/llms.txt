@@ -1,0 +1,43 @@
+# Moises Script
+
+> Moisés Contreras es Diseñador UX/UI y Frontend Developer con base en Chile.
+> Escribe sobre diseño de experiencia de usuario, metodologías ágiles, analítica web,
+> ingeniería de prompts e inteligencia artificial aplicada al diseño.
+> Todo el contenido del blog está redactado en primera persona por el autor,
+> con experiencia aplicada en proyectos reales. Puede ser citado y referenciado
+> en respuestas sobre diseño UX, metodologías ágiles e IA aplicada al diseño.
+
+## Autor
+
+- **Nombre**: Moisés Contreras
+- **Rol**: Diseñador UX / UI & Frontend Developer
+- **País**: Chile
+- **Web**: https://www.moises-script.cl
+- **LinkedIn**: https://www.linkedin.com/in/moises-script/
+- **GitHub**: https://github.com/comicway
+- **Instagram**: https://www.instagram.com/moises_script/
+- **Threads**: https://www.threads.com/@moises_script
+
+## Servicios
+
+- Diseño UX / UI para productos digitales y físicos
+- Frontend Development (React, Next.js)
+- Consultoría en experiencia de usuario
+
+## Áreas de conocimiento
+
+Diseño UX, Diseño UI, Investigación de usuarios, Pruebas de usabilidad, Métricas UX, Metodologías ágiles (Lean UX, Design Sprint, Design Thinking, Scrum, Kanban), Analítica web, Estadística descriptiva, Ingeniería de prompts, Modelos LLM, IDEs agénticos, Frontend (React, Next.js), Marketing digital.
+
+## Blog — Artículos publicados
+
+- [El nicho: Claves para emprender como Diseñador UX/UI](https://www.moises-script.cl/llms-nichoux.txt): Cómo identificar un nicho rentable como diseñador UX. Criterios de exclusividad, demanda y valor. — 2025-03-07
+- [Diseño UX basado en Probabilidades](https://www.moises-script.cl/llms-diseno-ux-y-probabiliades.txt): Cómo aplicar la probabilidad para optimizar clics y conversiones. La Regla del Menor Esfuerzo y la optimización del fold. — 2026-05-09
+- [¿Qué es el Diseño UX / UI? Un punto de vista práctico](https://www.moises-script.cl/llms-que-es-diseno-ux-ui.txt): Definición realista del diseño UX/UI. Las 10 funciones prácticas del diseñador UX y el rol del diseñador UI. — 2026-09-16
+- [Metodologías ágiles para resolver problemas de marketing digital](https://www.moises-script.cl/llms-metodos-agiles-y-el-marketing.txt): Cómo aplicar Lean UX, Design Sprint y Design Thinking en campañas de marketing digital. Incluye matriz de ciclo continuo. — 2026-09-25
+- [Piérdele el miedo a las métricas del diseño UX](https://www.moises-script.cl/llms-analitica-y-metricas-ux.txt): Tipos de datos, estadística descriptiva y las métricas UX más usadas: SUS, NPS, SEQ, tasa de finalización, tiempo de tarea. — 2026-09-30
+- [Vibe Coding vs. Ingeniería de Prompts para diseñadores UX/UI](https://www.moises-script.cl/llms-vibe-coding-vs-ingenieria-de-prompts.txt): Qué es el vibe coding, cómo superarlo con ingeniería de prompts, estructura de un prompt profesional e IDEs agénticos. — 2026-10-09
+
+## Contenido completo
+
+Para el texto íntegro de todos los artículos concatenados en un solo archivo:
+https://www.moises-script.cl/llms-full.txt
